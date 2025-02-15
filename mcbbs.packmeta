@@ -1,0 +1,634 @@
+{
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 2,
+  "name": "All_the_Simple",
+  "version": "Release1.0.0尝鲜",
+  "author": "yangyang8002",
+  "description": "",
+  "fileApi": "",
+  "url": "https;//alist.223368.xyz",
+  "forceUpdate": false,
+  "origin": [],
+  "addons": [
+    {
+      "id": "game",
+      "version": "1.21.1"
+    },
+    {
+      "id": "neoforge",
+      "version": "21.1.119"
+    }
+  ],
+  "libraries": [],
+  "files": [
+    {
+      "path": "mods/ApothicAttributes-1.21.1-2.6.2.jar",
+      "hash": "de0ad82e69346045b369360a0d27efbf77fcabfb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/ApothicEnchanting-1.21.1-1.3.2.jar",
+      "hash": "5f98b07f206c0fcd794918913f837a9f0400ca75",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/ApothicSpawners-1.21.1-1.2.1.jar",
+      "hash": "bf068fd1885dbbfcf708f92ddf5834484ea64556",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/architectury-13.0.8-neoforge.jar",
+      "hash": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/badpackets-neo-0.8.2.jar",
+      "hash": "6a29963a30afd7fa8993b97e4f870460b3f51323",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/balm-neoforge-1.21.1-21.0.27.jar",
+      "hash": "671cfac6e2254fea586df88dbc2907aa0bc03534",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/bookshelf-neoforge-1.21.1-21.1.48.jar",
+      "hash": "76727c772f4ce1a0be20c06c18220eeb4001d55e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/collective-1.21.1-7.91.jar",
+      "hash": "e1c4b4574d407f9ca9335ca422081e3e9387b590",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Cucumber-1.21.1-8.0.9.jar",
+      "hash": "c4f5e37cea6d2315b69b870113b99378adedf9b8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/curios-neoforge-9.0.15+1.21.1.jar",
+      "hash": "0b05c0662b08e7541b1e303d6cd214dee56fed0f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/emi-1.1.19+1.21.1+neoforge.jar",
+      "hash": "30a494a06cf515b23297b61c50ae973e1bed4c1a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/emi_enchanting-0.1.2+1.21+neoforge.jar",
+      "hash": "02ad74769ffcec259fd9bb14a1760593f6182b5c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/ftb-library-neoforge-2101.1.9.jar",
+      "hash": "7391fc55abceb8abd4ef568841d9310d19fc1f93",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/fullbrightnesstoggle-1.21.1-4.3.jar",
+      "hash": "b7cb0e8a148dbbebe4546a5c7024191675602fb8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/geckolib-neoforge-1.21.1-4.7.3.jar",
+      "hash": "310dfa7ce2d24af3827f3fe4a73b524da0422987",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.0.jar",
+      "hash": "8bce11b0b5233146051bb7b7a227247e03fe88b2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/guideme-21.1.0.jar",
+      "hash": "2df813c3638518edaf0df4c484d40859c25e97b7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/iris-neoforge-1.8.6+mc1.21.1.jar",
+      "hash": "466d1778dddf96f3d1c6d83f801b5d6b9a75a6c9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/kotlinforforge-5.7.0-all.jar",
+      "hash": "f276d27f2930a44e7224080b5ccdcae4029b4d9a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/libIPN-neoforge-1.21-6.3.1.jar",
+      "hash": "7a048459e478d429b4945c72e5606fdadfdad5be",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/MaFgLib-0.2.7-mc1.21.1.jar",
+      "hash": "255ae8b186457ce2ebe04e934771fee70fac7b02",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Placebo-1.21.1-9.6.5.jar",
+      "hash": "3af8e13252cbde428b35d96b663665ab45da3572",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/prickle-neoforge-1.21.1-21.1.6.jar",
+      "hash": "75822ccfb761212b25c0057902e587ac6465f54d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/PuzzlesLib-v21.1.27-1.21.1-NeoForge.jar",
+      "hash": "6e131394cf42e2fcedb7f878223c387fd530e6a0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "hash": "2016eed89eac0eb0510d2190c3b0b80bf4346191",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/YungsApi-1.21.1-NeoForge-5.1.3.jar",
+      "hash": "8e6ec539adabde8d7ea287c2603648b2018e59b0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/YungsExtras-1.21.1-NeoForge-5.1.1.jar",
+      "hash": "62833733aaf407f36bdacf648ed4b2ef9940662b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[FTB 团队] ftb-teams-neoforge-2101.1.2.jar",
+      "hash": "e9431f3b475359cb487e2f308a363844fee74da4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[FTB任务] ftb-quests-neoforge-2101.1.5.jar",
+      "hash": "d42cf505d87335556b1de813b7578f015f1ca651",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[JEI物品管理器] jei-1.21.1-neoforge-19.21.0.247.jar",
+      "hash": "4d9ed6b03c67148ffe7406a84deb168a632e0a60",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw 的窗户] mcw-windows-2.3.0-mc1.21.1neoforge.jar",
+      "hash": "94ce370ae6cdb5a3f2026507c3db9b1967174ac2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的家具] mcw-furniture-3.3.0-mc1.21.1neoforge.jar",
+      "hash": "86b3bb81884006893835dc38fca32d0a1863a593",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的家具：超多生物群系附属] mcwfurnituresbop-neoforged-1.21.1-1.0.jar",
+      "hash": "35239f4481d331ef351f80805c4501a41e63f35d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的屋顶] mcw-roofs-2.3.1-mc1.21.1neoforge.jar",
+      "hash": "a8540f58845a8be8b4f4a07834e896353a88127f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的屋顶：超多生物群系附属] macawsroofsbop-neoforge-1.21-1.0.jar",
+      "hash": "71db842f1f2d76fb01b807c80596a3b05f76c652",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的栅栏与墙] mcw-fences-1.1.2-mc1.21.1neoforge.jar",
+      "hash": "2a339b168ac73c343c6d8fa7bb0710bc381fb70d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的栅栏与墙：超多生物群系附属] mcwfencesbop-neoforged-1.21-1.1.jar",
+      "hash": "c721d4fca703aef92d2adca7fa1562ac1de59685",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的桥梁] mcw-bridges-3.0.0-mc1.21.1neoforge.jar",
+      "hash": "4b7cdbaca659aa2ae0c048da17f24bf8040632fa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的桥梁：超多生物群系附属] macawsbridgesbop_neoforged-1.21-1.0.jar",
+      "hash": "6d5daf245e8c5575532742c9cbbf4dfb4ccf63de",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的灯] mcw-lights-1.1.1-mc1.21.1neoforge.jar",
+      "hash": "1922bc83e3efa8307d4f24d13b511e26cbd7e41c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的画] mcw-paintings-1.0.5-1.21.1neoforge.jar",
+      "hash": "d52d16e1b9712e74907d78f5849765c3c9008788",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[Macaw的门] mcw-doors-1.1.2-mc1.21.1neoforge.jar",
+      "hash": "bb6b47cf7b32b6b5737138c2cd1a2e4d8e1d8d49",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[YUNG 的地牢优化] YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "hash": "73a660c13063450e555e5e2c015ae24d606b32b4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[YUNG 的桥] YungsBridges-1.21.1-NeoForge-5.1.1.jar",
+      "hash": "18099c2d54acd16bb8ab90a66f40fa16496d065e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[YUNG 的矿井优化] YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+      "hash": "6a14e1d8201f068ca87ef8333e471c5378955906",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[YUNG 的要塞优化] YungsBetterStrongholds-1.21.1-NeoForge-5.1.2.jar",
+      "hash": "edf7b28afea8d0f4a720a3f611eb5db33c651f1f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[YUNG的下界要塞优化] YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.3.jar",
+      "hash": "a9561ab3c6c0a1b836de53e70d8511742aa62f08",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[YUNG的丛林神庙优化] YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+      "hash": "d6b7ce6cf351b09cbd23147ff166c35cfdc572e8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[YUNG的末地岛屿优化] YungsBetterEndIsland-1.21.1-NeoForge-3.1.1.jar",
+      "hash": "0b0cdb43c0c96543d86d1b52dad43a62e6b19816",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[YUNG的沙漠神殿优化] YungsBetterDesertTemples-1.21.1-NeoForge-4.1.3.jar",
+      "hash": "363f981671af8b5b927879c340a8c564454c002e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[YUNG的沼泽小屋优化] YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+      "hash": "bbf6c91f4a2829c58bc024eaaab821986bc93de6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[YUNG的海底神殿优化] YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+      "hash": "fba629defdb92ad99ec4f411895afb6e19555a18",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[乡村乐事] rusticdelight-neoforge-1.21-1.4.0.jar",
+      "hash": "f71d386816345f84bee7f2148f4eceb44b68da78",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[传送石碑／指路石] waystones-neoforge-1.21.1-21.1.10.jar",
+      "hash": "5c3ded161a40f2e8bb765d8801bbf03d9e9766dd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[全息蓝图] Forgematica-0.2.1-mc1.21.1.jar",
+      "hash": "f3cb41771afe458478722460dfc4b3d3c5f1e6da",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[农夫乐事] FarmersDelight-1.21.1-1.2.7.jar",
+      "hash": "26c017b7900e3c97a58e58e4ec6a98b0ae74778d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[凤梨乐事] pineapple_delight-1.0.3-1.21.1-forge.jar",
+      "hash": "0d45fc410080779d1a10ab1241cea61ba92c1059",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[妖怪之山通用库] mysterious_mountain_lib-1.1.8-1.21.1.jar",
+      "hash": "edd57b9f300785741a673e000603b9cd98dca701",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[存储乐事] storagedelight-24.12.15-1.21-neoforge.jar",
+      "hash": "38c618690ff2a8cc9d536c2675f407785e94923e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[工业先锋] industrialforegoing-1.21-3.6.15.jar",
+      "hash": "a538615977ddccb0e5873ce977561a0ca9d25500",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[帕秋莉手册] Patchouli-1.21-88-NEOFORGE.jar",
+      "hash": "cf0f16567d22588eaa75415bb5a5d1d91d414a42",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[应用能源2] appliedenergistics2-19.0.27.jar",
+      "hash": "ac77d662b036cd8611e1fe6e49bbfefd5f575db9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[扩充乐事] expandeddelight-0.1.3.1.jar",
+      "hash": "b243462a5ba8ba09aac2734f26cfd8326ad08e8d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[搬运] carryon-neoforge-1.21.1-2.2.2.11.jar",
+      "hash": "081c4817a3059f06c387805c6504b315b554a2b0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[料理乐事] cuisinedelight-1.2.3.jar",
+      "hash": "30255a1003d7855baa232ca10f9a8f2a4ba097e9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[新生乐事] arsdelight-2.1.4.jar",
+      "hash": "0c105b3990d239b4e1bd0b028d44e3d8b49135cf",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[新生魔艺] ars_nouveau-1.21.1-5.4.2-all.jar",
+      "hash": "448af62f19e8542db3a33b8edb4557873244099d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[旅行地图] journeymap-neoforge-1.21.1-6.0.0-beta.37.jar",
+      "hash": "e0ef27850b06706a7e2b34f3869cf963f510d4df",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[暮色森林] twilightforest-1.21.1-4.6.3003-universal.jar",
+      "hash": "699d0845dde125d2f54a670b0a540c8c51a0fd22",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[暮色风味乐事] twilightdelight-3.0.1.jar",
+      "hash": "6f78cd6fd0c93a6a2297381b877cbaf98834ad6b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[末地乐事] ends_delight-2.5.1+neoforge.1.21.1.jar",
+      "hash": "22b63e1c852fbbedb9f7add64990fd9f8eca0787",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[末影乐事] endersdelight-1.21.1-1.0.2.jar",
+      "hash": "73c5131dfc427dc707f2126731e1fb805f05cde9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[末影接口] enderio-7.1.6-alpha.jar",
+      "hash": "47c5f35adf158b163f07eb2d10b9853037002bbf",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[果园乐事] fruitsdelight-1.2.3.jar",
+      "hash": "486ed66fc371fa5de776f4fd51f89c4c49ae72da",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[永恒星光] eternalstarlight-0.4.0+1.21.1+neoforge.jar",
+      "hash": "419a773347785e60eb11a5c5794df3e69b086063",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[沉浸工程] ImmersiveEngineering-1.21.1-12.0.0-182.jar",
+      "hash": "2c16caa29ee518a7ded1e3e9e122089afdd83154",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[海洋乐事] oceansdelight-neoforge-1.0.3-1.21.jar",
+      "hash": "f74863b60417876c67f9cb438bc5a059e8e805c2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[物品栏HUD+] inventoryhud.neoforged.1.21.1-3.4.26.jar",
+      "hash": "b7cf87764c14ea9382161e540b01863e569cd763",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[玉 🔍] Jade-1.21.1-NeoForge-15.9.3.jar",
+      "hash": "42d28674cac55cb375655d15b6bb37328e2918ec",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[玉米乐事] corn_delight-1.1.4-1.21.1.jar",
+      "hash": "3609be525fb6a6f132930da1625a310deb68beb1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[神化] Apotheosis-1.21.1-8.1.3.jar",
+      "hash": "90c80910619c54ced266db64f14d33556aeb4e16",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[神秘农业] MysticalAgriculture-1.21.1-8.0.12.jar",
+      "hash": "7b0f82d049a6a9267eba13e65d634d6b6f6d2202",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[自动汉化更新] I18nUpdateMod-3.6.0-all.jar",
+      "hash": "a738aaeb711278b763599bf8d09ff2ed87d763ae",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[苹果皮] appleskin-neoforge-mc1.21-3.0.5.jar",
+      "hash": "057b483076431549ca8257095e498e42321abb60",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[超多生物群系] BiomesOPlenty-neoforge-1.21.1-21.1.0.8.jar",
+      "hash": "aec0384d8979e7c157fd231d199df1ee6184bf01",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[输入法冲突修复] IMBlocker-5.0.2-1.20.6+.jar",
+      "hash": "0023646959d5b7ddf4c2892b5d469398f40e88cd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[连锁破坏] ftb-ultimine-neoforge-2101.1.1.jar",
+      "hash": "b141882c19a989e469d934cd5637c0b79dd6a921",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[通用拼音搜索] jecharacters-neoforge-4.5.15.jar",
+      "hash": "ab8f5e391f594fc68537fc20403a20d8ee971686",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[通用机械] Mekanism-1.21.1-10.7.8.70.jar",
+      "hash": "a61585c5d853016b1ab8609113632a9d548df6a6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[钛] titanium-1.21-4.0.28.jar",
+      "hash": "c20c8fa78a9519588e39fe9972bcc19a5a2c6f54",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[钠 · 扩展] sodium-extra-neoforge-0.6.0+mc1.21.1.jar",
+      "hash": "7473bb42753902c639294821af13e9cd9ee735da",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[钠] sodium-neoforge-0.6.7+mc1.21.1.jar",
+      "hash": "306ee252456d015a0b4bf64a1f4be28eec51b482",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[附魔描述] enchdesc-neoforge-1.21.1-21.1.5.jar",
+      "hash": "68bb60c4c4047661b2150534d73b19fbed5e0a16",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[附魔灌注台] EnchantingInfuser-v21.1.0-1.21.1-NeoForge.jar",
+      "hash": "fea95b86caffeba614a849d91c4f5cd608c32d71",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[额外乐事] extradelight-2.3.jar",
+      "hash": "6953c077785b52ca74f2e36075af7bfee162dbd4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[香芋乐事] ubesdelight-neoforge-1.21.1-0.3.2.jar",
+      "hash": "f5aebaddfff3d24f2bedf63f3da9fa290f82815e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[鼠标手势] MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "hash": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.zip",
+      "hash": "e3f60ba17e0d418ff3482cac98bac252387e0c3a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/Xray_Ultimate_1.21_v5.0.3.zip",
+      "hash": "50c21eefedff872e158fed700cb28732209e1e1a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "shaderpacks/BSL_v8.2.09.zip",
+      "hash": "cd92bf706a1347a2d2943b14391ffbe1233415bc",
+      "force": true,
+      "type": "addon"
+    }
+  ],
+  "settings": {
+    "install_mods": true,
+    "install_resourcepack": true
+  },
+  "launchInfo": {
+    "minMemory": 0,
+    "launchArgument": [],
+    "javaArgument": []
+  }
+}
