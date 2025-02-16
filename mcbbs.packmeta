@@ -2,11 +2,11 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "All_the_Simple",
-  "version": "Release1.0.0尝鲜",
+  "version": "Release1.0.0",
   "author": "yangyang8002",
   "description": "",
   "fileApi": "",
-  "url": "https;//alist.223368.xyz",
+  "url": "https://alist.223368.xyz",
   "forceUpdate": false,
   "origin": [],
   "addons": [
@@ -66,6 +66,12 @@
     {
       "path": "mods/collective-1.21.1-7.91.jar",
       "hash": "e1c4b4574d407f9ca9335ca422081e3e9387b590",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/configuration-neoforge-1.21.1-3.1.0.jar",
+      "hash": "6d46b551040b7ac9d683dcda39c75abb653ac258",
       "force": true,
       "type": "addon"
     },
@@ -136,6 +142,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/ldlib-neoforge-1.21.1-1.0.29.b.jar",
+      "hash": "176bdd64cf8446dacc5ee32469e1cba56a386f53",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/libIPN-neoforge-1.21-6.3.1.jar",
       "hash": "7a048459e478d429b4945c72e5606fdadfdad5be",
       "force": true,
@@ -144,6 +156,12 @@
     {
       "path": "mods/MaFgLib-0.2.7-mc1.21.1.jar",
       "hash": "255ae8b186457ce2ebe04e934771fee70fac7b02",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/moonlight-1.21-2.17.26-neoforge.jar",
+      "hash": "ff5271f871e4a0a1122407f71c7a9ea71bf43122",
       "force": true,
       "type": "addon"
     },
@@ -394,6 +412,18 @@
       "type": "addon"
     },
     {
+      "path": "mods/[戈伯] Gobber-NeoForge-1.21.1-2.10.15.jar",
+      "hash": "c22c23bfd0f8a4567083cea195d43e9b1fa66da6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[戈伯乐事] gobberdelight-2.2.0-neoforge-1.21.1.jar",
+      "hash": "5b0e4ed301386e1ae783caea4a92335d1b1c4386",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/[扩充乐事] expandeddelight-0.1.3.1.jar",
       "hash": "b243462a5ba8ba09aac2734f26cfd8326ad08e8d",
       "force": true,
@@ -466,6 +496,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/[格雷科技现代版] gtceu-1.21.1-1.4.6.jar",
+      "hash": "8775a19c556895213ae6cd8fb4f9d6ba04cfd10e",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/[永恒星光] eternalstarlight-0.4.0+1.21.1+neoforge.jar",
       "hash": "419a773347785e60eb11a5c5794df3e69b086063",
       "force": true,
@@ -522,6 +558,12 @@
     {
       "path": "mods/[苹果皮] appleskin-neoforge-mc1.21-3.0.5.jar",
       "hash": "057b483076431549ca8257095e498e42321abb60",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[试验假人] dummmmmmy-1.21-2.0.6-neoforge.jar",
+      "hash": "7ff0c4769c118a8c7e4aca394f452764dc723d7e",
       "force": true,
       "type": "addon"
     },
@@ -604,6 +646,12 @@
       "type": "addon"
     },
     {
+      "path": "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip",
+      "hash": "5a171dd26104c751f6f61d2575c3a654fe43ee18",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.zip",
       "hash": "e3f60ba17e0d418ff3482cac98bac252387e0c3a",
       "force": true,
@@ -627,7 +675,7 @@
     "install_resourcepack": true
   },
   "launchInfo": {
-    "minMemory": 0,
+    "minMemory": 3088,
     "launchArgument": [],
     "javaArgument": []
   }
