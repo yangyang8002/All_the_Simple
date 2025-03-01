@@ -2,14 +2,14 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "All_the_Simple",
-  "version": "Release1.0.0",
+  "version": "Release1.0.1",
   "author": "yangyang8002",
   "overrides": "overrides",
   "minecraft": {
     "version": "1.21.1",
     "modLoaders": [
       {
-        "id": "neoforge-21.1.119",
+        "id": "neoforge-21.1.125",
         "primary": true
       }
     ]

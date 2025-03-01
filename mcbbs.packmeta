@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "All_the_Simple",
-  "version": "Release1.0.0",
+  "version": "Release1.0.1",
   "author": "yangyang8002",
   "description": "",
   "fileApi": "",
@@ -16,11 +16,17 @@
     },
     {
       "id": "neoforge",
-      "version": "21.1.119"
+      "version": "21.1.125"
     }
   ],
   "libraries": [],
   "files": [
+    {
+      "path": "mods/addonslib-neoforge-1.21.1-1.2.jar",
+      "hash": "a9ab3a1dde9c93e9cbcbd41760764f9045e65197",
+      "force": true,
+      "type": "addon"
+    },
     {
       "path": "mods/ApothicAttributes-1.21.1-2.6.2.jar",
       "hash": "de0ad82e69346045b369360a0d27efbf77fcabfb",
@@ -40,8 +46,20 @@
       "type": "addon"
     },
     {
+      "path": "mods/appliedenergistics2-19.2.5-beta.jar",
+      "hash": "2d78bfb27e7e14efbe7962f1901e108af012162e",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/architectury-13.0.8-neoforge.jar",
       "hash": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/ars_nouveau-1.21.1-5.5.0-all.jar",
+      "hash": "57b272fd6b425161f9b07c3789a7c21010ebdaee",
       "force": true,
       "type": "addon"
     },
@@ -52,20 +70,20 @@
       "type": "addon"
     },
     {
-      "path": "mods/balm-neoforge-1.21.1-21.0.27.jar",
-      "hash": "671cfac6e2254fea586df88dbc2907aa0bc03534",
+      "path": "mods/balm-neoforge-1.21.1-21.0.31.jar",
+      "hash": "a6ed48bf81f87cd89a5c6c2922345bdc3f679f07",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/bookshelf-neoforge-1.21.1-21.1.48.jar",
-      "hash": "76727c772f4ce1a0be20c06c18220eeb4001d55e",
+      "path": "mods/bookshelf-neoforge-1.21.1-21.1.49.jar",
+      "hash": "03fd443100953edd67b31e3c35adcaf35128d733",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/collective-1.21.1-7.91.jar",
-      "hash": "e1c4b4574d407f9ca9335ca422081e3e9387b590",
+      "path": "mods/collective-1.21.1-7.93.jar",
+      "hash": "7c2d224b6f32c257da9bff31a3d8c85a7180c549",
       "force": true,
       "type": "addon"
     },
@@ -76,8 +94,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/Cucumber-1.21.1-8.0.9.jar",
-      "hash": "c4f5e37cea6d2315b69b870113b99378adedf9b8",
+      "path": "mods/Cucumber-1.21.1-8.0.10.jar",
+      "hash": "d0377273e5f805d19ac924e45644e948cf963e95",
       "force": true,
       "type": "addon"
     },
@@ -88,8 +106,14 @@
       "type": "addon"
     },
     {
-      "path": "mods/emi-1.1.19+1.21.1+neoforge.jar",
-      "hash": "30a494a06cf515b23297b61c50ae973e1bed4c1a",
+      "path": "mods/dummmmmmy-1.21-2.0.7-neoforge.jar",
+      "hash": "4321e4f081b8deb873dd8017a436d317598681d6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/emi-1.1.20+1.21.1+neoforge.jar",
+      "hash": "091c340b5ee2b0db55a388a8b6f992ea46e638cd",
       "force": true,
       "type": "addon"
     },
@@ -100,8 +124,14 @@
       "type": "addon"
     },
     {
-      "path": "mods/ftb-library-neoforge-2101.1.9.jar",
-      "hash": "7391fc55abceb8abd4ef568841d9310d19fc1f93",
+      "path": "mods/fruitsdelight-1.2.6.jar",
+      "hash": "6abaa043d9bc8900307cc8923f04be45552fa9ac",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/ftb-library-neoforge-2101.1.10.jar",
+      "hash": "e797a0f155c598ea996ec68aaa23d3cc3662307d",
       "force": true,
       "type": "addon"
     },
@@ -124,14 +154,32 @@
       "type": "addon"
     },
     {
-      "path": "mods/guideme-21.1.0.jar",
-      "hash": "2df813c3638518edaf0df4c484d40859c25e97b7",
+      "path": "mods/guideme-21.1.1.jar",
+      "hash": "5b0b0860be162db359e9caba32aad0e81357ea4b",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/iris-neoforge-1.8.6+mc1.21.1.jar",
-      "hash": "466d1778dddf96f3d1c6d83f801b5d6b9a75a6c9",
+      "path": "mods/ImmersiveEngineering-1.21.1-12.1.0-185.jar",
+      "hash": "bf49e7ae246834bb766eba1132b03db1300d36fe",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/iris-neoforge-1.8.8+mc1.21.1.jar",
+      "hash": "79f5cb567372a51d695b690ca96e948294e45c44",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Jade-1.21.1-NeoForge-15.9.4.jar",
+      "hash": "3a06496416974d701c2eb90a336918de20906705",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/journeymap-neoforge-1.21.1-6.0.0-beta.39.jar",
+      "hash": "e8cf0041df3272a266a3153f258d50bbaed1cf16",
       "force": true,
       "type": "addon"
     },
@@ -154,14 +202,32 @@
       "type": "addon"
     },
     {
-      "path": "mods/MaFgLib-0.2.7-mc1.21.1.jar",
-      "hash": "255ae8b186457ce2ebe04e934771fee70fac7b02",
+      "path": "mods/MaFgLib-0.2.8-mc1.21.1.jar",
+      "hash": "f35a125cc1842da90ea4bf8cf4ac2175bab9917d",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/moonlight-1.21-2.17.26-neoforge.jar",
-      "hash": "ff5271f871e4a0a1122407f71c7a9ea71bf43122",
+      "path": "mods/mcwbiomesoplenty-neoforge-1.21.1-1.1.jar",
+      "hash": "c13df69b812bc9c96fd205ed5686caa269c04c3f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Mekanism-1.21.1-10.7.10.73.jar",
+      "hash": "8ee885a5bf26ce8fb81f386dc31613384e7ada38",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/moonlight-1.21-2.17.30-neoforge.jar",
+      "hash": "83bc08ffb6134d13b2896971a1848b96dca2c6ad",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/MysticalAgriculture-1.21.1-8.0.13.jar",
+      "hash": "e97a0fe55b8de15a7affdafc3b03d137a95f1f2b",
       "force": true,
       "type": "addon"
     },
@@ -172,20 +238,68 @@
       "type": "addon"
     },
     {
+      "path": "mods/polylib-2100.0.3-build.160-neoforge.jar",
+      "hash": "960ae5cf4b797a7e530f89bdc190f0051c668183",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/prickle-neoforge-1.21.1-21.1.6.jar",
       "hash": "75822ccfb761212b25c0057902e587ac6465f54d",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/PuzzlesLib-v21.1.27-1.21.1-NeoForge.jar",
-      "hash": "6e131394cf42e2fcedb7f878223c387fd530e6a0",
+      "path": "mods/PuzzlesLib-v21.1.28-1.21.1-NeoForge.jar",
+      "hash": "4233486d298fc0dc386fc14dfb10d9a9896558f8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/rusticdelight-neoforge-1.21-1.4.1.jar",
+      "hash": "dd23059bce00e9cc350ff8d9d7eee19ca04202e3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/shrink-2.0.0.44-neoforge.jar",
+      "hash": "95181ef5ae25376db8d9d1946c4c888735f0e09e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/sodiumleafculling-fabric-1.0.0-1.21.1.jar",
+      "hash": "e5fcb76e2537dc653d1285c4995b07a6ffe4b2db",
       "force": true,
       "type": "addon"
     },
     {
       "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
       "hash": "2016eed89eac0eb0510d2190c3b0b80bf4346191",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/titanium-1.21-4.0.34.jar",
+      "hash": "903102592f2875554f713548831ecefd2c48bfd0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Tweakerge-0.2.2-mc1.21.1.jar",
+      "hash": "fdaa5e8b83e5b7d4cb40144f5d0cf71facbd53ea",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/twilightdelight-3.0.2.jar",
+      "hash": "3f0a83f48695de8c45bb20bd72b7c957385e0bae",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/waystones-neoforge-1.21.1-21.1.11.jar",
+      "hash": "62838b4fb10e2e2d224a1fe23426c461508169ea",
       "force": true,
       "type": "addon"
     },
@@ -198,6 +312,12 @@
     {
       "path": "mods/YungsExtras-1.21.1-NeoForge-5.1.1.jar",
       "hash": "62833733aaf407f36bdacf648ed4b2ef9940662b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[AE2无线终端] ae2wtlib-19.2.1.jar",
+      "hash": "110b895608e7b302ad66040a164e49116faf7605",
       "force": true,
       "type": "addon"
     },
@@ -256,8 +376,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/[Macaw的栅栏与墙：超多生物群系附属] mcwfencesbop-neoforged-1.21-1.1.jar",
-      "hash": "c721d4fca703aef92d2adca7fa1562ac1de59685",
+      "path": "mods/[Macaw的栅栏与墙：超多生物群系附属] mcwbiomesoplenty-neoforge-1.21.1-1.1.jar",
+      "hash": "c13df69b812bc9c96fd205ed5686caa269c04c3f",
       "force": true,
       "type": "addon"
     },
@@ -268,8 +388,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/[Macaw的桥梁：超多生物群系附属] macawsbridgesbop_neoforged-1.21-1.0.jar",
-      "hash": "6d5daf245e8c5575532742c9cbbf4dfb4ccf63de",
+      "path": "mods/[Macaw的桥梁：超多生物群系附属] mcwbiomesoplenty-neoforge-1.21.1-1.1.jar",
+      "hash": "c13df69b812bc9c96fd205ed5686caa269c04c3f",
       "force": true,
       "type": "addon"
     },
@@ -352,14 +472,14 @@
       "type": "addon"
     },
     {
-      "path": "mods/[乡村乐事] rusticdelight-neoforge-1.21-1.4.0.jar",
-      "hash": "f71d386816345f84bee7f2148f4eceb44b68da78",
+      "path": "mods/[乡村乐事] rusticdelight-neoforge-1.21-1.4.1.jar",
+      "hash": "dd23059bce00e9cc350ff8d9d7eee19ca04202e3",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/[传送石碑／指路石] waystones-neoforge-1.21.1-21.1.10.jar",
-      "hash": "5c3ded161a40f2e8bb765d8801bbf03d9e9766dd",
+      "path": "mods/[传送石碑／指路石] waystones-neoforge-1.21.1-21.1.11.jar",
+      "hash": "62838b4fb10e2e2d224a1fe23426c461508169ea",
       "force": true,
       "type": "addon"
     },
@@ -394,8 +514,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/[工业先锋] industrialforegoing-1.21-3.6.15.jar",
-      "hash": "a538615977ddccb0e5873ce977561a0ca9d25500",
+      "path": "mods/[工业先锋] industrialforegoing-1.21-3.6.23.jar",
+      "hash": "89f49eecf46f1121dc895a1b901c351cc42e30f5",
       "force": true,
       "type": "addon"
     },
@@ -406,8 +526,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/[应用能源2] appliedenergistics2-19.0.27.jar",
-      "hash": "ac77d662b036cd8611e1fe6e49bbfefd5f575db9",
+      "path": "mods/[应用能源2] appliedenergistics2-19.2.5-beta.jar",
+      "hash": "2d78bfb27e7e14efbe7962f1901e108af012162e",
       "force": true,
       "type": "addon"
     },
@@ -448,14 +568,14 @@
       "type": "addon"
     },
     {
-      "path": "mods/[新生魔艺] ars_nouveau-1.21.1-5.4.2-all.jar",
-      "hash": "448af62f19e8542db3a33b8edb4557873244099d",
+      "path": "mods/[新生魔艺] ars_nouveau-1.21.1-5.5.0-all.jar",
+      "hash": "57b272fd6b425161f9b07c3789a7c21010ebdaee",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/[旅行地图] journeymap-neoforge-1.21.1-6.0.0-beta.37.jar",
-      "hash": "e0ef27850b06706a7e2b34f3869cf963f510d4df",
+      "path": "mods/[旅行地图] journeymap-neoforge-1.21.1-6.0.0-beta.39.jar",
+      "hash": "e8cf0041df3272a266a3153f258d50bbaed1cf16",
       "force": true,
       "type": "addon"
     },
@@ -466,8 +586,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/[暮色风味乐事] twilightdelight-3.0.1.jar",
-      "hash": "6f78cd6fd0c93a6a2297381b877cbaf98834ad6b",
+      "path": "mods/[暮色风味乐事] twilightdelight-3.0.2.jar",
+      "hash": "3f0a83f48695de8c45bb20bd72b7c957385e0bae",
       "force": true,
       "type": "addon"
     },
@@ -490,8 +610,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/[果园乐事] fruitsdelight-1.2.3.jar",
-      "hash": "486ed66fc371fa5de776f4fd51f89c4c49ae72da",
+      "path": "mods/[果园乐事] fruitsdelight-1.2.6.jar",
+      "hash": "6abaa043d9bc8900307cc8923f04be45552fa9ac",
       "force": true,
       "type": "addon"
     },
@@ -508,8 +628,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/[沉浸工程] ImmersiveEngineering-1.21.1-12.0.0-182.jar",
-      "hash": "2c16caa29ee518a7ded1e3e9e122089afdd83154",
+      "path": "mods/[沉浸工程] ImmersiveEngineering-1.21.1-12.1.0-185.jar",
+      "hash": "bf49e7ae246834bb766eba1132b03db1300d36fe",
       "force": true,
       "type": "addon"
     },
@@ -526,8 +646,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/[玉 🔍] Jade-1.21.1-NeoForge-15.9.3.jar",
-      "hash": "42d28674cac55cb375655d15b6bb37328e2918ec",
+      "path": "mods/[玉 🔍] Jade-1.21.1-NeoForge-15.9.4.jar",
+      "hash": "3a06496416974d701c2eb90a336918de20906705",
       "force": true,
       "type": "addon"
     },
@@ -544,8 +664,14 @@
       "type": "addon"
     },
     {
-      "path": "mods/[神秘农业] MysticalAgriculture-1.21.1-8.0.12.jar",
-      "hash": "7b0f82d049a6a9267eba13e65d634d6b6f6d2202",
+      "path": "mods/[神秘农业] MysticalAgriculture-1.21.1-8.0.13.jar",
+      "hash": "e97a0fe55b8de15a7affdafc3b03d137a95f1f2b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[群服互联🔗] McBot-1.21.1+2.3.0+release-neoforge.jar",
+      "hash": "1a65b78c4804049996778da8d65c394ee96c2364",
       "force": true,
       "type": "addon"
     },
@@ -556,14 +682,26 @@
       "type": "addon"
     },
     {
+      "path": "mods/[自定义局域网联机] lanserverproperties-1.13.2-neoforge.jar",
+      "hash": "be35dc531943b64e66295198276a0fcb38be0784",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[自然罗盘／生物群系指南针] NaturesCompass-1.21.1-3.0.3-neoforge.jar",
+      "hash": "4a91af947622a2bb2c0381db249cc6f06c1f1843",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/[苹果皮] appleskin-neoforge-mc1.21-3.0.5.jar",
       "hash": "057b483076431549ca8257095e498e42321abb60",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/[试验假人] dummmmmmy-1.21-2.0.6-neoforge.jar",
-      "hash": "7ff0c4769c118a8c7e4aca394f452764dc723d7e",
+      "path": "mods/[试验假人] dummmmmmy-1.21-2.0.7-neoforge.jar",
+      "hash": "4321e4f081b8deb873dd8017a436d317598681d6",
       "force": true,
       "type": "addon"
     },
@@ -592,14 +730,20 @@
       "type": "addon"
     },
     {
-      "path": "mods/[通用机械] Mekanism-1.21.1-10.7.8.70.jar",
-      "hash": "a61585c5d853016b1ab8609113632a9d548df6a6",
+      "path": "mods/[通用机械] Mekanism-1.21.1-10.7.10.73.jar",
+      "hash": "8ee885a5bf26ce8fb81f386dc31613384e7ada38",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/[钛] titanium-1.21-4.0.28.jar",
-      "hash": "c20c8fa78a9519588e39fe9972bcc19a5a2c6f54",
+      "path": "mods/[钛] titanium-1.21-4.0.34.jar",
+      "hash": "903102592f2875554f713548831ecefd2c48bfd0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[钠 · 土径阴影] sodium-shadowy-path-blocks-neoforge-4.0.0.jar",
+      "hash": "ed64908bdd221f4beb067cc13b74824f85021de8",
       "force": true,
       "type": "addon"
     },
@@ -610,8 +754,32 @@
       "type": "addon"
     },
     {
-      "path": "mods/[钠] sodium-neoforge-0.6.7+mc1.21.1.jar",
-      "hash": "306ee252456d015a0b4bf64a1f4be28eec51b482",
+      "path": "mods/[钠] sodium-neoforge-0.6.9+mc1.21.1.jar",
+      "hash": "489fa60823fdde380618ce2ae7dcb1b8423ffddc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[钠／Embeddium：动态光源] sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+      "hash": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[钠／Embeddium：附属] sodiumextras-neoforge-1.0.7-1.21.1.jar",
+      "hash": "70ae3f6f3c5825d542a60d98ec7007270d385f5f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[钠：树叶剔除] sodiumleafculling-neoforge-1.0.0-1.21.1.jar",
+      "hash": "5db89e78260a71b633b318b142073eb3d7c1f65a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[铁氧体磁芯] ferritecore-7.0.2-neoforge.jar",
+      "hash": "7279fc52c32a033acc2864a9bcb018b2e04bbd03",
       "force": true,
       "type": "addon"
     },
@@ -647,7 +815,7 @@
     },
     {
       "path": "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip",
-      "hash": "5a171dd26104c751f6f61d2575c3a654fe43ee18",
+      "hash": "c3dd90411a0bf11cbba6db5006f8fdee4d9b671a",
       "force": true,
       "type": "addon"
     },
@@ -675,7 +843,7 @@
     "install_resourcepack": true
   },
   "launchInfo": {
-    "minMemory": 3088,
+    "minMemory": 2307,
     "launchArgument": [],
     "javaArgument": []
   }
