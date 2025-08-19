@@ -1,0 +1,989 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "199098A08C4808B0"
+	group: "658B034A94AC887D"
+	id: "199098A08C4808B0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "71A942A25869776E"
+			tasks: [
+				{
+					count: 32L
+					id: "6464F04F1B84BDC1"
+					item: { count: 32, id: "mekanism:ingot_osmium" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5584CEB4C91FBCCB"
+					item: { count: 16, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5408E0548E0F3349"
+					item: { count: 8, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2FE3075DCF16609A"
+					item: { count: 32, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "63DA82C322EBF7EA"
+					item: { count: 32, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "66D2EDA19B415937"
+					item: { count: 64, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			x: -22.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["71A942A25869776E"]
+			id: "396A539B2775244A"
+			tasks: [{
+				id: "176F40EBFE47D9D9"
+				item: { count: 1, id: "industrialforegoing:pitiful_generator" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["396A539B2775244A"]
+			id: "27BDDCA7B1BCC3BF"
+			tasks: [{
+				id: "789A6DC4D5623E72"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["27BDDCA7B1BCC3BF"]
+			id: "746D3CAAA7D1526A"
+			rewards: [{
+				count: 32
+				id: "559FA43194A599A9"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "28F9FEA74AC0A52B"
+					item: { count: 16, id: "mekanism:enriched_iron" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "57ADB9C657FC3C62"
+					item: { count: 16, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["746D3CAAA7D1526A"]
+			id: "4616300EEF598503"
+			rewards: [{
+				count: 6
+				id: "4E9F52BDE1F2C663"
+				item: {
+					count: 1
+					id: "mekanism:basic_control_circuit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "43559460BC288BDF"
+				item: { count: 10, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4616300EEF598503"]
+			id: "2E00B6219BAD23B3"
+			rewards: [
+				{
+					count: 8
+					id: "53DFAC5BAC3B2723"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "24755A6EB0199EDD"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "1109DE7DE3253736"
+				item: { count: 16, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E00B6219BAD23B3"]
+			id: "42F8C585DEB5E59C"
+			rewards: [{
+				id: "471718F84831D3D2"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "418ACF7DC07475F6"
+				item: { count: 8, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["42F8C585DEB5E59C"]
+			id: "2BF86CE8B6262598"
+			tasks: [{
+				id: "1A547C2FE42F985F"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42F8C585DEB5E59C"]
+			id: "19272F16AACE11E6"
+			rewards: [{
+				count: 16
+				id: "613C47271C704F25"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA57391B9D7603F"
+				item: { count: 1, id: "mekanism:osmium_compressor" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42F8C585DEB5E59C"]
+			id: "38D69F481D91FA0F"
+			tasks: [{
+				id: "0786C546F82B8849"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42F8C585DEB5E59C"]
+			id: "2D4EB8844AA0A2CF"
+			tasks: [{
+				id: "78726667750A6971"
+				item: { count: 1, id: "mekanism:energized_smelter" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"19272F16AACE11E6"
+				"2BF86CE8B6262598"
+				"38D69F481D91FA0F"
+				"2D4EB8844AA0A2CF"
+			]
+			id: "029759E233D94309"
+			rewards: [{
+				count: 8
+				id: "5650187436892A4C"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1753144C347AF1B2"
+				item: { count: 1, id: "mekanism:chemical_oxidizer" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["029759E233D94309"]
+			id: "62E00286EFD4BEB5"
+			tasks: [
+				{
+					count: 4L
+					id: "46682862D910105F"
+					item: { count: 4, id: "mekanism:basic_fluid_tank" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "52B508A7E46221D5"
+					item: { count: 4, id: "mekanism:basic_chemical_tank" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["029759E233D94309"]
+			id: "1CBD9B6D4D87CCB5"
+			tasks: [
+				{
+					count: 4L
+					id: "1B570C0AA0E37A46"
+					item: { count: 4, id: "mekanism:basic_mechanical_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5413A03F4D077421"
+					item: { count: 4, id: "mekanism:basic_pressurized_tube" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1CBD9B6D4D87CCB5"]
+			id: "2DF03347B06C6A6F"
+			rewards: [{
+				count: 64
+				id: "0A8513DD2EE4A081"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "66E7B41EE05B0C58"
+					item: { count: 4, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "4549BFD9557E902B"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1CBD9B6D4D87CCB5"
+				"62E00286EFD4BEB5"
+			]
+			id: "36DF922E1FDC8495"
+			rewards: [{
+				count: 32
+				id: "6D36AB37AABCCE56"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "693D1DAC622AFF7A"
+					item: { count: 8, id: "mekanism:elite_control_circuit" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "067E80C59546E5B5"
+					item: { count: 16, id: "mekanism:alloy_reinforced" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36DF922E1FDC8495"]
+			id: "636F3DE93EE98BE3"
+			rewards: [
+				{
+					count: 128
+					id: "2EF591D25D5CA40C"
+					item: {
+						count: 1
+						id: "mekanism:ingot_lead"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "4CB74AC77A2BD155"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "109BBFAA85C6B138"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "567C7689B3D67231"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7AB129EAB2384890"
+					item: {
+						count: 1
+						id: "mekanism:elite_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "28C6B5DB59DB0FCA"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "407EF5C1F41D5C62"
+					item: { count: 1, id: "mekanism:basic_smelting_factory" }
+					type: "item"
+				}
+				{
+					id: "11AE5A1F612DF99B"
+					item: { count: 1, id: "mekanism:basic_enriching_factory" }
+					type: "item"
+				}
+				{
+					id: "002E069AC3B91AA4"
+					item: { count: 1, id: "mekanism:basic_crushing_factory" }
+					type: "item"
+				}
+				{
+					id: "511072F20B668229"
+					item: { count: 1, id: "mekanism:basic_compressing_factory" }
+					type: "item"
+				}
+				{
+					id: "05E282E07205FD4D"
+					item: { count: 1, id: "mekanism:basic_combining_factory" }
+					type: "item"
+				}
+				{
+					id: "70594501041268F5"
+					item: { count: 1, id: "mekanism:basic_purifying_factory" }
+					type: "item"
+				}
+				{
+					id: "20E70C47095170C2"
+					item: { count: 1, id: "mekanism:basic_injecting_factory" }
+					type: "item"
+				}
+				{
+					id: "2E47B2371C846832"
+					item: { count: 1, id: "mekanism:basic_infusing_factory" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["636F3DE93EE98BE3"]
+			id: "396182F1C536843C"
+			tasks: [{
+				count: 8L
+				id: "308EEB385CF14CB6"
+				item: { count: 8, id: "mekanism:advanced_tier_installer" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["396182F1C536843C"]
+			id: "0634553BF2ABD56E"
+			tasks: [{
+				count: 8L
+				id: "4ACFEC51D90AE680"
+				item: { count: 8, id: "mekanism:elite_tier_installer" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0634553BF2ABD56E"]
+			id: "3EF7C72CFA7BDD9E"
+			tasks: [{
+				count: 16L
+				id: "5994F459AC667F98"
+				item: { count: 16, id: "mekanism:ingot_refined_obsidian" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EF7C72CFA7BDD9E"]
+			id: "633E28DD4E5F6CC0"
+			tasks: [{
+				count: 8L
+				id: "76EE2AC991039F61"
+				item: { count: 8, id: "mekanism:ultimate_tier_installer" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36DF922E1FDC8495"]
+			id: "13D9FA7773DB3F33"
+			rewards: [{
+				count: 64
+				id: "0EE9FD3E778B936E"
+				item: {
+					count: 1
+					id: "mekanism:ingot_uranium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "56EA6BFA24192008"
+					item: { count: 64, id: "mekanism:ingot_uranium" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3082332A430551BF"
+					item: { count: 64, id: "mekanism:ingot_lead" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13D9FA7773DB3F33"]
+			id: "409B9C2F364AE935"
+			tasks: [{
+				count: 64L
+				id: "0BF9120EE1C1AE52"
+				item: { count: 64, id: "mekanism:yellow_cake_uranium" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13D9FA7773DB3F33"]
+			id: "51DBAEEBAFE144FB"
+			rewards: [{
+				count: 4
+				id: "6894C7BAFAE830C7"
+				item: {
+					count: 1
+					id: "mekanism:hydrofluoric_acid_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "03EEE88D775028E6"
+				item: { count: 64, id: "mekanism:fluorite_gem" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6406EEB2CDE3E0F9"
+				"51DBAEEBAFE144FB"
+			]
+			id: "7E7126C0F91E9C24"
+			tasks: [{
+				id: "58AF89D27F6ACA07"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			id: "6406EEB2CDE3E0F9"
+			tasks: [{
+				count: 64L
+				id: "6373C1DFAE4B44B9"
+				item: { count: 64, id: "mekanism:dust_sulfur" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"13D9FA7773DB3F33"
+				"7E7126C0F91E9C24"
+				"409B9C2F364AE935"
+				"3EF7C72CFA7BDD9E"
+			]
+			id: "0E1CFEFD383EAA54"
+			rewards: [{
+				count: 128
+				id: "2D14C1E63940363A"
+				item: {
+					count: 1
+					id: "mekanism:ingot_uranium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "592AD0F538891A79"
+				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E1CFEFD383EAA54"]
+			id: "2BCDD9ED2554DD12"
+			rewards: [{
+				count: 128
+				id: "1CEB996F82A59ED4"
+				item: {
+					count: 1
+					id: "mekanism:ingot_uranium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "27376190ACA82CFC"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "580A139F6A23F236"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+				{
+					id: "0AB2C03B0925C1D4"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					id: "6E2568144DCFB781"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
+					type: "item"
+				}
+				{
+					id: "31B2961F15ACEEF3"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31746A5E6472D087"]
+			id: "70AB4DF502C70CC5"
+			tasks: [{
+				count: 64L
+				id: "51BFD0A4AF918969"
+				item: { count: 64, id: "mekanism:hdpe_sheet" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "31746A5E6472D087"
+			rewards: [{
+				count: 4
+				id: "7F03C575423742BF"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_control_circuit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FF5355E9E016CE7"
+				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"70AB4DF502C70CC5"
+				"2BCDD9ED2554DD12"
+			]
+			id: "1ECED0A551019961"
+			rewards: [{
+				id: "0F50BA8ED024FE93"
+				item: {
+					count: 1
+					id: "mekanism:pellet_polonium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2727301B6BD1D033"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1ECED0A551019961"]
+			id: "5375D25EEF9AC9E9"
+			tasks: [{
+				count: 4L
+				id: "47C406D744CBC299"
+				item: { count: 4, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "055327C68D34325A"
+			tasks: [
+				{
+					id: "3B76C0D596DA4D69"
+					item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+					type: "item"
+				}
+				{
+					id: "6024A92891F4AE87"
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+				{
+					id: "77D600D517BCDE3F"
+					item: { count: 1, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					id: "6369A4A31E6313C0"
+					item: { count: 1, id: "mekanism:fuelwood_heater" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["055327C68D34325A"]
+			id: "5DBE7E88F9050399"
+			rewards: [{
+				count: 32
+				id: "59B5922D96FB2B9E"
+				item: {
+					count: 1
+					id: "mekanism:dust_lithium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "2864BF355F07A48C"
+				item: { count: 32, id: "mekanism:dust_lithium" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5DBE7E88F9050399"]
+			id: "51E857CB3F7D609E"
+			tasks: [
+				{
+					count: 4L
+					id: "5DA8F125338D7146"
+					item: { count: 4, id: "mekanism:energy_tablet" }
+					type: "item"
+				}
+				{
+					id: "4140ED3B4E60AAB7"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51E857CB3F7D609E"]
+			id: "08C6D08CA643DFB8"
+			tasks: [
+				{
+					id: "4A7F12869F588DE1"
+					item: { count: 1, id: "mekanism:basic_induction_cell" }
+					type: "item"
+				}
+				{
+					id: "3D82E775ED9476FA"
+					item: { count: 1, id: "mekanism:basic_induction_provider" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["70AB4DF502C70CC5"]
+			id: "4870F7DEE7AC5FD4"
+			tasks: [{
+				id: "3C2FBCCB4C0EE959"
+				item: { count: 1, id: "mekanism:hdpe_sheet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5375D25EEF9AC9E9"
+				"4870F7DEE7AC5FD4"
+				"633E28DD4E5F6CC0"
+				"08C6D08CA643DFB8"
+			]
+			id: "34C9A69112AF33DF"
+			rewards: [{
+				count: 8
+				id: "626C1781307875D3"
+				item: {
+					count: 1
+					id: "mekanism_extras:upgrade_creative"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5169B05804A9C029"
+					item: { count: 1, id: "mekanism:mekasuit_helmet" }
+					type: "item"
+				}
+				{
+					id: "7942F18A81EC20EF"
+					item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+					type: "item"
+				}
+				{
+					id: "59A39463E6EBA39B"
+					item: { count: 1, id: "mekanism:mekasuit_pants" }
+					type: "item"
+				}
+				{
+					id: "3849BB82580D03EF"
+					item: { count: 1, id: "mekanism:mekasuit_boots" }
+					type: "item"
+				}
+				{
+					id: "6A34ECAE63EB2F35"
+					item: { count: 1, id: "mekanism:meka_tool" }
+					type: "item"
+				}
+				{
+					id: "29F552C25446ED16"
+					item: { count: 1, id: "mekaweapons:meka_tana" }
+					type: "item"
+				}
+				{
+					id: "6951CBB6873BA77F"
+					item: { count: 1, id: "mekaweapons:meka_bow" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["636F3DE93EE98BE3"]
+			id: "68D1DAC194F1EB88"
+			rewards: [
+				{
+					count: 8
+					id: "35AE92FCB739F2FD"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_speed"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "65C77FECCC09CD3A"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_energy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "3D64EB7E6CB67E8D"
+					item: { count: 16, id: "mekanism:upgrade_speed" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4C6E5DDE979D67AD"
+					item: { count: 16, id: "mekanism:upgrade_energy" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["34C9A69112AF33DF"]
+			id: "2B74A8015CF1DFA4"
+			rewards: [{
+				id: "0956718348200B32"
+				item: {
+					count: 1
+					id: "mekanism_extras:upgrade_creative"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BD2A568BF39A06B"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+					type: "item"
+				}
+				{
+					id: "7DDFA5BB2E2E3893"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
+					type: "item"
+				}
+				{
+					id: "06B038C5B4840AD5"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "32CFE58EB3A2246F"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_logic_adapter" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["396A539B2775244A"]
+			id: "74859DC4654077F1"
+			tasks: [
+				{
+					id: "7F4FE1C26FD147EC"
+					item: { count: 1, id: "mekanismgenerators:solar_generator" }
+					type: "item"
+				}
+				{
+					id: "3E15E77C85A1670F"
+					item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+					type: "item"
+				}
+				{
+					id: "108F6AA977016328"
+					item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+					type: "item"
+				}
+				{
+					id: "56A9A53AD1DE0F1C"
+					item: { count: 1, id: "mekanismgenerators:wind_generator" }
+					type: "item"
+				}
+				{
+					id: "024FB9BB91193285"
+					item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+					type: "item"
+				}
+			]
+			x: -20.5d
+			y: 3.5d
+		}
+	]
+}

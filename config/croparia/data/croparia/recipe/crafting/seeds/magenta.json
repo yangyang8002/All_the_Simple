@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+"key": {
+"C": {
+"item": "croparia:croparia"
+},
+"M": {
+"item": "minecraft:magenta_dye"
+},
+"S": {
+"tag": "croparia:seed_ingredient"
+}
+},
+"pattern": [
+"MSM",
+"SCS",
+"MSM"
+],
+"result": {
+"id": "croparia:seed_crop_magenta",
+"count": 1
+}
+}

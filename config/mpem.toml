@@ -1,0 +1,173 @@
+#ʵ���Ż����� | Entity Optimization Settings
+[entity_optimization]
+	#�Ż�ʵ����ײ��� | Optimize entity collision detection
+	disableEntityCollisions = true
+	#�Ż�ʵ��AI���� | Optimize entity AI calculations
+	optimizeEntityAI = true
+	#ʵ�弤�Χ (����) | Entity activation range (blocks)
+	# Default: 32
+	# Range: 16 ~ 128
+	entityActivationRange = 32
+	#��������ʵ������ | Enable dead entity cleanup
+	entityCleanup = true
+	#����Զ��ʵ���ͬ��Ƶ�� | Reduce entity sync frequency for distant entities
+	reduceEntityUpdates = true
+	#�Ƿ��Ż�ʵ��tick | Optimize entity ticking
+	optimizeEntities = true
+	#�Ƿ������������ʵ�� | Ignore dead entities
+	ignoreDeadEntities = false
+	#�Ƿ��Ż���Ʒʵ�� | Optimize item entities
+	optimizeItems = true
+	#��Ʒ�����������ᱻ�Ż�����Ʒ��| Item whitelist (items that will not be optimized)
+	itemWhitelist = ["minecraft:nether_star"]
+	#ʵ�弤�Χ��ˮƽ����| Horizontal activation range for entities (blocks)
+	# Default: 32
+	# Range: 8 ~ 128
+	horizontalRange = 32
+	#ʵ�弤�Χ����ֱ����| Vertical activation range for entities (blocks)
+	# Default: 16
+	# Range: 8 ~ 64
+	verticalRange = 16
+	#��Ϯ�����Ƿ�ǿ��tickϮ���� | Force tick raiders during raids
+	tickRaidersInRaid = true
+
+#֡�ʿ������� | Frame Rate Control Settings
+[frame_rate]
+	#�Ƿ��ڴ��ڷǻʱ����FPS | Reduce FPS when window is inactive
+	reduceFpsWhenInactive = true
+	#�ǻ״̬ʱ��FPS���� | FPS limit when inactive
+	# Default: 30
+	# Range: 5 ~ 120
+	inactiveFpsLimit = 30
+
+#��Ⱦ�������� | Render Distance Settings
+[render_distance]
+	#�Ƿ��ڴ��ڷǻʱ������Ⱦ���� | Reduce render distance when window is inactive
+	reduceRenderDistanceWhenInactive = true
+	#�ǻ״̬ʱ����Ⱦ���� | Render distance when inactive
+	# Default: 4
+	# Range: 2 ~ 32
+	inactiveRenderDistance = 4
+
+#��Ʒ�Ż����� | Item Optimization Settings
+[item_optimization]
+	#�ϲ���Ʒ�����ѵ�������0��ʾ�����ƣ�| Maximum stack size for merged items (0 = no limit)
+	# Default: 0
+	# Range: > 0
+	maxStackSize = 0
+	#��Ʒ�ϲ����뾶����λ�����飩| Item merge detection radius in blocks
+	# Default: 0.5
+	# Range: 0.1 ~ 10.0
+	mergeDistance = 0.5
+	#0: ���� 1: ������ģʽ 2: ������ģʽ | 0: Disabled, 1: Whitelist, 2: Blacklist
+	# Default: 0
+	# Range: 0 ~ 2
+	listMode = 0
+	#������/�������е���Ʒע�����б� | Item registry names for whitelist/blacklist
+	itemList = []
+	#�Ƿ��ںϲ������Ʒ����ʾ�ѵ����� | Whether to show stack count on merged items
+	showStackCount = true
+
+	[item_optimization.stack_size]
+		#�����Զ���ѵ���С | Enable custom stack sizes
+		enabled = true
+		#�����Ʒ�ѵ���С (1-9999) | Maximum item stack size (1-9999)
+		# Default: 64
+		# Range: 1 ~ 9999
+		maxStackSize = 64
+
+#�ڴ��Ż����� | Memory Optimization Settings
+[memory_optimization]
+	#�ڴ�������(��) | Memory cleanup interval (seconds)
+	# Default: 300
+	# Range: 60 ~ 3600
+	cleanInterval = 300
+	#�Ƿ�������ʱ������������ | Whether to trigger garbage collection during cleanup
+	enableGC = true
+
+#�������� | Debug Settings
+[debug]
+	#���õ�����־ | Enable debug logging
+	debug = false
+	#��¼��������¼� | Log block related events
+	logBlockEvents = false
+
+#�����Ż����� | Chunk Optimization Settings
+[chunk_optimization]
+	#����ж�طǻ���� | Aggressively unload inactive chunks
+	aggressiveChunkUnloading = true
+	#����ж���ӳ� (��) | Chunk unload delay (seconds)
+	# Default: 60
+	# Range: 10 ~ 600
+	chunkUnloadDelay = 60
+	#������ƶ��̾���ʱ�����������Ƶ�� | Reduce chunk update frequency when player moves short distances
+	reduceChunkUpdates = true
+	#��������ķ���������ݰ� | Filter redundant block update packets
+	filterRedundantBlockUpdates = true
+	#�첽�������ɵ��߳��� | Number of threads for async chunk generation
+	# Default: 2
+	# Range: 1 ~ 8
+	chunkGenThreads = 2
+
+#�첽�Ż����� | Async Optimization Settings
+[async_optimization]
+	#�����첽���Ӵ��� | Enable asynchronous particle processing
+	asyncParticles = true
+	#�����첽���ӵ��߳��� (�Ƽ�1-4) | Number of threads to use for async particles (1-4 recommended)
+	# Default: 2
+	# Range: 1 ~ 12
+	asyncParticlesThreads = 2
+	#AI������߳��� | Number of threads for AI processing
+	# Default: 2
+	# Range: 1 ~ 8
+	aiThreads = 2
+	#ÿtick���������첽������ | Max async operations processed per tick
+	# Default: 1000
+	# Range: 100 ~ 10000
+	maxAsyncOpsPerTick = 1000
+	#�������ø��¼����͵��첽���� | Disable async for event type after errors
+	disableAsyncOnError = true
+	#�첽�¼���ʱʱ��(��) | Timeout in seconds for async events
+	# Default: 2
+	# Range: 1 ~ 10
+	asyncEventTimeout = 2
+	#�ȴ��첽�¼���� | Wait for async events to complete
+	waitForAsyncEvents = false
+
+	[async_optimization.async_cpu_config]
+		#�첽ϵͳ���CPU������ | Max CPU Cores for async system (only for async threads, not world async)
+		# Default: 2
+		# Range: 2 ~ 9999
+		maxCPUPro = 2
+		#����߳��� | Max Threads (only for general async threads, not dedicated async threads)
+		# Default: 2
+		# Range: 2 ~ 9999
+		maxthreads = 2
+
+#�¼�ϵͳ���� | Event System Settings
+[event_system]
+	#���ø������¼�ϵͳ�Ż� | Enable High-Performance event system optimization
+	enableOptimization = true
+	#��Ӧ�첽������¼����б� | List of event classes that should NOT be processed asynchronously
+	#֧��ͨ��� (�� 'net.minecraftforge.event.entity.living.*') | Supports wildcards (e.g. 'net.minecraftforge.event.entity.living.*')
+	classBlacklist = ["net.minecraftforge.event.TickEvent", "net.minecraftforge.event.level.LevelTickEvent", "net.minecraftforge.event.entity.living.*"]
+	#��Ӧ�첽�����ģ��ID�б� | List of mod IDs whose events should NOT be processed asynchronously
+	modBlacklist = []
+	#�����ϸ������ڼ�� (�Ƽ�Ϊ�ȶ���) | Enable strict class existence checking (recommended for stability)
+	strictClassChecking = true
+
+#������ϵͳ���� (����������Ч) | Anti-Cheat System Settings (Server Only)
+[anti_cheat]
+	#�Ƿ����÷�����ϵͳ | Whether to enable anti-cheat system
+	enabled = true
+	#����ӳ�ʱ�䣨�룩 | Detection delay (seconds)
+	#����ֵ3-5�룬�����¼ʱ��ͻ | Recommended 3-5 seconds to avoid login conflicts
+	# Default: 3
+	# Range: 1 ~ 10
+	detectionDelay = 3
+	#�Ƿ�����������ȫ��� | Whether to enable class name security detection
+	classNameDetectionEnabled = false
+	#�ͻ������������� (֧��ͨ���) | Client class name whitelist (supports wildcards)
+	clientClassWhitelist = ["com.example.safemod.*", "net.shuyanmc.mpem.*"]
+	#����ģ��ID�б� | Exempt mod ID list
+	modWhitelist = []

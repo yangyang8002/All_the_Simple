@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_pufferfish"
+}
+],
+"result": {
+"id": "minecraft:pufferfish",
+"count": 2
+}
+}

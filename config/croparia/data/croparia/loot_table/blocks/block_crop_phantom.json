@@ -1,0 +1,32 @@
+{
+"type": "minecraft:block",
+"pools": [
+{
+"rolls": 1,
+"entries": [
+{
+"type": "minecraft:item",
+"name": "croparia:seed_crop_phantom"
+}
+]
+},
+{
+"rolls": 1,
+"entries": [
+{
+"type": "minecraft:item",
+"name": "croparia:fruit_phantom",
+"conditions": [
+{
+"condition": "minecraft:block_state_property",
+"block": "croparia:block_crop_phantom",
+"properties": {
+"age": "7"
+}
+}
+]
+}
+]
+}
+]
+}

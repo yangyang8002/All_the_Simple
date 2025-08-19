@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_certus"
+}
+],
+"result": {
+"id": "ae2:certus_quartz_crystal",
+"count": 2
+}
+}

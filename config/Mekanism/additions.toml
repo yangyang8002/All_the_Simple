@@ -1,0 +1,176 @@
+#Settings for configuring Obsidian TNT
+[obsidian_tnt]
+	#Fuse time in ticks for Obsidian TNT. Vanilla TNT has a fuse of 80 ticks (4 seconds).
+	# Default: 100
+	# Range: > 0
+	delay = 100
+	#Radius of the explosion of Obsidian TNT. Vanilla TNT has a radius of 4.
+	# Default: 12.0
+	# Range: 0.1 ~ 1000.0
+	blastRadius = 12.0
+
+#Settings for configuring the Voice Server
+[voice_server]
+	#Enables the voice server for Walkie Talkies.
+	enabled = false
+	#TCP port for the Voice server to listen on.
+	# Default: 36123
+	# Range: 1 ~ 65535
+	voicePort = 36123
+
+#Settings for configuring values relating to baby mobs
+[baby_mobs]
+	#Damage multiplier of arrows shot by baby mobs.
+	# Default: 0.25
+	# Range: 0.1 ~ 10.0
+	arrowDamageMultiplier = 0.25
+
+	#Config options regarding the spawning of Baby Bogged.
+	[baby_mobs.baby_bogged]
+		#Enable the spawning of Baby Bogged. Think baby zombies.
+		shouldSpawn = true
+		#The multiplier for minimum group size of Baby Bogged spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		minSizePercentage = 0.5
+		#The multiplier for maximum group size of Baby Bogged spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		maxSizePercentage = 0.5
+		#The multiplier for weight of Baby Bogged spawns, compared to the adult mob.
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		weightPercentage = 0.05
+		#The multiplier for spawn cost per entity of Baby Bogged spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		spawnCostPerEntityPercentage = 1.0
+		#The multiplier for max spawn cost of Baby Bogged spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		maxSpawnCostPercentage = 1.0
+
+	#Config options regarding the spawning of Baby Creeper.
+	[baby_mobs.baby_creeper]
+		#Enable the spawning of Baby Creeper. Think baby zombies.
+		shouldSpawn = true
+		#The multiplier for minimum group size of Baby Creeper spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		minSizePercentage = 0.5
+		#The multiplier for maximum group size of Baby Creeper spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		maxSizePercentage = 0.5
+		#The multiplier for weight of Baby Creeper spawns, compared to the adult mob.
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		weightPercentage = 0.05
+		#The multiplier for spawn cost per entity of Baby Creeper spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		spawnCostPerEntityPercentage = 1.0
+		#The multiplier for max spawn cost of Baby Creeper spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		maxSpawnCostPercentage = 1.0
+
+	#Config options regarding the spawning of Baby Enderman.
+	[baby_mobs.baby_enderman]
+		#Enable the spawning of Baby Enderman. Think baby zombies.
+		shouldSpawn = true
+		#The multiplier for minimum group size of Baby Enderman spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		minSizePercentage = 0.5
+		#The multiplier for maximum group size of Baby Enderman spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		maxSizePercentage = 0.5
+		#The multiplier for weight of Baby Enderman spawns, compared to the adult mob.
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		weightPercentage = 0.05
+		#The multiplier for spawn cost per entity of Baby Enderman spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		spawnCostPerEntityPercentage = 1.0
+		#The multiplier for max spawn cost of Baby Enderman spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		maxSpawnCostPercentage = 1.0
+
+	#Config options regarding the spawning of Baby Skeleton.
+	[baby_mobs.baby_skeleton]
+		#Enable the spawning of Baby Skeleton. Think baby zombies.
+		shouldSpawn = true
+		#The multiplier for minimum group size of Baby Skeleton spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		minSizePercentage = 0.5
+		#The multiplier for maximum group size of Baby Skeleton spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		maxSizePercentage = 0.5
+		#The multiplier for weight of Baby Skeleton spawns, compared to the adult mob.
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		weightPercentage = 0.05
+		#The multiplier for spawn cost per entity of Baby Skeleton spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		spawnCostPerEntityPercentage = 1.0
+		#The multiplier for max spawn cost of Baby Skeleton spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		maxSpawnCostPercentage = 1.0
+
+	#Config options regarding the spawning of Baby Stray.
+	[baby_mobs.baby_stray]
+		#Enable the spawning of Baby Stray. Think baby zombies.
+		shouldSpawn = true
+		#The multiplier for minimum group size of Baby Stray spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		minSizePercentage = 0.5
+		#The multiplier for maximum group size of Baby Stray spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		maxSizePercentage = 0.5
+		#The multiplier for weight of Baby Stray spawns, compared to the adult mob.
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		weightPercentage = 0.05
+		#The multiplier for spawn cost per entity of Baby Stray spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		spawnCostPerEntityPercentage = 1.0
+		#The multiplier for max spawn cost of Baby Stray spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		maxSpawnCostPercentage = 1.0
+
+	#Config options regarding the spawning of Baby Wither Skeleton.
+	[baby_mobs.baby_wither_skeleton]
+		#Enable the spawning of Baby Wither Skeleton. Think baby zombies.
+		shouldSpawn = true
+		#The multiplier for minimum group size of Baby Wither Skeleton spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		minSizePercentage = 0.5
+		#The multiplier for maximum group size of Baby Wither Skeleton spawns, compared to the adult mob.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		maxSizePercentage = 0.5
+		#The multiplier for weight of Baby Wither Skeleton spawns, compared to the adult mob.
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		weightPercentage = 0.05
+		#The multiplier for spawn cost per entity of Baby Wither Skeleton spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		spawnCostPerEntityPercentage = 1.0
+		#The multiplier for max spawn cost of Baby Wither Skeleton spawns, compared to the adult mob.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		maxSpawnCostPercentage = 1.0

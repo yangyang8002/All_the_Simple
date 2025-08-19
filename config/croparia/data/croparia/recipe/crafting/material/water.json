@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_water"
+}
+],
+"result": {
+"id": "croparia:elemental_water",
+"count": 2
+}
+}

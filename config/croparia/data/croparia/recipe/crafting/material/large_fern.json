@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_large_fern"
+}
+],
+"result": {
+"id": "minecraft:large_fern",
+"count": 2
+}
+}

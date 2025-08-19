@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_bone"
+}
+],
+"result": {
+"id": "minecraft:bone",
+"count": 2
+}
+}

@@ -1,0 +1,66 @@
+{
+	id: "507FB6ACE6E49FDD"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "33AD5CB73CDB64B2"
+			type: "xp_levels"
+			weight: 2.0f
+			xp_levels: 20
+		}
+		{
+			id: "46A371340316197A"
+			type: "xp_levels"
+			xp_levels: 200
+		}
+		{
+			id: "7BB3A14A556ED2B4"
+			type: "xp_levels"
+			weight: 0.1f
+			xp_levels: 2000
+		}
+		{
+			id: "78A73D219B9D7E2C"
+			type: "xp_levels"
+			weight: 0.01f
+			xp_levels: 20000
+		}
+		{
+			count: 10
+			id: "71851A2B6DCAE8C2"
+			item: {
+				count: 1
+				id: "projecte:alchemical_coal_block"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 64
+			id: "3363FE25C6A0BDAF"
+			item: {
+				count: 1
+				id: "minecraft:diamond_block"
+			}
+		}
+		{
+			count: 16
+			id: "1BBB248AD128C9DE"
+			item: {
+				count: 1
+				id: "minecraft:netherite_block"
+			}
+			weight: 0.2f
+		}
+		{ id: "4FA65E9BC08637B8", item: { count: 1, id: "gobber2:gobber2_ingot_nether" } }
+		{
+			count: 16
+			id: "3DC9BBB8A27C6321"
+			item: {
+				count: 1
+				id: "gobber2:gobber2_ingot_nether"
+			}
+			weight: 0.5f
+		}
+	]
+}

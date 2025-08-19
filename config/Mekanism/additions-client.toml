@@ -1,0 +1,2 @@
+#If the voice server is enabled and pushToTalk is disabled, the voice key will act as a toggle instead of requiring to be held while talking.
+pushToTalk = true

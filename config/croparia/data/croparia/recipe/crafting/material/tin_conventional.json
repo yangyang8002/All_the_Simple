@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_tin_conventional"
+}
+],
+"result": {
+"id": "mekanism:ingot_tin",
+"count": 2
+}
+}

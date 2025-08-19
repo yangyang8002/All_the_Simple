@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_salmon"
+}
+],
+"result": {
+"id": "minecraft:salmon",
+"count": 2
+}
+}

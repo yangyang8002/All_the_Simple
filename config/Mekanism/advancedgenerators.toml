@@ -1,0 +1,91 @@
+#Settings for configuring Solar Generators
+[solar_generator]
+	#Peak energy generation in Joules/t for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 150
+	# Range: 0 ~ 9223372036854775807
+	advancedSolarGeneration = 150
+	#Peak energy generation in Joules/t for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 450
+	# Range: 0 ~ 9223372036854775807
+	hybridSolarGeneration = 450
+	#Peak energy generation in Joules/t for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 1350
+	# Range: 0 ~ 9223372036854775807
+	ultimateSolarGeneration = 1350
+	#Peak energy generation in Joules/t for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 4050
+	# Range: 0 ~ 9223372036854775807
+	quantumSolarGeneration = 4050
+	#Peak energy generation in Joules/t for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 12150
+	# Range: 0 ~ 9223372036854775807
+	spectralSolarGeneration = 12150
+	#Peak energy generation in Joules/t for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 36450
+	# Range: 0 ~ 9223372036854775807
+	singularSolarGeneration = 36450
+	#Peak energy generation in Joules/t for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 109350
+	# Range: 0 ~ 9223372036854775807
+	lightAbsorbingSolarGeneration = 109350
+	#Peak energy generation in Joules/t for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 328050
+	# Range: 0 ~ 9223372036854775807
+	photonicSolarGeneration = 328050
+	#Peak energy generation in Joules/t for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 10000000
+	# Range: 0 ~ 9223372036854775807
+	creativeSolarGeneration = 10000000
+	#Peak energy generation in Joules/t for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 900
+	# Range: 0 ~ 9223372036854775807
+	bigAdvancedSolarGeneration = 900
+	#Peak energy generation in Joules/t for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 2700
+	# Range: 0 ~ 9223372036854775807
+	bigHybridSolarGeneration = 2700
+	#Peak energy generation in Joules/t for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 8100
+	# Range: 0 ~ 9223372036854775807
+	bigUltimateSolarGeneration = 8100
+	#Peak energy generation in Joules/t for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 24300
+	# Range: 0 ~ 9223372036854775807
+	bigQuantumSolarGeneration = 24300
+	#Peak energy generation in Joules/t for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 72900
+	# Range: 0 ~ 9223372036854775807
+	bigSpectralSolarGeneration = 72900
+	#Peak energy generation in Joules/t for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 218700
+	# Range: 0 ~ 9223372036854775807
+	bigSingularSolarGeneration = 218700
+	#Peak energy generation in Joules/t for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 656100
+	# Range: 0 ~ 9223372036854775807
+	bigLightAbsorbingSolarGeneration = 656100
+	#Peak energy generation in Joules/t for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 1968300
+	# Range: 0 ~ 9223372036854775807
+	bigPhotonicSolarGeneration = 1968300
+	#Peak energy generation in Joules/t for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	# Default: 60000000
+	# Range: 0 ~ 9223372036854775807
+	bigCreativeSolarGeneration = 60000000
+
+#Settings for configuring Wind Generators
+[wind_generator]
+	#Minimum energy generation in Joules/t that the Wind Generator can produce.
+	# Default: 60
+	# Range: 0 ~ 9223372036854775807
+	generationMin = 60
+	#Maximum energy generation in Joules/t that the Wind Generator can produce.
+	# Default: 480
+	# Range: 0 ~ 9223372036854775807
+	generationMax = 480
+	#The minimum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's minimum height.
+	# Default: 24
+	# Range: -2032 ~ 2030
+	minY = 24
+	#The maximum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's logical height. For example for worlds like the nether that are 256 blocks tall, but have a ceiling at 128 blocks, this would be clamped at 128.
+	maxY = 2031

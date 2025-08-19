@@ -1,0 +1,92 @@
+{
+	id: "6A8A50F9EECD86B2"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			id: "2B70B01463F19C74"
+			type: "xp"
+			xp: 10
+		}
+		{
+			id: "5AE7AFFFB825531B"
+			type: "xp"
+			weight: 2.0f
+			xp: 1
+		}
+		{
+			id: "42E02DD3B36845FF"
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{
+			id: "78B7AFFCD3400893"
+			item: {
+				count: 1
+				id: "minecraft:coal_block"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 16
+			id: "54569D89B7545F75"
+			item: {
+				count: 1
+				id: "minecraft:coal_block"
+			}
+			weight: 2.0f
+		}
+		{ id: "2ABBD07A62C879CA", item: { count: 1, id: "minecraft:diamond_block" } }
+		{
+			count: 16
+			id: "1270B98F8930AC7A"
+			item: {
+				count: 1
+				id: "minecraft:diamond_block"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "2739B26EA23D8A89"
+			item: {
+				count: 1
+				id: "exdeorum:string_mesh"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "7472BD6DDE09B412"
+			item: {
+				count: 1
+				id: "exdeorum:flint_mesh"
+			}
+			weight: 3.0f
+		}
+		{ id: "09AB544BB7DA6B0F", item: { count: 1, id: "exdeorum:iron_mesh" } }
+		{ id: "20EABDFA06C73362", item: { count: 1, id: "exdeorum:golden_mesh" } }
+		{
+			id: "0B6AD16032BBE3E8"
+			item: {
+				count: 1
+				id: "exdeorum:diamond_mesh"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "14D497F82FF848A5"
+			item: {
+				count: 1
+				id: "exdeorum:netherite_mesh"
+			}
+			weight: 0.001f
+		}
+		{
+			count: 5
+			id: "50F1E7F30D865E1D"
+			item: {
+				count: 1
+				id: "cuisinedelight:fried_egg"
+			}
+		}
+	]
+}

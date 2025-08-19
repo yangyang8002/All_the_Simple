@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_light_gray"
+}
+],
+"result": {
+"id": "minecraft:light_gray_dye",
+"count": 2
+}
+}

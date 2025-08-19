@@ -1,0 +1,32 @@
+{
+"type": "minecraft:block",
+"pools": [
+{
+"rolls": 1,
+"entries": [
+{
+"type": "minecraft:item",
+"name": "croparia:seed_crop_bamboo"
+}
+]
+},
+{
+"rolls": 1,
+"entries": [
+{
+"type": "minecraft:item",
+"name": "croparia:fruit_bamboo",
+"conditions": [
+{
+"condition": "minecraft:block_state_property",
+"block": "croparia:block_crop_bamboo",
+"properties": {
+"age": "7"
+}
+}
+]
+}
+]
+}
+]
+}

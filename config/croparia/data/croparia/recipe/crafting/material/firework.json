@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_firework"
+}
+],
+"result": {
+"id": "minecraft:firework_star",
+"count": 2
+}
+}

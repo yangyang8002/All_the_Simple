@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_air"
+}
+],
+"result": {
+"id": "croparia:elemental_air",
+"count": 2
+}
+}

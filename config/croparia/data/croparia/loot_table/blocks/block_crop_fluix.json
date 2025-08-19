@@ -1,0 +1,32 @@
+{
+"type": "minecraft:block",
+"pools": [
+{
+"rolls": 1,
+"entries": [
+{
+"type": "minecraft:item",
+"name": "croparia:seed_crop_fluix"
+}
+]
+},
+{
+"rolls": 1,
+"entries": [
+{
+"type": "minecraft:item",
+"name": "croparia:fruit_fluix",
+"conditions": [
+{
+"condition": "minecraft:block_state_property",
+"block": "croparia:block_crop_fluix",
+"properties": {
+"age": "7"
+}
+}
+]
+}
+]
+}
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_cherry"
+}
+],
+"result": {
+"id": "minecraft:cherry_planks",
+"count": 2
+}
+}

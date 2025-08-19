@@ -1,0 +1,6 @@
+// Compost colors for tofucreate. You may add your own colors, change existing ones, or remove colors that aren't needed.
+incomplete_tf_compact_circuit, #fffff0
+incomplete_tofu_precision_mechanism, #d7e7f1
+tf_compact_circuit, #fffff0
+tofu_precision_mechanism, #ffffff
+tofumetal_plate, #ffffff

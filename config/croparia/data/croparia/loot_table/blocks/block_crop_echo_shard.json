@@ -1,0 +1,32 @@
+{
+"type": "minecraft:block",
+"pools": [
+{
+"rolls": 1,
+"entries": [
+{
+"type": "minecraft:item",
+"name": "croparia:seed_crop_echo_shard"
+}
+]
+},
+{
+"rolls": 1,
+"entries": [
+{
+"type": "minecraft:item",
+"name": "croparia:fruit_echo_shard",
+"conditions": [
+{
+"condition": "minecraft:block_state_property",
+"block": "croparia:block_crop_echo_shard",
+"properties": {
+"age": "7"
+}
+}
+]
+}
+]
+}
+]
+}

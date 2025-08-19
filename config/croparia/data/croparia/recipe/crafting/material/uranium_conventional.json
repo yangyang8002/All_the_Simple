@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_uranium_conventional"
+}
+],
+"result": {
+"id": "mekanism:ingot_uranium",
+"count": 2
+}
+}

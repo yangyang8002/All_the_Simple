@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_ender"
+}
+],
+"result": {
+"id": "minecraft:ender_pearl",
+"count": 2
+}
+}

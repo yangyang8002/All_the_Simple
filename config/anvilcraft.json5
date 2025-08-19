@@ -1,0 +1,97 @@
+{
+	// The mode of the anvil hammer goggle info
+	"goggleMode": "WEARING_HAMMER",
+	// Maximum number of items processed by the anvil at the same time
+	"anvilEfficiency": 64,
+	// Maximum radius of giant anvil's shock behavior
+	"giantAnvilMaxShockRadius": 16,
+	// Maximum depth a lightning strike can reach
+	"lightningStrikeDepth": 2,
+	// Maximum radius a lightning strike can reach
+	"lightningStrikeRadius": 1,
+	// Maximum length a magnet attracts
+	"magnetAttractsDistance": 5,
+	// Maximum radius a handheld magnet attracts
+	"magnetItemAttractsRadius": 8.0,
+	// Redstone EMP length generated per block dropped by the anvil
+	"redstoneEmpRadius": 6,
+	// Maximum length of redstone EMP
+	"redstoneEmpMaxRadius": 24,
+	// Maximum cooldown time of chute (in ticks)
+	"chuteMaxCooldown": 8,
+	// Maximum cooldown time of batch crafter (in ticks)
+	"batchCrafterCooldown": 8,
+	// The maximum search radius of the geode
+	"geodeRadius": 64,
+	// The search interval of the geode
+	"geodeInterval": 4,
+	// The search cooldown of the geode (in seconds)
+	"geodeCooldown": 5,
+	// The power transmitter can identify the range of the power transmitter
+	"powerTransmitterRange": 8,
+	// The power transmitter can identify the range of the power transmitter
+	"remotePowerTransmitterRange": 16,
+	// The maximum number of logs that can be cut per level of Felling enchantment
+	"fellingBlockPerLevel": 2,
+	// Should show anvil levitate animation
+	"displayAnvilAnimation": true,
+	// Maximum cooldown of load monitor
+	"loadMonitor": 10,
+	// Maximum size for connecting transparent crafting table to form matrix
+	"transparentCraftingTableMaxMatrixSize": 15,
+	"powerConverter": {
+		// The working interval of power converters
+		"powerConverterCountdown": 10,
+		// Energy efficiency of energy converters (1 kW => xx FE/t)
+		"powerConverterEfficiency": 80,
+		// Power loss of energy converters
+		"powerConverterLoss": 0.1
+	},
+	"isLaserDoImpactChecking": true,
+	"inductionLightBlockRipeningCooldown": 400,
+	"inductionLightBlockRipeningRange": 5,
+	// The number of ticks between heliostat detections
+	"heliostatsDetectionInterval": 4,
+	// Heliostats render sunflower head model in Sunflower Plains biome
+	"heliostatsSunflowerModel": true,
+	// Do not render power component tooltip when jade present
+	"doNotShowTooltipWhenJadePresent": true,
+	// Render lines between power transmitters
+	"renderPowerTransmitterLines": true,
+	// Bloom effect on laser and power transmitter lines.
+	"renderBloomEffect": false,
+	// Iono Craft Backpack Max Flight Time in ticks
+	"ionoCraftBackpackMaxFlightTime": 24000,
+	"ionoCraftBackpackHud": {
+		// If true, will show Ionocraft Backpack current power in hud
+		"enabled": true,
+		// The Gui Hud Scale
+		"hudScale": 0.75,
+		// The gui hud x position
+		"hudX": 8,
+		// The gui hud y position
+		"hudY": 8
+	},
+	// Giant anvil maxCount fall damage
+	"giantAnvilFallDamageMax": 40,
+	// Block Devourer upward chain devouring blocks within tag #anvilcraft:block_devourer_chain_devouring
+	"blockDevourerUpwardChainDevouring": true,
+	// Block Devourer upward chain devouring maxCount distance
+	"blockDevourerUpwardChainDevouringDistance": 8,
+	// Block Placer recursive retrieval of container max distance
+	"blockPlacerRecursiveRetrievalDistanceMax": 7,
+	// Combining items with Enchanted Books beyond max level in Royal Anvil
+	"royalAnvilBeyondMaxLevel": false,
+	// Combining items with Enchanted Books beyond max level in Ember Anvil
+	"emberAnvilBeyondMaxLevel": false,
+	// Combining items with Enchanted Books beyond max level in Transcendence Anvil
+	"transcendenceAnvilBeyondMaxLevel": true,
+	// Max acceleration speed (m/tick)
+	"maxAccelerationSpeed": 32,
+	// Anvil collision craft speed (m/tick)
+	"anvilCollisionCraftSpeed": 16,
+	// Press shift and right click to take out all totem stored in the holding amulet box
+	"amuletBoxTakeOutAllTotem": true,
+	// Pushing or pulling a sliding rail will chain to other rails
+	"slidingRailStickToEachOther": false
+}

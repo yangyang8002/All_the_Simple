@@ -1,0 +1,14 @@
+#General settings
+[general]
+
+	[general.skullfireSword]
+		#DropChange
+		# Default: 100
+		# Range: 0 ~ 100
+		dropChange = 100
+
+	[general.infinityArmor]
+		#NightVision
+		nightVision = true
+		#ClearBadEffect
+		clearBadEffect = true

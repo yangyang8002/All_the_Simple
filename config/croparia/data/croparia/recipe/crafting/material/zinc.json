@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_zinc"
+}
+],
+"result": {
+"id": "create:zinc_ingot",
+"count": 2
+}
+}

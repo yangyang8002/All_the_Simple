@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_name_tag"
+}
+],
+"result": {
+"id": "minecraft:name_tag",
+"count": 2
+}
+}

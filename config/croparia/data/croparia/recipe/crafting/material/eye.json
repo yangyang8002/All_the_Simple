@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_eye"
+}
+],
+"result": {
+"id": "minecraft:spider_eye",
+"count": 2
+}
+}

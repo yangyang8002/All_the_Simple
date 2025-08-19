@@ -1,0 +1,2 @@
+#Render a colored char on enchantment book to tell it apart from vanilla ones
+renderEnchOverlay = true

@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_mangrove"
+}
+],
+"result": {
+"id": "minecraft:mangrove_planks",
+"count": 2
+}
+}

@@ -1,0 +1,12 @@
+{
+	// Enable or disable the welcome message, Requires game restart after changing this setting.
+	"ENABLE_IN_GAME_MESSAGE": true,
+	// Enable Andesite Worker Profession, Requires game restart after changing this setting.
+	"ENABLE_ANDESITE_WORKER": true,
+	// Enable Brassworker Profession, Requires game restart after changing this setting.
+	"ENABLE_BRASSWORKER": true,
+	// Enable Copperworker Profession, Requires game restart after changing this setting.
+	"ENABLE_COPPERWORKER": true,
+	// Enable Miner Profession, Requires game restart after changing this setting.
+	"ENABLE_MINER": true
+}

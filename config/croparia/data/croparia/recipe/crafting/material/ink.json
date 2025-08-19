@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_ink"
+}
+],
+"result": {
+"id": "minecraft:ink_sac",
+"count": 2
+}
+}

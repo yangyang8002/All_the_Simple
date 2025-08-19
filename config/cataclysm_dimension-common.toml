@@ -1,0 +1,3 @@
+#是否启用传送眼？启用后shift时右键即可传送。或者您可以用您自己的传送逻辑
+#Use default teleport? Right click when pressing shift to teleport. Or you can design your own enter way.
+enable_teleport_eye = true

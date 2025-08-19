@@ -1,0 +1,175 @@
+{
+  "comment": "Use the in-game commands to edit this file",
+  "entries": [
+    {
+      "id": "minecraft:iron_ingot",
+      "emc": 1
+    },
+    {
+      "id": "minecraft:iron_block",
+      "emc": 9
+    },
+    {
+      "id": "minecraft:string",
+      "emc": 1
+    },
+    {
+      "id": "minecraft:oak_log",
+      "emc": 1
+    },
+    {
+      "id": "minecraft:paper",
+      "emc": 1
+    },
+    {
+      "id": "minecraft:sugar_cane",
+      "emc": 1
+    },
+    {
+      "id": "minecraft:rail",
+      "emc": 1
+    },
+    {
+      "id": "minecraft:powered_rail",
+      "emc": 1
+    },
+    {
+      "id": "minecraft:detector_rail",
+      "emc": 1
+    },
+    {
+      "id": "minecraft:activator_rail",
+      "emc": 1
+    },
+    {
+      "id": "minecraft:emerald",
+      "emc": 0
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "emc": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "emc": 9
+    },
+    {
+      "id": "tofucraft:seeds_soybeans",
+      "emc": 16
+    },
+    {
+      "id": "immersiveengineering:seed",
+      "emc": 16
+    },
+    {
+      "id": "oneiricconcept:stuffing",
+      "emc": 16
+    },
+    {
+      "id": "tofucraft:seeds_rice",
+      "emc": 16
+    },
+    {
+      "id": "minecraft:shield",
+      "data": {
+        "minecraft:damage": 266
+      },
+      "emc": 0
+    },
+    {
+      "id": "ars_nouveau:bastion_pod",
+      "emc": 32
+    },
+    {
+      "id": "gobber2:gobber2_glob",
+      "emc": 10000
+    },
+    {
+      "id": "gobber2:gobber2_glob_nether",
+      "emc": 25600
+    },
+    {
+      "id": "gobber2:gobber2_glob_end",
+      "emc": 51200
+    },
+    {
+      "id": "gobber2:gobber2_leggings",
+      "emc": 60000
+    },
+    {
+      "id": "gobber2:gobber2_chestplate",
+      "emc": 70000
+    },
+    {
+      "id": "gobber2:gobber2_helmet",
+      "emc": 40000
+    },
+    {
+      "id": "gobber2:gobber2_boots",
+      "emc": 30000
+    },
+    {
+      "id": "minecraft:shield",
+      "data": {
+        "minecraft:enchantments": {
+          "levels": {
+            "minecraft:mending": 2,
+            "primogemcraft:fumoyuzhezn": 7,
+            "apothic_enchanting:shield_bash": 5,
+            "minecraft:vanishing_curse": 4,
+            "apothic_enchanting:reflective_defenses": 6
+          }
+        }
+      },
+      "emc": 0
+    },
+    {
+      "id": "endersdelight:enderman_sight",
+      "emc": 16
+    },
+    {
+      "id": "minecraft:smooth_stone_slab",
+      "emc": 1
+    },
+    {
+      "id": "mysticalagriculture:inferium_essence",
+      "emc": 16
+    },
+    {
+      "id": "primogemcraft:weizhiyepian",
+      "emc": 16
+    },
+    {
+      "id": "gobber2:gobber2_globette",
+      "emc": 1111
+    },
+    {
+      "id": "gobber2:gobber2_globette_nether",
+      "emc": 2845
+    },
+    {
+      "id": "gobber2:gobber2_globette_end",
+      "emc": 5689
+    },
+    {
+      "id": "minecraft:dragon_head",
+      "emc": 10000
+    },
+    {
+      "id": "minecraft:elytra",
+      "emc": 1000000
+    },
+    {
+      "id": "cataclysm:ignitium_ingot",
+      "emc": 100000
+    },
+    {
+      "id": "cataclysm:burning_ashes",
+      "emc": 10000
+    },
+    {
+      "id": "farmersdelight:rich_soil",
+      "emc": 16
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+// Compost colors for create_things_and_misc. You may add your own colors, change existing ones, or remove colors that aren't needed.
+brass_knife, #d49d58
+card, #de8e72
+copper_knife, #de8e6b
+crushed_magma, #ca5c2c
+empty_card, #ffb589
+empty_ticket, #fffbd6
+experience_sheet, #beff8d
+glue_packaging, #8ab672
+incomplete_mending_rune, #9bfb8a
+incomplete_vibration_mechanism, #a07fc9
+magnifying_glass, #b28276
+mending_rune, #d6f79a
+radar, #5c7c5a
+rose_quartz_sheet, #ffb9cd
+slime_bucket, #9acf80
+slime_cake, #82a262
+sprinkler_head, #916f65
+sticky_boots_boots, #788d6c
+ticket, #fae7c2
+train_stop, #755a3c
+vibration_mechanism, #dd8aac
+zinc_knife, #93b191

@@ -1,0 +1,39 @@
+# Default: 5
+# Range: 5 ~ 5
+maxRank = 5
+# Default: 4
+# Range: 1 ~ 100
+maxLevelPerRank = 4
+# Default: 4
+# Range: 1 ~ 100
+levelPerSubStat = 4
+# Default: 256
+# Range: 64 ~ 1024
+storageSmall = 256
+# Default: 512
+# Range: 64 ~ 1024
+storageLarge = 512
+# Default: 2.0
+# Range: 1.0 ~ 10.0
+expConsumptionRankFactor = 2.0
+# Default: 1.05
+# Range: 1.0 ~ 10.0
+expLevelFactor = 1.05
+# Default: 100
+# Range: 1 ~ 10000
+baseExpConsumption = 100
+# Default: 0.9
+# Range: 0.0 ~ 1.0
+expRetention = 0.9
+# Default: 100
+# Range: 1 ~ 1000000
+baseExpConversion = 100
+# Default: 2.0
+# Range: 1.0 ~ 10.0
+expConversionRankFactor = 2.0
+#Min health requirement would still be effective
+useLevelDropForHostility = true
+#Stack multiplicatively with drop chance specified in datapack
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+globalDropChanceMultiplier = 1.0

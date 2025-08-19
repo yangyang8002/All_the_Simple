@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_fluix"
+}
+],
+"result": {
+"id": "ae2:fluix_crystal",
+"count": 2
+}
+}

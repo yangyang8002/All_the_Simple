@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_raw_beef"
+}
+],
+"result": {
+"id": "minecraft:beef",
+"count": 2
+}
+}

@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_gold"
+}
+],
+"result": {
+"id": "minecraft:gold_ingot",
+"count": 2
+}
+}

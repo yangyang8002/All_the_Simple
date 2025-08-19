@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_snowball"
+}
+],
+"result": {
+"id": "minecraft:snowball",
+"count": 2
+}
+}

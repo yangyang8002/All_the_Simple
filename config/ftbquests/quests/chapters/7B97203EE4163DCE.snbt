@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7B97203EE4163DCE"
+	group: ""
+	id: "7B97203EE4163DCE"
+	images: [
+		{
+			height: 1.0d
+			image: "eternal_starlight:block/abyssal_fire_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "eternal_starlight:block/abyssal_fire_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/accept.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "primogemcraft:textures/yuanshi.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "64FD1F13A11AAD59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49FDE56587EFDA9E"
+				table_id: 7677037549189957298L
+				type: "random"
+			}]
+			tasks: [{
+				id: "02F9E87844775A0A"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "6CB256F5295E737D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "322043DDBBE08FA3"
+				table_id: 7677037549189957298L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E7CD648BC7F2FE1"
+				points: false
+				type: "xp"
+				value: 10L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "70906C5AC847B825"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4681B6CB6EF92270"
+				table_id: 7677037549189957298L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79904787CCE4C93B"
+				points: false
+				type: "xp"
+				value: 25L
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "3E6F12D490A7F15D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "474AF1A66287C96D"
+				table_id: 7677037549189957298L
+				type: "random"
+			}]
+			tasks: [{
+				id: "059294A7B95C5DAB"
+				points: false
+				type: "xp"
+				value: 100L
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "15CB7250799FA0F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A48DA1D26E410D2"
+				table_id: 5800555698800861149L
+				type: "random"
+			}]
+			tasks: [{
+				id: "748553E60D287C30"
+				points: false
+				type: "xp"
+				value: 1000L
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "054A52B4C8F22716"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C820F6879089580"
+				table_id: 7677037549189957298L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0811989A2B6A7CD5"
+				points: false
+				type: "xp"
+				value: 50L
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "60F2C9C87E87530A"
+			rewards: [{
+				id: "2F1783B9CC944D8E"
+				item: {
+					count: 1
+					id: "gobber2:gobber2_block_end"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "65746F202B6B35F4"
+				points: false
+				type: "xp"
+				value: 10000L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+}

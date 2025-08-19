@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_crimson"
+}
+],
+"result": {
+"id": "minecraft:crimson_planks",
+"count": 2
+}
+}

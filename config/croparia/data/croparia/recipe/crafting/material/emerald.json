@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_emerald"
+}
+],
+"result": {
+"id": "minecraft:emerald",
+"count": 2
+}
+}

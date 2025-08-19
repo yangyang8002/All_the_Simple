@@ -1,0 +1,65 @@
+#Settings for configuring Energy Tablets
+[improved_energy_tablet]
+	#Maximum amount (joules) of energy the Energy Tablet can contain.
+	# Default: 2000000000
+	# Range: 0 ~ 9223372036854775807
+	maxEnergy = 2000000000
+	#Amount (joules) of energy the Energy Tablet can accept per tick.
+	# Default: 10000000
+	# Range: 0 ~ 9223372036854775807
+	chargeRate = 10000000
+
+#Settings for configuring Energy Tablets
+[quantum_energy_tablet]
+	#Maximum amount (joules) of energy the Energy Tablet can contain.
+	# Default: 9000000
+	# Range: 0 ~ 9223372036854775807
+	maxEnergy = 9000000
+	#Amount (joules) of energy the Energy Tablet can accept per tick.
+	# Default: 45000
+	# Range: 0 ~ 9223372036854775807
+	chargeRate = 45000
+
+#Settings for configuring Energy Tablets
+[spectral_energy_tablet]
+	#Maximum amount (joules) of energy the Energy Tablet can contain.
+	# Default: 27000000
+	# Range: 0 ~ 9223372036854775807
+	maxEnergy = 27000000
+	#Amount (joules) of energy the Energy Tablet can accept per tick.
+	# Default: 135000
+	# Range: 0 ~ 9223372036854775807
+	chargeRate = 135000
+
+#Settings for configuring Energy Tablets
+[singular_energy_tablet]
+	#Maximum amount (joules) of energy the Energy Tablet can contain.
+	# Default: 81000000
+	# Range: 0 ~ 9223372036854775807
+	maxEnergy = 81000000
+	#Amount (joules) of energy the Energy Tablet can accept per tick.
+	# Default: 405000
+	# Range: 0 ~ 9223372036854775807
+	chargeRate = 405000
+
+#Settings for configuring Energy Tablets
+[light_absorbing_energy_tablet]
+	#Maximum amount (joules) of energy the Energy Tablet can contain.
+	# Default: 243000000
+	# Range: 0 ~ 9223372036854775807
+	maxEnergy = 243000000
+	#Amount (joules) of energy the Energy Tablet can accept per tick.
+	# Default: 1215000
+	# Range: 0 ~ 9223372036854775807
+	chargeRate = 1215000
+
+#Settings for configuring Energy Tablets
+[photonic_energy_tablet]
+	#Maximum amount (joules) of energy the Energy Tablet can contain.
+	# Default: 729000000
+	# Range: 0 ~ 9223372036854775807
+	maxEnergy = 729000000
+	#Amount (joules) of energy the Energy Tablet can accept per tick.
+	# Default: 3645000
+	# Range: 0 ~ 9223372036854775807
+	chargeRate = 3645000

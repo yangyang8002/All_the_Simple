@@ -1,0 +1,76 @@
+#Base energy storage in Joules of: Solar Generator
+# Default: 288000
+# Range: 1 ~ 9223372036854775807
+advancedSolarGenerator = 288000
+#Base energy storage in Joules of: Solar Generator
+# Default: 864000
+# Range: 1 ~ 9223372036854775807
+hybridSolarGenerator = 864000
+#Base energy storage in Joules of: Solar Generator
+# Default: 2592000
+# Range: 1 ~ 9223372036854775807
+ultimateSolarGenerator = 2592000
+#Base energy storage in Joules of: Solar Generator
+# Default: 7776000
+# Range: 1 ~ 9223372036854775807
+quantumSolarGenerator = 7776000
+#Base energy storage in Joules of: Solar Generator
+# Default: 23328000
+# Range: 1 ~ 9223372036854775807
+spectralSolarGenerator = 23328000
+#Base energy storage in Joules of: Solar Generator
+# Default: 69984000
+# Range: 1 ~ 9223372036854775807
+singularSolarGenerator = 69984000
+#Base energy storage in Joules of: Solar Generator
+# Default: 209292000
+# Range: 1 ~ 9223372036854775807
+lightAbsorbingSolarGenerator = 209292000
+#Base energy storage in Joules of: Solar Generator
+# Default: 629856000
+# Range: 1 ~ 9223372036854775807
+photonicSolarGenerator = 629856000
+#Base energy storage in Joules of: Solar Generator
+# Default: 2000000000
+# Range: 1 ~ 9223372036854775807
+creativeSolarGenerator = 2000000000
+#Base energy storage in Joules of: Advanced Solar Generator
+# Default: 200000
+# Range: 1 ~ 9223372036854775807
+bigAdvancedSolarGenerator = 200000
+#Base energy storage in Joules of: Advanced Solar Generator
+# Default: 5184000
+# Range: 1 ~ 9223372036854775807
+bigHybridSolarGenerator = 5184000
+#Base energy storage in Joules of: Advanced Solar Generator
+# Default: 15552000
+# Range: 1 ~ 9223372036854775807
+bigUltimateSolarGenerator = 15552000
+#Base energy storage in Joules of: Advanced Solar Generator
+# Default: 46656000
+# Range: 1 ~ 9223372036854775807
+bigQuantumSolarGenerator = 46656000
+#Base energy storage in Joules of: Advanced Solar Generator
+# Default: 139968000
+# Range: 1 ~ 9223372036854775807
+bigSpectralSolarGenerator = 139968000
+#Base energy storage in Joules of: Advanced Solar Generator
+# Default: 419904000
+# Range: 1 ~ 9223372036854775807
+bigSingularSolarGenerator = 419904000
+#Base energy storage in Joules of: Advanced Solar Generator
+# Default: 1255752000
+# Range: 1 ~ 9223372036854775807
+bigLightAbsorbingSolarGenerator = 1255752000
+#Base energy storage in Joules of: Advanced Solar Generator
+# Default: 3779136000
+# Range: 1 ~ 9223372036854775807
+bigPhotonicSolarGenerator = 3779136000
+#Base energy storage in Joules of: Advanced Solar Generator
+# Default: 12000000000
+# Range: 1 ~ 9223372036854775807
+bigCreativeSolarGenerator = 12000000000
+#Base energy storage in Joules of: Wind Generator
+# Default: 200000
+# Range: 1 ~ 9223372036854775807
+windGenerator = 200000

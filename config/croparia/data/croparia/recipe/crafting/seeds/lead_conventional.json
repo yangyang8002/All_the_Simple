@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+"key": {
+"C": {
+"item": "croparia:croparia3"
+},
+"M": {
+"tag": "c:ingots/lead"
+},
+"S": {
+"tag": "croparia:seed_ingredient"
+}
+},
+"pattern": [
+"MSM",
+"SCS",
+"MSM"
+],
+"result": {
+"id": "croparia:seed_crop_lead_conventional",
+"count": 1
+}
+}

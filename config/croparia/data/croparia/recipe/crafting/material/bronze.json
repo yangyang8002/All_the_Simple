@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_bronze"
+}
+],
+"result": {
+"id": "mekanism:ingot_bronze",
+"count": 2
+}
+}

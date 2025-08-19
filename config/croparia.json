@@ -1,0 +1,10 @@
+{
+  "cropPath": "crops",
+  "packPath": "config\\croparia",
+  "dumpPath": "croparia",
+  "override": true,
+  "fruitUse": true,
+  "infusor": true,
+  "ritual": true,
+  "blacklist": []
+}

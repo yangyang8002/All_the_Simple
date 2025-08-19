@@ -1,0 +1,47 @@
+[doll]
+	#Yellow gift box weights, yellow gift boxes can draw out vanilla humanoids doll
+	#黄色礼品盒权重，黄色礼品盒可以抽出原版人形生物玩偶
+	# Default: 10
+	# Range: 0 ~ 100
+	YellowDollGiftBoxWeight = 10
+	#Green gift box weights, green gift boxes can draw out vanilla neutral friendly mobs doll
+	#绿色礼品盒权重，绿色礼品盒可以抽出原版中立友好生物玩偶
+	# Default: 10
+	# Range: 0 ~ 100
+	GreenDollGiftBoxWeight = 10
+	#Purple gift box weights, purple gift boxes can draw out vanilla hostile mobs doll
+	#紫色礼品盒权重，紫色礼品盒可以抽出原版敌对生物玩偶
+	# Default: 80
+	# Range: 0 ~ 100
+	PurpleDollGiftBoxWeight = 80
+	#Whether dolls can be thrown by players
+	#玩偶是否可以被玩家丢出
+	DollCanBeThrown = true
+	#Whether dolls can be pushed by water flow
+	#玩偶是否会被水流推动
+	DollAffectedByWater = true
+	#Whether dolls are affected by gravity
+	#玩偶是否受重力影响
+	DollAffectedByGravity = true
+	#Whether throwing dolls produces particle effects
+	#丢出玩偶时是否产生粒子效果
+	DollThrowParticleEffect = true
+	#Whether thrown dolls can knockback other entities
+	#被丢出的玩偶是否能击退其他实体
+	DollCanKnockbackEntities = true
+	#The knockback force of thrown dolls, the larger the value, the stronger the knockback effect
+	#被丢出的玩偶的击退效果强度，数值越大击退效果越强
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	DollKnockbackForce = 1.0
+	#Whether dolls can be placed directly on other entities
+	#玩偶是否可以直接放置在其他实体上
+	DollCanMountEntities = true
+	#Enable dolls spawning on phantoms
+	#启用幻翼附带玩偶生成
+	EnablePhantomDollSpawn = true
+	#Chance for phantom to spawn with a doll
+	#幻翼附带玩偶的生成概率
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	PhantomDollSpawnChance = 0.03

@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+"key": {
+"C": {
+"item": "croparia:croparia6"
+},
+"M": {
+"item": "minecraft:totem_of_undying"
+},
+"S": {
+"tag": "croparia:seed_ingredient"
+}
+},
+"pattern": [
+"MSM",
+"SCS",
+"MSM"
+],
+"result": {
+"id": "croparia:seed_crop_totem",
+"count": 1
+}
+}

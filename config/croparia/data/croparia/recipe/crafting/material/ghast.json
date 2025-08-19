@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_ghast"
+}
+],
+"result": {
+"id": "minecraft:ghast_tear",
+"count": 2
+}
+}

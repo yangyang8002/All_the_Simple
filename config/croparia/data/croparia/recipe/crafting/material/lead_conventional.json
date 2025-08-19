@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_lead_conventional"
+}
+],
+"result": {
+"id": "mekanism:ingot_lead",
+"count": 2
+}
+}

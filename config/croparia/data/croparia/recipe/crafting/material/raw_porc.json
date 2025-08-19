@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_raw_porc"
+}
+],
+"result": {
+"id": "minecraft:porkchop",
+"count": 2
+}
+}

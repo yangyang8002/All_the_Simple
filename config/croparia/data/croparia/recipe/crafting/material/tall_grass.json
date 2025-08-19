@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+{
+"item": "croparia:fruit_tall_grass"
+}
+],
+"result": {
+"id": "minecraft:tall_grass",
+"count": 2
+}
+}

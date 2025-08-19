@@ -1,0 +1,19 @@
+{
+	id: "48EAA15183BE271C"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "3F8010AB1A38C606", item: { count: 1, id: "iceandfire:dragonegg_red" } }
+		{ id: "5C9069BBAAB02F8E", item: { count: 1, id: "iceandfire:dragonegg_green" } }
+		{ id: "5564CC9D7F05A08C", item: { count: 1, id: "iceandfire:dragonegg_bronze" } }
+		{ id: "60FC3882B454AA0A", item: { count: 1, id: "iceandfire:dragonegg_gray" } }
+		{ id: "2E011C14D5F52C20", item: { count: 1, id: "iceandfire:dragonegg_blue" } }
+		{ id: "57A50EE8A2E078C3", item: { count: 1, id: "iceandfire:dragonegg_white" } }
+		{ id: "75AC82EBA6C797EB", item: { count: 1, id: "iceandfire:dragonegg_sapphire" } }
+		{ id: "475FD7A120FC6FC9", item: { count: 1, id: "iceandfire:dragonegg_silver" } }
+		{ id: "2E649CAA84005888", item: { count: 1, id: "iceandfire:dragonegg_electric" } }
+		{ id: "20F9FC44109C8838", item: { count: 1, id: "iceandfire:dragonegg_amethyst" } }
+		{ id: "364ACC36ED637AEB", item: { count: 1, id: "iceandfire:dragonegg_copper" } }
+		{ id: "0BDE96A4F148002D", item: { count: 1, id: "iceandfire:dragonegg_black" } }
+	]
+}
