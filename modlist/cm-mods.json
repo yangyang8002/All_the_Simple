@@ -225,11 +225,6 @@
         "version": "0.3.6+mc1.21.1"
     },
     {
-        "modid": "addonslib",
-        "name": "Macaw's Biomes O' Plenty",
-        "version": "1.21.1-1.2"
-    },
-    {
         "modid": "minecraft",
         "name": "Mechanicals Lib",
         "version": "1.0.10"
@@ -350,19 +345,9 @@
         "version": "3.3.0"
     },
     {
-        "modid": "glitchcore",
-        "name": "Macaw's Furnitures - BOP",
-        "version": "1.21.1-1.0"
-    },
-    {
         "modid": "mcwroofs",
         "name": "Macaw's Roofs",
         "version": "2.3.2"
-    },
-    {
-        "modid": "mcwroofs",
-        "name": "Macaw's Roofs - BOP",
-        "version": "1.21-1.0"
     },
     {
         "modid": "mcwfences",
@@ -370,19 +355,9 @@
         "version": "1.2.0"
     },
     {
-        "modid": "addonslib",
-        "name": "Macaw's Biomes O' Plenty",
-        "version": "1.21.1-1.2"
-    },
-    {
         "modid": "mcwbridges",
         "name": "Macaw's Bridges",
         "version": "3.1.1"
-    },
-    {
-        "modid": "addonslib",
-        "name": "Macaw's Biomes O' Plenty",
-        "version": "1.21.1-1.2"
     },
     {
         "modid": "mcwlights",
@@ -600,16 +575,6 @@
         "version": "2.10.15"
     },
     {
-        "modid": "minecraft",
-        "name": "Gobber Delight",
-        "version": "2.1.0"
-    },
-    {
-        "modid": "minecraft",
-        "name": "Gobber Delight",
-        "version": "2.2.0"
-    },
-    {
         "modid": "farmersdelight",
         "name": "Expanded Delight",
         "version": "0.1.3.2"
@@ -658,16 +623,6 @@
         "modid": "minecraft",
         "name": "Yes Steve Model",
         "version": "${file.jarVersion}"
-    },
-    {
-        "modid": "minecraft",
-        "name": "The Twilight Forest",
-        "version": "4.7.3196"
-    },
-    {
-        "modid": "twilightforest",
-        "name": "Twilight Flavors & Delight",
-        "version": "3.0.6"
     },
     {
         "modid": "minecraft",
@@ -868,11 +823,6 @@
         "modid": "bagus_lib",
         "name": "TofuCraftReload",
         "version": "1.21.1-12.15.3.0"
-    },
-    {
-        "modid": "terrablender",
-        "name": "Biomes O' Plenty",
-        "version": "21.1.0.12"
     },
     {
         "modid": "minecraft",
