@@ -1,0 +1,471 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "783A875770010391"
+	group: "72CAE23E66537A37"
+	icon: {
+		id: "all_the_simple_challenges:allthesimple_core"
+	}
+	id: "783A875770010391"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "30EC88CE89CCE78B"
+			tasks: [{
+				count: 8L
+				id: "61DED75DEC57A79E"
+				item: { count: 8, id: "all_the_simple_challenges:cobblestone_1" }
+				type: "item"
+			}]
+			x: -9.9d
+			y: -1.6499999999999997d
+		}
+		{
+			dependencies: ["30EC88CE89CCE78B"]
+			id: "5D0E0AB8404AC84C"
+			rewards: [{
+				id: "2676F4BB2A5E008E"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:cobblestone_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "702F0AEE652D35DD"
+				item: { count: 8, id: "all_the_simple_challenges:cobblestone_2" }
+				type: "item"
+			}]
+			x: -9.57d
+			y: -2.64d
+		}
+		{
+			dependencies: ["5D0E0AB8404AC84C"]
+			id: "586E3EAA914CB4AC"
+			rewards: [{
+				id: "4A0DF345890D39C8"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:cobblestone_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "223D02CFB9441C82"
+				item: { count: 8, id: "all_the_simple_challenges:cobblestone_3" }
+				type: "item"
+			}]
+			x: -8.91d
+			y: -3.3d
+		}
+		{
+			dependencies: ["586E3EAA914CB4AC"]
+			id: "73F0961447AF32BF"
+			rewards: [{
+				id: "70CF0382BC8107FF"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:cobblestone_4"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "08EDC80CCAB678B9"
+				item: { count: 8, id: "all_the_simple_challenges:cobblestone_4" }
+				type: "item"
+			}]
+			x: -7.92d
+			y: -3.3d
+		}
+		{
+			dependencies: ["73F0961447AF32BF"]
+			id: "2507FE47F1C9144A"
+			rewards: [{
+				id: "5AF7882A697FCEF2"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:cobblestone_5"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2E80D2B2513B9B7F"
+				item: { count: 8, id: "all_the_simple_challenges:cobblestone_5" }
+				type: "item"
+			}]
+			x: -7.26d
+			y: -2.64d
+		}
+		{
+			dependencies: ["2507FE47F1C9144A"]
+			id: "16019EB1A3269134"
+			rewards: [{
+				id: "6061CA0E9130E01E"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:cobblestone_6"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "30E995D4D5DF16F8"
+				item: { count: 8, id: "all_the_simple_challenges:cobblestone_6" }
+				type: "item"
+			}]
+			x: -6.93d
+			y: -1.65d
+		}
+		{
+			dependencies: ["16019EB1A3269134"]
+			id: "3C861CE429F0487D"
+			rewards: [{
+				id: "6B7C70E8187FE740"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:cobblestone_7"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7DBF57313116F321"
+				item: { count: 8, id: "all_the_simple_challenges:cobblestone_7" }
+				type: "item"
+			}]
+			x: -6.6d
+			y: -0.66d
+		}
+		{
+			dependencies: ["3C861CE429F0487D"]
+			id: "2C19E9DBC75EB8A2"
+			rewards: [{
+				id: "053CD331C0D307EF"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:cobblestone_8"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "43FB3618E4A59D4F"
+				item: { count: 8, id: "all_the_simple_challenges:cobblestone_8" }
+				type: "item"
+			}]
+			x: -5.94d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C19E9DBC75EB8A2"]
+			id: "11A34069A8501991"
+			rewards: [
+				{
+					id: "794C315AFDBA1E1F"
+					item: {
+						count: 1
+						id: "all_the_simple_challenges:cobblestone_9"
+					}
+					type: "item"
+				}
+				{
+					id: "418DAD2658EB2CA8"
+					item: {
+						count: 1
+						id: "all_the_simple_challenges:diamondblock_1"
+					}
+					type: "item"
+				}
+				{
+					id: "036F569EEF78E9ED"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			tasks: [{
+				id: "30FB46C225504978"
+				item: { count: 8, id: "all_the_simple_challenges:cobblestone_9" }
+				type: "item"
+			}]
+			x: -4.95d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11A34069A8501991"]
+			id: "65A3EB1B2FCE37E6"
+			rewards: [{
+				id: "2974CFB654D8E131"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:diamondblock_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7F2B94C8A6E56441"
+				item: { count: 8, id: "all_the_simple_challenges:diamondblock_1" }
+				type: "item"
+			}]
+			x: -4.29d
+			y: -0.66d
+		}
+		{
+			dependencies: ["65A3EB1B2FCE37E6"]
+			id: "6C525027B4FDB8E2"
+			rewards: [{
+				id: "344D8D582C0B3570"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:diamondblock_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "3829F1CC1F3331E4"
+				item: { count: 8, id: "all_the_simple_challenges:diamondblock_2" }
+				type: "item"
+			}]
+			x: -3.96d
+			y: -1.65d
+		}
+		{
+			dependencies: ["6C525027B4FDB8E2"]
+			id: "77C3442947135A79"
+			rewards: [{
+				id: "70F5B48611C35315"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:diamondblock_3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "56A5C05CB03533BF"
+				item: { count: 8, id: "all_the_simple_challenges:diamondblock_3" }
+				type: "item"
+			}]
+			x: -3.63d
+			y: -2.64d
+		}
+		{
+			dependencies: ["77C3442947135A79"]
+			id: "41E559356A9B7E7C"
+			rewards: [{
+				id: "26C7B3171EF7CE3F"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:diamondblock_4"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "35FCF1AE6A3830E9"
+				item: { count: 8, id: "all_the_simple_challenges:diamondblock_4" }
+				type: "item"
+			}]
+			x: -2.97d
+			y: -3.3d
+		}
+		{
+			dependencies: ["41E559356A9B7E7C"]
+			id: "4EF7E137163D1137"
+			rewards: [{
+				id: "047CA03F06B2962C"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:diamondblock_5"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0CE16C9E4D577AE7"
+				item: { count: 8, id: "all_the_simple_challenges:diamondblock_5" }
+				type: "item"
+			}]
+			x: -1.98d
+			y: -3.3d
+		}
+		{
+			dependencies: ["4EF7E137163D1137"]
+			id: "74E71A153B5D7762"
+			rewards: [{
+				id: "3B6BCB107D00C3EA"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:diamondblock_6"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "49C5D7F185354CBB"
+				item: { count: 8, id: "all_the_simple_challenges:diamondblock_6" }
+				type: "item"
+			}]
+			x: -1.32d
+			y: -2.64d
+		}
+		{
+			dependencies: ["74E71A153B5D7762"]
+			id: "6DB516C11D9ED164"
+			rewards: [{
+				id: "0134BF4D6E22FE85"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:diamondblock_7"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "15EB2F06B1A548BF"
+				item: { count: 8, id: "all_the_simple_challenges:diamondblock_7" }
+				type: "item"
+			}]
+			x: -0.99d
+			y: -1.65d
+		}
+		{
+			dependencies: ["6DB516C11D9ED164"]
+			id: "118B91892D84C37E"
+			rewards: [{
+				id: "1116A3C5C620DB42"
+				item: {
+					count: 1
+					id: "all_the_simple_challenges:diamondblock_8"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5B325B8E0A958C5C"
+				item: { count: 8, id: "all_the_simple_challenges:diamondblock_8" }
+				type: "item"
+			}]
+			x: -0.66d
+			y: -0.66d
+		}
+		{
+			dependencies: ["118B91892D84C37E"]
+			id: "0400F5072A92DFDD"
+			rewards: [
+				{
+					id: "36622F06369F9CE0"
+					item: {
+						count: 1
+						id: "all_the_simple_challenges:diamondblock_9"
+					}
+					type: "item"
+				}
+				{
+					id: "744902CA67BD5DAC"
+					item: {
+						count: 1
+						id: "all_the_simple_challenges:netheritenetherstar"
+					}
+					type: "item"
+				}
+				{
+					id: "08FCA56AC86DFFDC"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "3F9BDE49BCD59433"
+				item: { count: 8, id: "all_the_simple_challenges:diamondblock_9" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3863E7FE68494665"
+			rewards: [
+				{
+					id: "4C1096EEAFE53158"
+					item: {
+						count: 1
+						id: "all_the_simple_challenges:netheritenetherstar"
+					}
+					type: "item"
+				}
+				{
+					id: "67F0D7D7EC53ECA8"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "4224604D86D704F2"
+				item: { count: 4, id: "all_the_simple_challenges:netheritenetherstar" }
+				type: "item"
+			}]
+			x: -7.92d
+			y: 1.65d
+		}
+		{
+			dependencies: ["3863E7FE68494665"]
+			id: "7A2E153759E7CA8D"
+			rewards: [
+				{
+					id: "1CEB35D8C7095BA9"
+					item: {
+						count: 1
+						id: "all_the_simple_challenges:primary_core"
+					}
+					type: "item"
+				}
+				{
+					id: "7200C7284BE9EFC4"
+					type: "xp_levels"
+					xp_levels: 99
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0203E84036316EAE"
+				item: { count: 4, id: "all_the_simple_challenges:primary_core" }
+				type: "item"
+			}]
+			x: -5.61d
+			y: 1.65d
+		}
+		{
+			dependencies: ["7A2E153759E7CA8D"]
+			id: "4C0300C9F01425A0"
+			rewards: [
+				{
+					id: "2BC53712758B02DB"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					auto: "enabled"
+					description: ""
+					id: "0E1471E2C0DF63BE"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				id: "6BA6625A6521B7B2"
+				item: { count: 1, id: "all_the_simple_challenges:allthesimple_core" }
+				type: "item"
+			}]
+			x: -3.3d
+			y: 1.65d
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "60E04F5B9089A9DD"
+	group: "72CAE23E66537A37"
+	id: "60E04F5B9089A9DD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "15DC5FD2B687F6A9"
+		rewards: [
+			{
+				exclude_from_claim_all: true
+				id: "50D9F178F3DDE420"
+				table_id: 7677037549189957298L
+				type: "choice"
+			}
+			{
+				count: 128
+				id: "4DFC495922A64027"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}
+		]
+		tasks: [{
+			biome: "all_the_simple_challenges:atsc_forest"
+			icon: {
+				id: "all_the_simple_challenges:red_light"
+			}
+			id: "5F5E6A31AC8DC1A8"
+			type: "biome"
+		}]
+		x: -17.49d
+		y: 0.0d
+	}]
+}

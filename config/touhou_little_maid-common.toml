@@ -81,6 +81,18 @@
 	#These entries configure the container returned after a maid has eaten
 	#Eg: ["minecraft:beetroot_soup", "minecraft:bowl"]
 	MaidEatenReturnContainerList = []
+	#Recognition distance of a maid under the gun task, Suitable for sniper rifles
+	# Default: 64
+	# Range: 0 ~ 512
+	MaidGunLongDistance = 64
+	#Recognition distance of a maid under the gun task, Suitable for most types
+	# Default: 48
+	# Range: 0 ~ 512
+	MaidGunMediumDistance = 48
+	#Recognition distance of a maid under the gun task, Suitable for pistols and shotguns
+	# Default: 32
+	# Range: 0 ~ 512
+	MaidGunNearDistance = 32
 
 [chair]
 	#Chair can switch models freely

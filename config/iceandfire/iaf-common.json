@@ -1,186 +1,183 @@
 {
   "dragon": {
-    "iceandfire.dragon.maxHealth": 500.0,
-    "iceandfire.dragon.eggBornTime": 7200,
-    "iceandfire.dragon.maxPathingNodes": 5000,
-    "iceandfire.dragon.villagersFear": true,
-    "iceandfire.dragon.animalsFear": true,
+    "maxHealth": 500.0,
+    "eggBornTime": 7200,
+    "maxPathingNodes": 5000,
+    "villagersFear": true,
+    "animalsFear": true,
     "": {},
-    "iceandfire.dragon.generate.skeletons": true,
-    "iceandfire.dragon.generate.skeletonChance": 0.0033333333333333335,
-    "iceandfire.dragon.generate.denGoldAmount": 0.25,
-    "iceandfire.dragon.generate.oreRatio": 0.022222222222222223,
-    "iceandfire.dragon.griefing": true,
-    "iceandfire.dragon.tamedGriefing": true,
-    "iceandfire.dragon.flapNoiseDistance": 4,
-    "iceandfire.dragon.fluteDistance": 8,
-    "iceandfire.dragon.attackDamage": 17,
-    "iceandfire.dragon.attackDamageFire": 2.0,
-    "iceandfire.dragon.attackDamageIce": 2.5,
-    "iceandfire.dragon.attackDamageLightning": 3.5,
-    "iceandfire.dragon.maxFlight": 256,
-    "iceandfire.dragon.goldSearchLength": 30,
-    "iceandfire.dragon.canHealFromBiting": false,
-    "iceandfire.dragon.canDespawn": true,
-    "iceandfire.dragon.sleep": true,
-    "iceandfire.dragon.digWhenStuck": true,
-    "iceandfire.dragon.breakBlockCooldown": 5,
-    "iceandfire.dragon.targetSearchLength": 128,
-    "iceandfire.dragon.wanderFromHomeDistance": 40,
-    "iceandfire.dragon.hungerTickRate": 3000,
-    "iceandfire.dragon.blockBreakingDropChance": 0.1,
-    "iceandfire.dragon.explosiveBreath": false,
-    "iceandfire.dragon.chunkLoadSummonCrystal": true,
-    "iceandfire.dragon.dragonFlightSpeedMod": 1.0,
-    "iceandfire.dragon.maxTamedDragonAge": 128,
-    "iceandfire.dragon.maxBreathTimeMul": 2.0,
-    "iceandfire.dragon.loot.skull": true,
-    "iceandfire.dragon.loot.heart": true,
-    "iceandfire.dragon.loot.blood": true
+    "generate.skeletons": true,
+    "generate.skeletonChance": 0.0033333333333333335,
+    "generate.denGoldAmount": 0.25,
+    "generate.oreRatio": 0.022222222222222223,
+    "griefing": true,
+    "tamedGriefing": true,
+    "flapNoiseDistance": 4,
+    "fluteDistance": 8,
+    "attackDamage": 17,
+    "attackDamageFire": 2.0,
+    "attackDamageIce": 2.5,
+    "attackDamageLightning": 3.5,
+    "maxFlight": 256,
+    "goldSearchLength": 30,
+    "canHealFromBiting": false,
+    "canDespawn": true,
+    "sleep": true,
+    "digWhenStuck": true,
+    "breakBlockCooldown": 5,
+    "targetSearchLength": 128,
+    "wanderFromHomeDistance": 40,
+    "hungerTickRate": 3000,
+    "blockBreakingDropChance": 0.1,
+    "explosiveBreath": false,
+    "chunkLoadSummonCrystal": true,
+    "dragonFlightSpeedMod": 1.0,
+    "maxTamedDragonAge": 128,
+    "maxBreathTimeMul": 2.0,
+    "neutralToPlayer": false,
+    "enableBrushDragonScales": true,
+    "maxBrushScalesDropPerTime": 2,
+    "brushTimesMul": 1.0,
+    "loot.skull": true,
+    "loot.heart": true,
+    "loot.blood": true
   },
   "hippogryphs": {
-    "iceandfire.hippogryphs.spawn": true,
-    "iceandfire.hippogryphs.spawnWeight": 2,
-    "iceandfire.hippogryphs.fightSpeedMod": 1.0
+    "spawn": true,
+    "spawnWeight": 2,
+    "fightSpeedMod": 1.0
   },
   "pixie": {
-    "iceandfire.pixie.size": 5,
-    "iceandfire.pixie.stealItems": true
+    "size": 5,
+    "stealItems": false
   },
   "cyclops": {
-    "iceandfire.cyclops.spawnWanderingChance": 0.0011111111111111111,
-    "iceandfire.cyclops.sheepSearchLength": 17,
-    "iceandfire.cyclops.maxHealth": 150.0,
-    "iceandfire.cyclops.attackDamage": 15.0,
-    "iceandfire.cyclops.biteDamage": 40.0,
-    "iceandfire.cyclops.griefing": true
+    "spawnWanderingChance": 0.0011111111111111111,
+    "sheepSearchLength": 17,
+    "maxHealth": 150.0,
+    "attackDamage": 15.0,
+    "biteDamage": 40.0,
+    "griefing": true
   },
   "siren": {
-    "iceandfire.siren.maxHealth": 50.0,
-    "iceandfire.siren.maxSingTime": 12000,
-    "iceandfire.siren.timeBetweenSongs": 2000
+    "maxHealth": 50.0,
+    "maxSingTime": 12000,
+    "timeBetweenSongs": 2000
   },
   "gorgon": {
-    "iceandfire.gorgon.maxHealth": 100.0
+    "maxHealth": 100.0
   },
   "deathworm": {
-    "iceandfire.deathworm.spawnChance": 0.03333333333333333,
-    "iceandfire.deathworm.targetSearchLength": 48,
-    "iceandfire.deathworm.maxHealth": 10.0,
-    "iceandfire.deathworm.attackDamage": 3.0,
-    "iceandfire.deathworm.attackMonsters": true
+    "spawnChance": 0.03333333333333333,
+    "targetSearchLength": 48,
+    "maxHealth": 10.0,
+    "attackDamage": 3.0,
+    "attackMonsters": true
   },
   "cockatrice": {
-    "iceandfire.cockatrice.spawn": true,
-    "iceandfire.cockatrice.spawnWeight": 4,
-    "iceandfire.cockatrice.chickenSearchLength": 32,
-    "iceandfire.cockatrice.eggChance": 0.03333333333333333,
-    "iceandfire.cockatrice.maxHealth": 40.0,
-    "iceandfire.cockatrice.chickensLayRottenEggs": true
+    "spawn": true,
+    "spawnWeight": 4,
+    "chickenSearchLength": 32,
+    "eggChance": 0.03333333333333333,
+    "maxHealth": 40.0,
+    "chickensLayRottenEggs": true
   },
   "bird": {
-    "iceandfire.bird.spawnChance": 0.0125,
-    "iceandfire.bird.targetSearchLength": 48,
-    "iceandfire.bird.featherDropChance": 0.04,
-    "iceandfire.bird.featherAttackDamage": 1.0,
-    "iceandfire.bird.flockLength": 40,
-    "iceandfire.bird.flightHeight": 80,
-    "iceandfire.bird.attackAnimals": false
+    "spawnChance": 0.0125,
+    "targetSearchLength": 48,
+    "featherDropChance": 0.04,
+    "featherAttackDamage": 1.0,
+    "flockLength": 40,
+    "flightHeight": 80,
+    "attackAnimals": false
   },
   "troll": {
-    "iceandfire.troll.spawn": true,
-    "iceandfire.troll.spawnWeight": 60,
-    "iceandfire.troll.dropWeapon": true,
-    "iceandfire.troll.maxHealth": 50.0,
-    "iceandfire.troll.attackDamage": 10.0
-  },
-  "myrmex": {
-    "iceandfire.myrmex.pregnantTicks": 2500,
-    "iceandfire.myrmex.eggTicks": 3000,
-    "iceandfire.myrmex.larvaTicks": 35000,
-    "iceandfire.myrmex.colonySize": 80,
-    "iceandfire.myrmex.maximumWanderRadius": 50,
-    "iceandfire.myrmex.hiveIgnoreDaytime": false,
-    "iceandfire.myrmex.baseAttackDamage": 3.0
+    "spawn": true,
+    "spawnWeight": 60,
+    "dropWeapon": true,
+    "maxHealth": 50.0,
+    "attackDamage": 10.0
   },
   "amphithere": {
-    "iceandfire.amphithere.spawn": true,
-    "iceandfire.amphithere.spawnWeight": 50,
-    "iceandfire.amphithere.villagerSearchLength": 48.0,
-    "iceandfire.amphithere.tameTime": 400,
-    "iceandfire.amphithere.flightSpeed": 1.75,
-    "iceandfire.amphithere.maxHealth": 50.0,
-    "iceandfire.amphithere.attackDamage": 7.0
+    "spawn": true,
+    "spawnWeight": 50,
+    "villagerSearchLength": 48.0,
+    "tameTime": 400,
+    "flightSpeed": 1.75,
+    "maxHealth": 50.0,
+    "attackDamage": 7.0
   },
   "seaSerpent": {
-    "iceandfire.seaSerpent.spawnChance": 0.004,
-    "iceandfire.seaSerpent.griefing": true,
-    "iceandfire.seaSerpent.baseHealth": 20.0,
-    "iceandfire.seaSerpent.attackDamage": 4.0
+    "spawnChance": 0.004,
+    "griefing": true,
+    "baseHealth": 20.0,
+    "attackDamage": 4.0
   },
   "lich": {
-    "iceandfire.lich.spawn": true,
-    "iceandfire.lich.spawnWeight": 4,
-    "iceandfire.lich.spawnChance": 0.03333333333333333
+    "spawn": true,
+    "spawnWeight": 4,
+    "spawnChance": 0.03333333333333333
   },
   "hydra": {
-    "iceandfire.hydra.maxHealth": 250.0
+    "maxHealth": 250.0
   },
   "hippocampus": {
-    "iceandfire.hippocampus.spawnChance": 0.025,
-    "iceandfire.hippocampus.swimSpeedMod": 1.0
+    "spawnChance": 0.025,
+    "swimSpeedMod": 1.0
   },
   "ghost": {
-    "iceandfire.ghost.maxHealth": 30.0,
-    "iceandfire.ghost.attackDamage": 3.0,
-    "iceandfire.ghost.fromPlayerDeaths": true
+    "maxHealth": 30.0,
+    "attackDamage": 3.0,
+    "fromPlayerDeaths": true
   },
   "tools": {
-    "iceandfire.tools.dragonFireAbility": true,
-    "iceandfire.tools.dragonIceAbility": true,
-    "iceandfire.tools.dragonLightningAbility": true,
-    "iceandfire.tools.dragonsteelFireDuration": 15,
-    "iceandfire.tools.dragonBloodFireDuration": 5,
-    "iceandfire.tools.dragonsteelFrozenDuration": 300,
-    "iceandfire.tools.dragonBloodFrozenDuration": 100,
-    "iceandfire.tools.phantasmalBladeAbility": true
+    "dragonFireAbility": true,
+    "dragonIceAbility": true,
+    "dragonLightningAbility": true,
+    "dragonsteelFireDuration": 15,
+    "dragonBloodFireDuration": 5,
+    "dragonsteelFrozenDuration": 300,
+    "dragonBloodFrozenDuration": 100,
+    "phantasmalBladeAbility": true,
+    "": {},
+    "dragonLightningSearchRange": 10.0,
+    "dragonLightningDamageReduction": 0.5,
+    "dragonLightningMaxSearchCount": 10
   },
   "armors": {
-    "iceandfire.armors.dragonSteelBaseDamage": 25.0,
-    "iceandfire.armors.dragonsteelArmorToughness": 6.0,
-    "iceandfire.armors.dragonsteelHelmetArmor": 7,
-    "iceandfire.armors.dragonsteelHelmetDurability": 1760,
-    "iceandfire.armors.dragonsteelChestplateArmor": 12,
-    "iceandfire.armors.dragonsteelChestplateDurability": 2560,
-    "iceandfire.armors.dragonsteelLeggingsArmor": 9,
-    "iceandfire.armors.dragonsteelLeggingsDurability": 2400,
-    "iceandfire.armors.dragonsteelBootsArmor": 6,
-    "iceandfire.armors.dragonsteelBootsDurability": 2080,
-    "iceandfire.armors.dragonsteelArmorEnchantability": 30,
-    "iceandfire.armors.dragonsteelArmorKnockbackResistance": 0.1,
-    "iceandfire.armors.dragonSteelBaseDurability": 8000
+    "dragonSteelBaseDamage": 25.0,
+    "dragonSteelBaseDurability": 8000,
+    "dragonsteelArmorToughness": 6.0,
+    "dragonsteelHelmetArmor": 7,
+    "dragonsteelHelmetDurability": 1760,
+    "dragonsteelChestplateArmor": 12,
+    "dragonsteelChestplateDurability": 2560,
+    "dragonsteelLeggingsArmor": 9,
+    "dragonsteelLeggingsDurability": 2400,
+    "dragonsteelBootsArmor": 6,
+    "dragonsteelBootsDurability": 2080,
+    "dragonsteelArmorEnchantability": 30,
+    "dragonsteelArmorKnockbackResistance": 0.1
   },
   "worldgen": {
-    "iceandfire.worldgen.dangerousDistanceLimit": 1000.0,
-    "iceandfire.worldgen.generateFireDragonCaveChance": 1.0,
-    "iceandfire.worldgen.generateFireDragonRoostChance": 1.0,
-    "iceandfire.worldgen.generateIceDragonCaveChance": 1.0,
-    "iceandfire.worldgen.generateIceDragonRoostChance": 1.0,
-    "iceandfire.worldgen.generateLightningDragonCaveChance": 1.0,
-    "iceandfire.worldgen.generateLightningDragonRoostChance": 1.0,
-    "iceandfire.worldgen.generateCyclopsCaveChance": 1.0,
-    "iceandfire.worldgen.generateGorgonTempleChance": 1.0,
-    "iceandfire.worldgen.generateGraveYardChance": 1.0,
-    "iceandfire.worldgen.generateHydraCaveChance": 1.0,
-    "iceandfire.worldgen.generateMausoleumChance": 1.0,
-    "iceandfire.worldgen.generateMyemexHiveDesertChance": 1.0,
-    "iceandfire.worldgen.generateMyemexHiveJungleChance": 1.0,
-    "iceandfire.worldgen.generatePixieVillageChance": 1.0,
-    "iceandfire.worldgen.generateSirenIslandChance": 1.0
+    "dangerousDistanceLimit": 1000.0,
+    "generateFireDragonCaveChance": 1.0,
+    "generateFireDragonRoostChance": 1.0,
+    "generateIceDragonCaveChance": 1.0,
+    "generateIceDragonRoostChance": 1.0,
+    "generateLightningDragonCaveChance": 1.0,
+    "generateLightningDragonRoostChance": 1.0,
+    "generateCyclopsCaveChance": 1.0,
+    "generateGorgonTempleChance": 1.0,
+    "generateGraveYardChance": 1.0,
+    "generateHydraCaveChance": 1.0,
+    "generateMausoleumChance": 1.0,
+    "generatePixieVillageChance": 1.0,
+    "generateSirenIslandChance": 1.0
   },
   "misc": {
-    "iceandfire.misc.enableDragonSeeker": true,
-    "iceandfire.misc.dreadQueenMaxHealth": 750.0
+    "enableDragonSeeker": true,
+    "dreadQueenMaxHealth": 750.0
   },
-  "version": 2
+  "version": 3
 }

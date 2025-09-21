@@ -1,19 +1,4 @@
 [doll]
-	#Yellow gift box weights, yellow gift boxes can draw out vanilla humanoids doll
-	#黄色礼品盒权重，黄色礼品盒可以抽出原版人形生物玩偶
-	# Default: 10
-	# Range: 0 ~ 100
-	YellowDollGiftBoxWeight = 10
-	#Green gift box weights, green gift boxes can draw out vanilla neutral friendly mobs doll
-	#绿色礼品盒权重，绿色礼品盒可以抽出原版中立友好生物玩偶
-	# Default: 10
-	# Range: 0 ~ 100
-	GreenDollGiftBoxWeight = 10
-	#Purple gift box weights, purple gift boxes can draw out vanilla hostile mobs doll
-	#紫色礼品盒权重，紫色礼品盒可以抽出原版敌对生物玩偶
-	# Default: 80
-	# Range: 0 ~ 100
-	PurpleDollGiftBoxWeight = 80
 	#Whether dolls can be thrown by players
 	#玩偶是否可以被玩家丢出
 	DollCanBeThrown = true
@@ -45,3 +30,8 @@
 	# Default: 0.03
 	# Range: 0.0 ~ 1.0
 	PhantomDollSpawnChance = 0.03
+	#Ticks for phantom spawned doll to exist, set to 0 to disable despawn
+	#幻翼附带玩偶的存在时间，设为 -1 则不会消失
+	# Default: 3600
+	# Range: > -1
+	PhantomDollExistTicks = 3600

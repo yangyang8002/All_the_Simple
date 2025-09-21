@@ -52,18 +52,8 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "l2hostility": {
-    "mob": true
-  },
   "apothic_spawners": {
     "spawner": true
-  },
-  "jade_access": {
-    "held_item": true,
-    "sign": true,
-    "block": true,
-    "entity": true,
-    "entity_variant": true
   },
   "exdeorum": {
     "infested_leaves": true,
@@ -88,19 +78,6 @@
     "block_properties": false,
     "mod_name": true
   },
-  "apotheosis": {
-    "adventure": true
-  },
-  "iceandfire": {
-    "multipart": true,
-    "dragon": true
-  },
-  "apothic_enchanting": {
-    "ench": true
-  },
-  "balm": {
-    "jade": true
-  },
   "custommachinery": {
     "machine_component_provider": true
   },
@@ -116,13 +93,6 @@
     "crafting_monitor": true,
     "part_name": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
   "projecte": {
     "emc_provider": true
   },
@@ -133,20 +103,66 @@
     "energy": true,
     "tooltip_renderer": true
   },
-  "toms_storage": {
-    "inventory_config": true,
-    "inventory_connector": true
-  },
   "touhou_little_maid": {
     "maid": true,
     "shrine_lamp": true
   },
+  "waystones": {
+    "waystone": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "l2hostility": {
+    "mob": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "tombstone": {
+    "decorative_graves": true,
+    "player_graves": true
+  },
+  "apotheosis": {
+    "adventure": true
+  },
+  "iceandfire": {
+    "multipart": true,
+    "dragon": true
+  },
+  "kaleidoscope_doll": {
+    "doll_block": true,
+    "doll_entity": true
+  },
+  "apothic_enchanting": {
+    "ench": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "toms_storage": {
+    "inventory_config": true,
+    "inventory_connector": true
+  },
   "twilightforest": {
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
-  },
-  "waystones": {
-    "waystone": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

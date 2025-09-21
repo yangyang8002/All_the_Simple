@@ -1,0 +1,514 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "59B2472609FB40B8"
+	group: "72CAE23E66537A37"
+	icon: {
+		id: "minecraft:diamond_boots"
+	}
+	id: "59B2472609FB40B8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "13C4A279128B5BFA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "509F06889BA39DEE"
+					table_id: 7677037549189957298L
+					type: "random"
+				}
+				{
+					id: "48C8965423E85A3A"
+					type: "xp_levels"
+					xp_levels: 66
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "7F13C3D472D97FB7"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13C4A279128B5BFA"]
+			id: "5C6BDF19F1DEFAD6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73DCAE611E7831BA"
+					table_id: 7677037549189957298L
+					type: "random"
+				}
+				{
+					id: "2C5F1610CA802AFF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:end_stone_bricks"
+				}
+				id: "11CA786E58BCC6D3"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C6BDF19F1DEFAD6"]
+			id: "087D195EFBF327D9"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "回家"
+					id: "5CD9FF5633C9B048"
+					type: "toast"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64473745DFF90399"
+					table_id: 5800555698800861149L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "5D38522AFDD810DF"
+					type: "checkmark"
+				}
+				{
+					id: "1BE37C9A7B90953C"
+					item: { count: 1, id: "minecraft:elytra" }
+					type: "item"
+				}
+				{
+					id: "66C449D9DED345DE"
+					item: { count: 1, id: "minecraft:dragon_head" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["087D195EFBF327D9"]
+			id: "479E4C970E4A3EEE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23BF6115459F6E4A"
+					table_id: 7677037549189957298L
+					type: "random"
+				}
+				{
+					id: "32B9257FEF446043"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:trial_spawner"
+				}
+				id: "754D91AC060391F7"
+				structure: "minecraft:trial_chambers"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["479E4C970E4A3EEE"]
+			id: "7A257FB9DA8F607C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46654303A55AF2B3"
+				table_id: 7677037549189957298L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "11999F7D7C41098E"
+					item: { count: 10, id: "minecraft:wind_charge" }
+					type: "item"
+				}
+				{
+					id: "2AA9137D6CCF63EF"
+					item: { count: 1, id: "minecraft:breeze_rod" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7A257FB9DA8F607C"
+				"479E4C970E4A3EEE"
+			]
+			id: "737086C44C225D15"
+			rewards: [
+				{
+					id: "1798F9244D2F302D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "12A60712A13F120D"
+					item: {
+						count: 1
+						id: "exdeorum:diamond_mesh"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: {
+					id: "minecraft:sculk_catalyst"
+				}
+				id: "2799F322B36CE8C9"
+				type: "biome"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["737086C44C225D15"]
+			id: "486BB94422ABAB05"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "724B4AF87A4A9DD2"
+					table_id: 7677037549189957298L
+					type: "choice"
+				}
+				{
+					id: "124029061770D74F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/voluntary_exile"
+					criterion: ""
+					id: "0423D52EBC21D22C"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/hero_of_the_village"
+					criterion: ""
+					id: "13AE911D8BB35CCE"
+					type: "advancement"
+				}
+			]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["486BB94422ABAB05"]
+			id: "4819846588CACFA6"
+			rewards: [{
+				id: "75DC779ADF8905C0"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [
+				{
+					id: "0BB81E0052932ECF"
+					structure: "minecraft:mansion"
+					type: "structure"
+				}
+				{
+					id: "20E992916DA74B18"
+					item: { count: 1, id: "minecraft:totem_of_undying" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4819846588CACFA6"]
+			id: "5CE7EA000DF628D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36C2DE08E5A90C0E"
+					table_id: 5800555698800861149L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76F233009EB653D0"
+					table_id: 7677037549189957298L
+					type: "choice"
+				}
+				{
+					id: "5C294C743101ACC0"
+					type: "xp_levels"
+					xp_levels: 0
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+				id: "15DFF80A0B89B25D"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5CE7EA000DF628D0"]
+			id: "72F00F3EAB595CF4"
+			rewards: [
+				{
+					id: "4607F8F72BAD3FEC"
+					type: "xp_levels"
+					xp_levels: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B5928CF518E6405"
+					table_id: 5800555698800861149L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C3973A64A0773E2"
+					table_id: 5800555698800861149L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25F05D3ED40F65C6"
+					table_id: 5800555698800861149L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/adventuring_time"
+					criterion: ""
+					id: "7D96D1F777205F14"
+					type: "advancement"
+				}
+				{
+					advancement: "biomeswevegone:biomeswevegone/root"
+					criterion: ""
+					id: "25D69D71E4F9FFA4"
+					type: "advancement"
+				}
+			]
+			x: -6.2700000000000005d
+			y: 0.99d
+		}
+		{
+			dependencies: ["4819846588CACFA6"]
+			id: "0E4DF2160F16AAEE"
+			rewards: [
+				{
+					count: 64
+					id: "6DC9B8A9743AC439"
+					item: {
+						count: 1
+						id: "minecraft:sticky_piston"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6F8718546E0B5FC3"
+					item: {
+						count: 1
+						id: "minecraft:sticky_piston"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0E3D1A5745B4907C"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1B07A17AF14F198C"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7AF3388297B9A714"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5056FFED591CEF16"
+					table_id: 5800555698800861149L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "2B765C02EF0DAB27"
+					item: { count: 64, id: "minecraft:redstone_torch" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "015153B38CE18078"
+					item: { count: 64, id: "minecraft:redstone_block" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6CC1B844876D5A47"
+					item: { count: 64, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "413ABDE1A69CE180"
+					item: { count: 64, id: "minecraft:repeater" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6B2DFA98050705C1"
+					item: { count: 64, id: "minecraft:comparator" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0A0E4208B9AED65F"
+					item: { count: 64, id: "minecraft:sticky_piston" }
+					type: "item"
+				}
+			]
+			x: -6.2700000000000005d
+			y: 2.97d
+		}
+		{
+			dependencies: ["5CE7EA000DF628D0"]
+			id: "1A6D89A25E1D3E0B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55BDA9D673E8C286"
+					table_id: 5800555698800861149L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "169ADA69FE6E743E"
+					table_id: 5800555698800861149L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65ECCF79040DFD69"
+					table_id: 5800555698800861149L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C2E83E479DF4EFD"
+					table_id: 5800555698800861149L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21DEE39ECA0B3998"
+					table_id: 5800555698800861149L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18AFFF349D41AAE7"
+					table_id: 5800555698800861149L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58C1D5A8EFB8687C"
+					table_id: 5800555698800861149L
+					type: "random"
+				}
+				{
+					id: "051F6EE95E0F643B"
+					type: "xp_levels"
+					xp_levels: 599
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/all_effects"
+					criterion: ""
+					id: "7F5B660B58692726"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:end/levitate"
+					criterion: ""
+					id: "3E50FC5D20F05342"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/trade_at_world_height"
+					criterion: ""
+					id: "65E9F265BC4B4622"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/sniper_duel"
+					criterion: ""
+					id: "4A6607CF71A4DE17"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/bullseye"
+					criterion: ""
+					id: "7BD3602B9F81F51E"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/overoverkill"
+					criterion: ""
+					id: "5F8B203EB9A880B4"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/fall_from_world_height"
+					criterion: ""
+					id: "25C3032533F3E9D6"
+					type: "advancement"
+				}
+			]
+			x: -5.28d
+			y: 1.98d
+		}
+	]
+}

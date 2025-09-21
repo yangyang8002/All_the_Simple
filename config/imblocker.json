@@ -7,7 +7,8 @@
     ],
     "enableScreenRecovering": false,
     "recoveredScreens": [],
-    "commandInputMode": "IM_ENG_STATE"
+    "commandInputMode": "IM_ENG_STATE",
+    "primaryEnglishState": "CJK"
   },
   "advanceSettings": {
     "enableCharSimulation": false
@@ -16,5 +17,13 @@
     "enableConversionStatusApi": true,
     "enableCursorPositionTracking": true,
     "enableCompositionFontTweaks": true
+  },
+  "linuxCompatibilitySettings": {
+    "enableKeyboardPatch": true,
+    "ibusOnArgName": "libpinyin",
+    "ibusOffArgName": "xkb:us::eng",
+    "fcitx5OnArgName": "-o",
+    "fcitx5OffArgName": "-c",
+    "fcitx5OnStateName": "2"
   }
 }

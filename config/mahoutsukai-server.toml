@@ -222,10 +222,6 @@
 		#This is whether the scrying circle can scry non players
 		SCRY_NON_PLAYERS = true
 
-[projection]
-	#Projectile shooters which can turn into Nobu
-	NOBU_ALLOWED_BOWS = ["minecraft:bow"]
-
 	[projection."weapon projectile"]
 		#This is the cost of using the scroll
 		# Default: 100
@@ -716,7 +712,7 @@
 		# Range: 0.0 ~ 1.0E7
 		NOBU_MAX_SPAWN_HEIGHT = 12.0
 		#Nobu Bullet Damage
-		# Default: 4.0
+		# Default: 8.0
 		# Range: 0.0 ~ 1.0E7
 		NOBU_BULLET_DAMAGE = 4.0
 		#Nobu Pitch Increment
@@ -747,6 +743,8 @@
 		# Default: 600
 		# Range: 0 ~ 10000000
 		NOBU_AUTONOMOUS_LIFE_TICKS = 600
+		#Projectile shooters which can turn into Nobu
+		NOBU_ALLOWED_BOWS = ["minecraft:bow"]
 
 	[exchange.alchemical]
 		#This is how often the circle changes a layer underneath it
@@ -887,6 +885,10 @@
 		# Default: 4.0
 		# Range: 0.0 ~ 1.0E7
 		SPATIAL_DISORIENTATION_AOE_RADIUS = 4.0
+		#Spatial Disorientation No Air Resistance Time Limit
+		# Default: 60
+		# Range: 0 ~ 10000000
+		SPATIAL_NO_AIR_RESISTANCE_TIME_LIMIT = 60
 
 	[mystic."big explosion"]
 		#This is the cost of using the scroll
@@ -900,7 +902,7 @@
 		#Whether the damage is flat or scales with caster's 'level'
 		MYSTIC_STAFF_BIG_SCALES = true
 		#Either a fraction of the max mana (if scaling) or a flat damage value
-		# Default: 0.002
+		# Default: 0.012
 		# Range: 0.0 ~ 1.0E8
 		MYSTIC_STAFF_BIG_FACTOR = 0.002
 		#Explosion Size for Big Explosion
@@ -928,7 +930,7 @@
 		#Whether the damage is flat or scales with caster's 'level'
 		MYSTIC_STAFF_AOE_SCALES = true
 		#Either a fraction of the max mana (if scaling) or a flat damage value
-		# Default: 0.001
+		# Default: 0.004
 		# Range: 0.0 ~ 1.0E8
 		MYSTIC_STAFF_AOE_FACTOR = 0.001
 		#Explosion Size for AOE Explosion
@@ -1509,6 +1511,82 @@
 		# Default: 900
 		# Range: 0 ~ 10000000
 		SELECTIVE_DISPLACEMENT_MANA_COST = 900
+
+	[secret.william]
+		#William Dictionaries
+		WILLIAM_DICTIONARIES = ["English"]
+		#William Character Score Factor
+		# Default: 0.01
+		# Range: 0.0 ~ 10000.0
+		CHARACTER_SCORE_FACTOR = 0.01
+		#William Word Score Factor
+		# Default: 2.0E-5
+		# Range: 0.0 ~ 10000.0
+		WORD_SCORE_FACTOR = 2.0E-5
+		#William Space Score Factor
+		# Default: 0.001
+		# Range: 0.0 ~ 10000.0
+		SPACE_SCORE_FACTOR = 0.001
+		#William Punctuation Score Factor
+		# Default: 0.01
+		# Range: 0.0 ~ 10000.0
+		PUNCTUATION_SCORE_FACTOR = 0.01
+		#William Plagiarism New Word Weight
+		# Default: 0.5
+		# Range: 0.0 ~ 10000.0
+		PLAGIARISM_NEW_WORD_WEIGHT = 0.5
+		#William Plagiarism Similar Word Count Weight
+		# Default: 0.5
+		# Range: 0.0 ~ 10000.0
+		PLAGIARISM_SIMILAR_WORD_COUNT_WEIGHT = 0.5
+		#William Acceptable Plagiarism Threshold
+		# Default: 0.4
+		# Range: 0.0 ~ 10000.0
+		ACCEPTABLE_PLAGIARISM = 0.4
+		#William Personal Mana Factor
+		# Default: 0.01
+		# Range: 0.0 ~ 10000.0
+		WILLIAM_PERSONAL_MANA_FACTOR = 0.01
+		#William Nearby Mana Factor
+		# Default: 0.01
+		# Range: 0.0 ~ 10000.0
+		WILLIAM_NEARBY_MANA_FACTOR = 0.01
+		#William Max Pages
+		# Default: 100
+		# Range: 0 ~ 10000
+		WILLIAM_MAX_PAGES = 100
+		#William Real Word Points
+		# Default: 4
+		# Range: 0 ~ 10000
+		REAL_WORD_POINTS = 4
+		#William Space Ratio Points
+		# Default: 1000
+		# Range: 0 ~ 10000
+		SPACE_RATIO_POINTS = 1000
+		#William Punctuation Ratio Points
+		# Default: 400
+		# Range: 0 ~ 10000
+		PUNCTUATION_RATIO_POINTS = 400
+		#William Character Ratio Points
+		# Default: 10
+		# Range: 0 ~ 10000
+		CHARACTER_RATIO_POINTS = 10
+		#William Plethora Frequency in Ticks
+		# Default: 100
+		# Range: 0 ~ 10000
+		WILLIAM_PLETHORA_FREQUENCY = 100
+		#William Nearby Mana Range
+		# Default: 30
+		# Range: 0 ~ 10000
+		WILLIAM_NEARBY_MANA_RANGE = 30
+		#William Theater Range
+		# Default: 40
+		# Range: 0 ~ 10000
+		WILLIAM_THEATER_RANGE = 40
+		#William Creation Cost
+		# Default: 500.0
+		# Range: 0.0 ~ 1000000.0
+		WILLIAM_CREATION_COST = 500.0
 
 [kodoku]
 	#Base chance of setting target on fire with kodoku value 1

@@ -1,0 +1,127 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0FDA03712E326BB8"
+	group: "72CAE23E66537A37"
+	icon: {
+		id: "minecraft:oak_log"
+	}
+	id: "0FDA03712E326BB8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "19428F4256BADC13"
+			rewards: [
+				{
+					count: 16
+					id: "4E3FAB55FA86C5EE"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "73787B05FDEB1526"
+					item: {
+						count: 1
+						id: "minecraft:iron_axe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7AD7CC25D0BE2C0E"
+					item: { count: 1, id: "minecraft:oak_log" }
+					type: "item"
+				}
+				{
+					dimension: "minecraft:overworld"
+					icon: {
+						id: "minecraft:oak_log"
+					}
+					id: "35F8C1BD81EA25BB"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19428F4256BADC13"]
+			id: "37CF5379EDEF6CA1"
+			rewards: [
+				{
+					count: 3
+					id: "68C0632C45B965AF"
+					item: {
+						count: 1
+						id: "minecraft:white_bed"
+					}
+					type: "item"
+				}
+				{
+					id: "52D7C1CDAB7096F8"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "cherry"
+						}
+						count: 1
+						id: "sophisticatedstorage:iron_barrel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "53FDDAC88E2E2568"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37CF5379EDEF6CA1"]
+			id: "7091893BA6E84E83"
+			rewards: [
+				{
+					count: 128
+					id: "170C38F4E4312DD3"
+					item: {
+						count: 1
+						id: "minecraft:end_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "5E3E299E5410213E"
+					item: {
+						count: 1
+						id: "minecraft:end_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "5E990418310A7763"
+					item: {
+						count: 1
+						id: "minecraft:end_crystal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_stone"
+				}
+				id: "0565464515D57BE2"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+	]
+}

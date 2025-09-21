@@ -1,0 +1,8 @@
+{
+  "function": {
+    "Furniture Module": {
+      "comment": "Enable Furniture.",
+      "value": true
+    }
+  }
+}
