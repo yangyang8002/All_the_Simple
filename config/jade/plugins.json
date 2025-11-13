@@ -64,9 +64,6 @@
   "immersiveengineering": {
     "multiblock_icon": true
   },
-  "createsifter": {
-    "data": true
-  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -92,6 +89,9 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "yes_steve_model": {
+    "model_info": true
   },
   "projecte": {
     "emc_provider": true

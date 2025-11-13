@@ -3,8 +3,6 @@
 ClientPackDownloadUrls = []
 #When turned on, when the maid AI executes more than 50ms, the entity information of the problem will be logged
 MaidAITimeDebug = false
-#Whether to enable the maid backup mechanism, which will back up the maid data of all players on the server at regular intervals
-MaidBackupEnable = false
 #The interval time (in seconds) for the maid backup mechanism to back up maid data
 # Default: 180
 # Range: > 5

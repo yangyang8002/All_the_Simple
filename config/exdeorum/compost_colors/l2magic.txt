@@ -1,5 +1,0 @@
-// Compost colors for l2magic. You may add your own colors, change existing ones, or remove colors that aren't needed.
-ai_config_wand, #615a55
-creative_wand, #9d8444
-equipment_wand, #6e6665
-target_select_wand, #915b5a

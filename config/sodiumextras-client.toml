@@ -31,7 +31,7 @@
 		#Modify clouds height perfect for a adaptative world experience
 		# Default: 192
 		# Range: 0 ~ 512
-		cloudsHeight = 192
+		cloudsHeight = 336
 		#Chunks fade in speed
 		#This option doesn't affect performance, just changes speed
 		#Allowed Values: OFF, FAST, SLOW

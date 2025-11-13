@@ -93,6 +93,20 @@
 	# Default: 32
 	# Range: 0 ~ 512
 	MaidGunNearDistance = 32
+	#Enable maid random emoji/kaomoji feature
+	EnableEmoji = true
+	#The check rate (in ticks) for maid to display random emoji/kaomoji
+	# Default: 1200
+	# Range: 20 ~ 24000
+	EmojiCheckRate = 1200
+	#The weight for image emoji to be selected
+	# Default: 10
+	# Range: 0 ~ 100
+	ImageEmojiWeight = 10
+	#The weight for kaomoji emoji to be selected
+	# Default: 10
+	# Range: 0 ~ 100
+	KaomojiEmojiWeight = 10
 
 [chair]
 	#Chair can switch models freely

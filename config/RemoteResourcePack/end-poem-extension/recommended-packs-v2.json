@@ -1,0 +1,15 @@
+{
+  "configVersion": 2,
+  "_description": [
+    "End Poem Extension Recommended Pack",
+    "Contents may differ between downloads as they are picked randomly"
+  ],
+  "autoUpdate": "2h",
+  "args": {
+    "poem": "random",
+    "splashes": 0
+  },
+  "zipconfig": "https://packs.epx.featurehouse.org/v2/dl/zipconfig.json",
+  "base": "https://packs.epx.featurehouse.org/v2/dl/index.html",
+  "schema": 1
+}

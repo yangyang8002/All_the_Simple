@@ -1,4 +1,13 @@
-#Only available on dedicated servers.
+#The default model ID when a player first enters the game
+DefaultModelId = "misc_1_alex"
+#The default model texture when a player first enters the game
+DefaultModelTexture = "misc_1_alex"
+#Whether or not players are allowed to switch models
+CanSwitchModel = true
+#Models that are not displayed on the client model selection screen
+#Example: ["default", "misc_3_default_boy", "misc_1_alex", "misc_2_steve", "wine_fox_1_taisho_maid", "wine_fox_7_jk"]
+ClientNotDisplayModels = []
+
 [server_scheduler]
 	#Concurrent level for processing models. Value 0 means AUTO.
 	# Default: 0
@@ -12,8 +21,3 @@
 	# Default: 0
 	# Range: 0 ~ 120
 	PlayerSyncTimeout = 0
-	#Whether or not players are allowed to switch models
-	CanSwitchModel = true
-	#Models that are not displayed on the client model selection screen
-	#Example: ["default", "default_boy", "alex", "steve", "qingluka", "wine_fox", "wine_fox_jk"]
-	ClientNotDisplayModels = []
