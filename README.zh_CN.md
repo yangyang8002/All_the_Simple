@@ -170,8 +170,8 @@ Sodium 全家桶 + FerriteCore + 异步粒子 + MemorySweep，官方推荐 4 GB 
 
 | 端 | 命名规则 |
 |----|----------|
-| 客户端 | Release/Beta + 版本号 + c/hd (+ fix + 修复号) |
-| 服务端 | server-Release/Beta + 版本号 + c/hd (+ fix + 修复号) |
+| 客户端 | Release/Beta/Alpha + 版本号 + c/hd (+ fix + 修复号) |
+| 服务端 | server-Release/Beta/Alpha + 版本号 + c/hd (+ fix + 修复号) |
 
 > **hd**：硬核版，含莱特兰-恶意（L2）及其附属  
 > **c**：含除莱特兰恶意及其附属外的全部内容
