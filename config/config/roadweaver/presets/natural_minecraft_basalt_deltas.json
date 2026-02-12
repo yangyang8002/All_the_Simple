@@ -1,0 +1,16 @@
+{
+  "id": "natural_minecraft_basalt_deltas",
+  "name": "Basalt Deltas Trail",
+  "type": "NATURAL",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "materials": [
+    "minecraft:basalt",
+    "minecraft:polished_basalt",
+    "minecraft:blackstone"
+  ],
+  "slabMaterials": [
+    "minecraft:blackstone_slab"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "end_endstone_road",
+  "name": "End Stone Road",
+  "type": "ARTIFICIAL",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "materials": [
+    "minecraft:end_stone_bricks",
+    "minecraft:end_stone",
+    "minecraft:purpur_block"
+  ],
+  "slabMaterials": [
+    "minecraft:end_stone_brick_slab",
+    "minecraft:purpur_slab"
+  ]
+}

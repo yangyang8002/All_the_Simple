@@ -1,0 +1,11 @@
+{
+  "id": "mud_road",
+  "name": "Mud Road",
+  "materials": [
+    "minecraft:mud_bricks",
+    "minecraft:packed_mud"
+  ],
+  "slabMaterials": [
+    "minecraft:mud_brick_slab"
+  ]
+}

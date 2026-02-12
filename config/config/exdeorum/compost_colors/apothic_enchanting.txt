@@ -1,0 +1,17 @@
+// Compost colors for apothic_enchanting. You may add your own colors, change existing ones, or remove colors that aren't needed.
+boots_tome, #8689a0
+bow_tome, #878ca1
+chestplate_tome, #9396a7
+extraction_tome, #325fa4
+fishing_tome, #878aa0
+helmet_tome, #878aa0
+improved_scrap_tome, #545a7d
+inert_trident, #c8d0cd
+infused_breath, #ffffff
+leggings_tome, #8c8ea2
+other_tome, #8a8da2
+pickaxe_tome, #878aa1
+prismatic_web, #b8ffee
+scrap_tome, #898ca1
+warden_tendril, #ffffff
+weapon_tome, #8689a0

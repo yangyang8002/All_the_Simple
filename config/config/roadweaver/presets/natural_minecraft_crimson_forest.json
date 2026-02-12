@@ -1,0 +1,16 @@
+{
+  "id": "natural_minecraft_crimson_forest",
+  "name": "Crimson Forest Trail",
+  "type": "NATURAL",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "materials": [
+    "minecraft:crimson_nylium",
+    "minecraft:netherrack",
+    "minecraft:nether_wart_block"
+  ],
+  "slabMaterials": [
+    "minecraft:crimson_slab"
+  ]
+}

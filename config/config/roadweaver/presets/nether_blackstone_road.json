@@ -1,0 +1,18 @@
+{
+  "id": "nether_blackstone_road",
+  "name": "Nether Blackstone Road",
+  "type": "ARTIFICIAL",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "materials": [
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:polished_blackstone",
+    "minecraft:blackstone",
+    "minecraft:basalt"
+  ],
+  "slabMaterials": [
+    "minecraft:polished_blackstone_brick_slab",
+    "minecraft:blackstone_slab"
+  ]
+}

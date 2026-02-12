@@ -1,0 +1,16 @@
+{
+  "id": "natural_minecraft_soul_sand_valley",
+  "name": "Soul Sand Valley Trail",
+  "type": "NATURAL",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "materials": [
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "minecraft:blackstone"
+  ],
+  "slabMaterials": [
+    "minecraft:blackstone_slab"
+  ]
+}

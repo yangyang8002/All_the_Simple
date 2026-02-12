@@ -1,0 +1,4 @@
+// Compost colors for all_the_simple_challenges. You may add your own colors, change existing ones, or remove colors that aren't needed.
+allthesimple_core, #ffffff
+netheritenetherstar, #ffffff
+primary_core, #ffffff

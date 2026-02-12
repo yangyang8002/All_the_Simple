@@ -1,0 +1,15 @@
+{
+  "id": "natural_minecraft_end_barrens",
+  "name": "End Barrens Trail",
+  "type": "NATURAL",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "materials": [
+    "minecraft:end_stone",
+    "minecraft:end_stone_bricks"
+  ],
+  "slabMaterials": [
+    "minecraft:end_stone_brick_slab"
+  ]
+}

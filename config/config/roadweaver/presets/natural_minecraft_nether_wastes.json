@@ -1,0 +1,16 @@
+{
+  "id": "natural_minecraft_nether_wastes",
+  "name": "Nether Wastes Trail",
+  "type": "NATURAL",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "materials": [
+    "minecraft:netherrack",
+    "minecraft:blackstone",
+    "minecraft:basalt"
+  ],
+  "slabMaterials": [
+    "minecraft:blackstone_slab"
+  ]
+}

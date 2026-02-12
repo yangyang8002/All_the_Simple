@@ -1,0 +1,10 @@
+// Compost colors for mekaweapons. You may add your own colors, change existing ones, or remove colors that aren't needed.
+bow_limb, #e1edee
+bow_riser, #8c9e94
+katana_blade, #e3e3e3
+magnetizer, #a7afab
+module_arrowenergy_unit, #d0daca
+module_attackamplification_unit, #c0cdd3
+module_autofire_unit, #cfd0c5
+module_drawspeed_unit, #cdd9c9
+module_gravitydampener_unit, #cdd4c6

@@ -1,0 +1,16 @@
+{
+  "id": "natural_minecraft_warped_forest",
+  "name": "Warped Forest Trail",
+  "type": "NATURAL",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "materials": [
+    "minecraft:warped_nylium",
+    "minecraft:netherrack",
+    "minecraft:warped_wart_block"
+  ],
+  "slabMaterials": [
+    "minecraft:warped_slab"
+  ]
+}

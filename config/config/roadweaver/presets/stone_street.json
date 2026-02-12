@@ -1,0 +1,12 @@
+{
+  "id": "stone_street",
+  "name": "Stone Street",
+  "materials": [
+    "minecraft:stone_bricks",
+    "minecraft:polished_andesite"
+  ],
+  "slabMaterials": [
+    "minecraft:stone_brick_slab",
+    "minecraft:polished_andesite_slab"
+  ]
+}
