@@ -170,8 +170,8 @@ Schematics + Create + Custom Machinery.
 
 | Type | Naming Convention |
 |------|-------------------|
-| Client | Release/Beta + build + c/hd (+ fix + patch) |
-| Server | server-Release/Beta + build + c/hd (+ fix + patch) |
+| Client | Release/Beta/Alpha + build + c/hd (+ fix + patch) |
+| Server | server-Release/Beta/Alpha + build + c/hd (+ fix + patch) |
 
 \* **hd** = hardcore, includes L_Evil and its add-ons  
 **c** = contains everything except L_Evil and its add-ons
