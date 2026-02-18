@@ -670,11 +670,6 @@
         "version": "1.21.1-v1.36.23"
     },
     {
-        "modid": "terrablender",
-        "name": "Maple",
-        "version": "1.4.11-1.21.1-NeoForge"
-    },
-    {
         "modid": "mcwbridges",
         "name": "Macaw's Bridges",
         "version": "3.1.1"
@@ -1008,11 +1003,6 @@
         "modid": "minecraft",
         "name": "Timeless & Classics Guns: Zero",
         "version": "1.1.7-hotfix-r3"
-    },
-    {
-        "modid": "minecraft",
-        "name": "TaCZ Pack Upgrader",
-        "version": "2.0.0"
     },
     {
         "modid": "neoforge",
