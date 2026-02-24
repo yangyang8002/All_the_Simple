@@ -1,0 +1,30 @@
+[infinite_core]
+	#Ban list for Infinite Core binding AND Infinite Fluid Machine output.
+	#Supports both direct fluid ids and fluid tags.
+	#Format:
+	#  - "namespace:path"  (fluid id)
+	#  - "#namespace:path" (fluid tag)
+	#Examples: "minecraft:lava", "#c:toxic_fluids"
+	banlist = []
+
+[infinite_fluid_machine]
+	#Base FE consumed per tick when machine has a valid core
+	#机器在待机状态下的每tick耗电
+	# Default: 2
+	# Range: 0 ~ 2147483646
+	fePerTick = 2
+	#Fluid pushed per tick per BOTH-mode face (mB)
+	#每tick每面主动推送的液体量(mB)，设为最大值等于无限制
+	# Default: 2147483646
+	# Range: 0 ~ 2147483646
+	PushPerTick = 2147483646
+	#Max drain per tick per face (mB) in PULL/BOTH mode. Set to max for unlimited.
+	#每tick每面最大被抽取量(mB)，设为最大值等于无限制
+	# Default: 2147483646
+	# Range: 1 ~ 2147483646
+	PullPerTick = 2147483646
+	#Additional FE per tick for each enabled face
+	#每启用一个面额外增加的 FE/tick 消耗
+	# Default: 8
+	# Range: 0 ~ 2147483646
+	fePerEnableFacePerTick = 8

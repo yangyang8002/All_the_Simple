@@ -1,0 +1,15 @@
+milestones = [10, 20, 30, 40, 50]
+enable_blacklist = true
+blacklist = ["minecraft:rotten_flesh"]
+# Default: 4
+# Range: 0 ~ 1000
+hpPerMileStone = 4
+# Default: 1
+# Range: 0 ~ 1000
+armorPerMilestone = 1
+# Default: 1
+# Range: 0 ~ 1000
+attackDamagePerMilestone = 1
+# Default: 16
+# Range: 0 ~ 1000
+favorabilityPerMilestone = 16

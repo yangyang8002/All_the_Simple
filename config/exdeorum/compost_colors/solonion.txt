@@ -1,0 +1,5 @@
+// Compost colors for solonion. You may add your own colors, change existing ones, or remove colors that aren't needed.
+food_book, #d2a096
+golden_lunchbox, #ffd66f
+lunchbag, #deab8d
+lunchbox, #b4b1ac

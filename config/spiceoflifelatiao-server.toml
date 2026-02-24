@@ -1,0 +1,61 @@
+#公式上下文与计算顺序如下，仅支持向前引用，时间单位为秒或游戏刻
+#默认数值均为0.0，计算异常默认使用原版方法运行
+#HUNGER_LEVEL 玩家饱食度
+#SATURATION_LEVEL 玩家饱和度
+#SUM_HUNGER_SHORT 玩家饱食短期累计
+#SUM_HUNGER_LONG 玩家饱食长期累计
+#SUM_SATURATION_SHORT 玩家饱和短期累计
+#SUM_SATURATION_LONG 玩家饱和长期累计
+#ARMOR 玩家盔甲值
+#LIGHT 光照
+#IS_WET 是否湿漉
+#RAIN_LEVEL 下雨强度
+#THUNDER_LEVEL 雷雨强度
+#BLOCK_SPEED_FACTOR 方块速度系数
+#PLAYER_BUFF 玩家增益数
+#PLAYER_DEBUFF 玩家减益数
+#PLAYER_ZZZ 玩家睡眠中
+#PLAYER_UN_SLEEPTIME 玩家未睡眠时长
+#LOSS 自然饥饿
+#HUNGER_ORG 食物原饱食度
+#SATURATION_ORG 食物原饱和度
+#EAT_SECONDS_ORG 食物原食用时间
+#FOOD_BUFF 食物可能增益数
+#FOOD_DEBUFF 食物可能减益数
+#HUNGER_SHORT 食物饱食短期累计
+#HUNGER_LONG 食物饱食长期累计
+#SATURATION_SHORT 食物饱和短期累计
+#SATURATION_LONG 食物饱和长期累计
+#EATEN_SHORT 食物短期食用数
+#EATEN_LONG 食物长期食用数
+#HUNGER 食物饱食度
+#SATURATION 食物饱和度
+#EAT_SECONDS 食物食用时间
+enable_change = true
+#启用自然饥饿调整
+enable_loss = true
+#启用饥饿值调整
+enable_hunger = true
+#启用饱和度调整
+enable_saturation = true
+#启用食用时间调整
+enable_eat_seconds = true
+#用于统计长期饮食数据
+# Default: 512
+# Range: 0 ~ 65535
+historyLengthLong = 512
+#用于统计短期饮食数据
+# Default: 16
+# Range: 0 ~ 65535
+historyLengthShort = 16
+#默认：固定系数、饥饿程度、短期营养、短期摄入、过饱和、盔甲值、亮度、湿漉、方块速度系数、玩家状态、玩家睡眠中、玩家未睡眠时长
+LOSS = ["0.005", "*2^(HUNGER_LEVEL/20-1)", "*0.5^(SUM_SATURATION_SHORT/max(SUM_HUNGER_SHORT,1)-1)", "*2^((SUM_SATURATION_SHORT+SUM_HUNGER_SHORT)/128 -1)", "*(1+2^(SATURATION_LEVEL/4-4)-0.0625)", "*(1+(min(ARMOR,20)/20)^2.41+log(max(20,ARMOR))/log(20)-1)", "*(1.5-0.5*LIGHT/15)", "*(1+0.5*(IS_WET+RAIN_LEVEL+THUNDER_LEVEL))", "*(2-BLOCK_SPEED_FACTOR)", "*0.8^PLAYER_BUFF", "*1.5^PLAYER_DEBUFF", "*(1-0.4*PLAYER_ZZZ)", "*(2-3/(3+PLAYER_UN_SLEEPTIME/24000))"]
+#默认：短期饮食、长期饮食、最低点
+HUNGER = ["HUNGER_ORG*0.4*max((0.9^EATEN_SHORT),max(1-HUNGER_LEVEL/12,0))", "+HUNGER_ORG*0.4*max(0,1-EATEN_LONG/max(16,64-2*HUNGER_ORG-SATURATION_ORG))", "+HUNGER_ORG*0.2"]
+#默认：短期饮食、长期饮食、最低点
+SATURATION = ["SATURATION_ORG", "*(0.9^EATEN_SHORT)", "*max(0,1-EATEN_LONG/max(16,32+8*(SATURATION_ORG-HUNGER_ORG)))", "+(HUNGER_ORG*0.2+SATURATION_ORG*0.2)*max(1-HUNGER_LEVEL/12,0)"]
+#默认：食物原饱食度与饱食偏移、饥饿程度、食物效果数
+EAT_SECONDS = ["EAT_SECONDS_ORG", "*(0.5+0.1*(2*HUNGER_ORG-HUNGER))", "*(49/30*(10/7)^(HUNGER_LEVEL/10)-4/3)", "*(1/(1+FOOD_BUFF))*(2-1/(1+FOOD_DEBUFF))"]
+#黑名单食物，默认：【金苹果，附魔金苹果】
+#额外修正项：食物T值（0~1线性插值，默认为0，0为原始值，1为调整值）
+BLACK_FOOD = ["minecraft:apple,1", "minecraft:golden_apple,0.25", "minecraft:enchanted_golden_apple"]

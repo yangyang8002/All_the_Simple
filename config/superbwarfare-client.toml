@@ -1,0 +1,90 @@
+[reload]
+	#Set true if you want to reload guns when ammo is empty by clicking left button
+	left_click_reload = true
+
+[kill_message]
+	#Set true if you want to show kill message
+	show_kill_message = true
+	#The max count of kill messages to show concurrently
+	# Default: 5
+	# Range: 1 ~ 20
+	kill_message_count = 5
+	#The position of kill message
+	#Allowed Values: LEFT_TOP, LEFT_BOTTOM, RIGHT_TOP, RIGHT_BOTTOM
+	kill_message_position = "RIGHT_TOP"
+	#The x margin of kill message
+	# Default: 0
+	# Range: -1000 ~ 1000
+	kill_message_margin_x = 0
+	#The y margin of kill message
+	# Default: 5
+	# Range: -1000 ~ 1000
+	kill_message_margin_y = 5
+
+[display]
+	#Set true to enable gun lod
+	enable_gun_lod = false
+	#The x offset of weapon hud
+	# Default: 0
+	# Range: -1000 ~ 1000
+	weapon_hud_x_offset = 0
+	#The y offset of weapon hud
+	# Default: 0
+	# Range: -1000 ~ 1000
+	weapon_hud_y_offset = 0
+	#Set true to enable heat bar hud
+	enable_heat_bar_hud = true
+	#The x offset of heat bar hud
+	# Default: 0
+	# Range: -1000 ~ 1000
+	heat_bar_hud_x_offset = 0
+	#The y offset of heat bar hud
+	# Default: 0
+	# Range: -1000 ~ 1000
+	heat_bar_hud_y_offset = 0
+	#Set true if you want to show kill indication while killing an entity
+	kill_indication = true
+	#Set true to show ammo and gun info on HUD
+	ammo_hud = true
+	#Set true to show advanced ammo info on HUD
+	advanced_ammo_hud = true
+	#Set true to display vehicle info when aiming at a vehicle
+	vehicle_info = true
+	#Set true to enable float cross hair
+	float_cross_hair = true
+	#Set true to enable camera rotate when holding a gun
+	camera_rotate = true
+	#Set true to enable armor plate hud
+	armor_plate_hud = true
+	#Set true to enable stamina hud
+	stamina_hud = true
+	#Set true to show the name of dog tag in kill messages
+	dog_tag_name_visible = true
+	#Set true to show the icon of dog tag in kill messages
+	dog_tag_icon_visible = false
+	#The strength of screen shaking while firing with a weapon
+	# Default: 100
+	# Range: 0 ~ 100
+	weapon_screen_shake = 100
+	#The strength of screen shaking while exploding
+	# Default: 100
+	# Range: 0 ~ 100
+	explosion_screen_shake = 100
+	#The strength of screen shaking when shocked
+	# Default: 100
+	# Range: 0 ~ 100
+	shock_screen_shake = 100
+	#Set true to enable version check warning when version of this mod has been changed
+	enable_version_check_warning = true
+
+[control]
+	#Set true to invert aircraft control
+	invert_aircraft_control = false
+	#Sensitivity of mouse
+	# Default: 100
+	# Range: 10 ~ 200
+	mouse_sensitivity = 100
+
+[checksum]
+	#System environment checksum, do not edit
+	environment_checksum = ""

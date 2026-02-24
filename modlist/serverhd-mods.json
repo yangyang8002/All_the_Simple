@@ -1,5 +1,15 @@
 [
     {
+        "modid": "oworld2create",
+        "name": "0World2Create",
+        "version": "${file.jarVersion}"
+    },
+    {
+        "modid": "minecraft",
+        "name": "0World2Create",
+        "version": "1.0.0"
+    },
+    {
         "modid": "minecraft",
         "name": "Addons Lib",
         "version": "1.21.1-1.10"
@@ -17,7 +27,7 @@
     {
         "modid": "gateways",
         "name": "Apotheosis",
-        "version": "8.4.2"
+        "version": "8.5.1"
     },
     {
         "modid": "placebo",
@@ -27,17 +37,12 @@
     {
         "modid": "apothic_attributes",
         "name": "Apothic Enchanting",
-        "version": "1.5.1"
+        "version": "1.5.2"
     },
     {
         "modid": "placebo",
         "name": "Apothic Spawners",
         "version": "1.3.4"
-    },
-    {
-        "modid": "neoforge",
-        "name": "AppleSkin",
-        "version": "${file.jarVersion}"
     },
     {
         "modid": "vanillafix",
@@ -48,6 +53,11 @@
         "modid": "neoforge",
         "name": "Architectury",
         "version": "13.0.8"
+    },
+    {
+        "modid": "minecraft",
+        "name": "Arknights EndField",
+        "version": "0.1.6-1.21.1-beta"
     },
     {
         "modid": "ars_nouveau",
@@ -72,7 +82,7 @@
     {
         "modid": "minecraft",
         "name": "Bagus Lib",
-        "version": "1.21.1-13.25.0"
+        "version": "1.21.1-13.25.1"
     },
     {
         "modid": "minecraft",
@@ -83,6 +93,11 @@
         "modid": "terrablender",
         "name": "Biomes O' Plenty",
         "version": "21.1.0.13"
+    },
+    {
+        "modid": "minecraft",
+        "name": "BiomeSpy",
+        "version": "1.3.3"
     },
     {
         "modid": "minecraft",
@@ -108,11 +123,6 @@
         "modid": "carryon",
         "name": "CarryOnExtend",
         "version": "1.5.1"
-    },
-    {
-        "modid": "minecraft",
-        "name": "Chat Heads",
-        "version": "0.15.0"
     },
     {
         "modid": "minecraft",
@@ -167,12 +177,12 @@
     {
         "modid": "create",
         "name": "Create: Dragons Plus",
-        "version": "1.8.6"
+        "version": "1.8.7"
     },
     {
-        "modid": "create_dragons_plus",
+        "modid": "touhou_little_maid",
         "name": "Create: Enchantment Industry",
-        "version": "2.2.5b"
+        "version": "2.3.0"
     },
     {
         "modid": "create",
@@ -251,6 +261,11 @@
     },
     {
         "modid": "minecraft",
+        "name": "CreativeCore",
+        "version": "2.13.31"
+    },
+    {
+        "modid": "minecraft",
         "name": "Cucumber Library",
         "version": "8.0.15"
     },
@@ -278,16 +293,6 @@
         "modid": "create",
         "name": "Custom Machinery Create",
         "version": "1.2.3"
-    },
-    {
-        "modid": "minecraft",
-        "name": "CustomSkinLoader",
-        "version": "14.27"
-    },
-    {
-        "modid": "minecraft",
-        "name": "CustomSkinLoader",
-        "version": "14.27"
     },
     {
         "modid": "moonlight",
@@ -318,11 +323,6 @@
         "modid": "neoforge",
         "name": "EMI",
         "version": "1.1.22+1.21.1+neoforge"
-    },
-    {
-        "modid": "emi",
-        "name": "EMI Enchanting",
-        "version": "0.1.2+1.21+neoforge"
     },
     {
         "modid": "minecraft",
@@ -358,6 +358,11 @@
         "modid": "farmersdelight",
         "name": "End's Delight",
         "version": "2.5.1+neoforge.1.21.1"
+    },
+    {
+        "modid": "minecraft",
+        "name": "EternalAppetite",
+        "version": "1.2.5"
     },
     {
         "modid": "minecraft",
@@ -410,6 +415,11 @@
         "version": "1.2.12"
     },
     {
+        "modid": "ftbbackups3",
+        "name": "FTB Chunks",
+        "version": "2101.1.14"
+    },
+    {
         "modid": "architectury",
         "name": "FTB Library",
         "version": "2101.1.30"
@@ -428,6 +438,16 @@
         "modid": "ftbezcrystals",
         "name": "FTB Ultimine",
         "version": "2101.1.13"
+    },
+    {
+        "modid": "fullbrightnesstoggle",
+        "name": "Full Brightness Toggle",
+        "version": "4.4"
+    },
+    {
+        "modid": "apothic_attributes",
+        "name": "Gateways To Eternity",
+        "version": "5.1.0"
     },
     {
         "modid": "geckoanimfix",
@@ -456,6 +476,11 @@
     },
     {
         "modid": "minecraft",
+        "name": "GPUTape",
+        "version": "1.0.2"
+    },
+    {
+        "modid": "minecraft",
         "name": "GuideME",
         "version": "21.1.15"
     },
@@ -478,6 +503,11 @@
         "modid": "jei",
         "name": "Industrial Foregoing",
         "version": "1.21-3.6.38"
+    },
+    {
+        "modid": "legendarytooltips",
+        "name": "Item Borders",
+        "version": "1.2.5"
     },
     {
         "modid": "neoforge",
@@ -510,9 +540,29 @@
         "version": "1.6.0.17"
     },
     {
+        "modid": "kubejs",
+        "name": "Kaleidoscope Cookery",
+        "version": "1.2.0-neoforge+mc1.21.1"
+    },
+    {
         "modid": "minecraft",
         "name": "Kaleidoscope Doll",
         "version": "1.3.0-neoforge+mc1.21.1"
+    },
+    {
+        "modid": "artifacts",
+        "name": "Kaleidoscope Compat",
+        "version": "2.1.0-1.21.1"
+    },
+    {
+        "modid": "minecraft",
+        "name": "Kaleidoscope End",
+        "version": "1.0.1-BETA2-1.21.1"
+    },
+    {
+        "modid": "kiwi",
+        "name": "Kiwi Library",
+        "version": "${file.jarVersion}"
     },
     {
         "modid": "minecraft",
@@ -555,9 +605,9 @@
         "version": "3.1.2"
     },
     {
-        "modid": "patchouli",
+        "modid": "cataclysm",
         "name": "L2Hostility",
-        "version": "3.0.14"
+        "version": "3.0.15"
     },
     {
         "modid": "minecraft",
@@ -572,17 +622,12 @@
     {
         "modid": "minecraft",
         "name": "LowDragLib2",
-        "version": "2.1.9"
+        "version": "2.2.1"
     },
     {
         "modid": "minecraft",
         "name": "Let Me Feed You!",
         "version": "1.1"
-    },
-    {
-        "modid": "minecraft",
-        "name": "libIPN",
-        "version": "6.6.2"
     },
     {
         "modid": "minecraft",
@@ -610,19 +655,24 @@
         "version": "1.21.1-v1.36.23"
     },
     {
+        "modid": "create_connected",
+        "name": "MaidUseHandCrank",
+        "version": "1.5.3"
+    },
+    {
         "modid": "terrablender",
         "name": "Maple",
-        "version": "1.4.11-1.21.1-NeoForge"
+        "version": "1.4.13-1.21.1-NeoForge"
     },
     {
         "modid": "mcwbridges",
         "name": "Macaw's Bridges",
-        "version": "3.1.1"
+        "version": "3.1.2"
     },
     {
         "modid": "mcwdoors",
         "name": "Macaw's Doors",
-        "version": "1.1.2"
+        "version": "1.1.5"
     },
     {
         "modid": "mcwfurnitures",
@@ -677,22 +727,22 @@
     {
         "modid": "fissionrecipe",
         "name": "Mekanism",
-        "version": "10.7.17"
+        "version": "10.7.18"
     },
     {
         "modid": "mekanism",
         "name": "Mekanism: Additions",
-        "version": "10.7.17"
+        "version": "10.7.18"
     },
     {
         "modid": "mekanism",
         "name": "Mekanism: Generators",
-        "version": "10.7.17"
+        "version": "10.7.18"
     },
     {
         "modid": "mekanism",
         "name": "Mekanism: Tools",
-        "version": "10.7.17"
+        "version": "10.7.18"
     },
     {
         "modid": "mekanism",
@@ -702,7 +752,7 @@
     {
         "modid": "mekmm",
         "name": "MekanismExtras",
-        "version": "1.3.2"
+        "version": "1.3.3"
     },
     {
         "modid": "minecraft",
@@ -720,9 +770,14 @@
         "version": "2.0.3"
     },
     {
+        "modid": "tipthescales",
+        "name": "Modern UI",
+        "version": "3.12.0.2"
+    },
+    {
         "modid": "minecraft",
         "name": "Moonlight Lib",
-        "version": "1.21-2.29.16"
+        "version": "1.21-2.29.17"
     },
     {
         "modid": "geckolib",
@@ -742,7 +797,7 @@
     {
         "modid": "cucumber",
         "name": "Mystical Agriculture",
-        "version": "8.0.22"
+        "version": "8.0.23"
     },
     {
         "modid": "minecraft",
@@ -772,12 +827,17 @@
     {
         "modid": "genshincraft",
         "name": "\\u68A6\\u534E\\u6784\\u60F3OneiricConcept",
-        "version": "1.9.78"
+        "version": "26.8"
     },
     {
         "modid": "minecraft",
         "name": "oωo",
         "version": "0.12.15.5-beta.1+1.21"
+    },
+    {
+        "modid": "minecraft",
+        "name": "Partial Hearts",
+        "version": "1.1.0-1.21"
     },
     {
         "modid": "minecraft",
@@ -788,6 +848,11 @@
         "modid": "minecraft",
         "name": "Pineapple Delight",
         "version": "1.1.2-1.21.1-neoforge"
+    },
+    {
+        "modid": "minecraft",
+        "name": "Ping Wheel",
+        "version": "1.12.1"
     },
     {
         "modid": "neoforge",
@@ -842,7 +907,7 @@
     {
         "modid": "farmersdelight",
         "name": "Rustic Delight",
-        "version": "1.5.2"
+        "version": "1.5.3"
     },
     {
         "modid": "minecraft",
@@ -871,18 +936,53 @@
     },
     {
         "modid": "minecraft",
+        "name": "Sodium Extras",
+        "version": "1.0.7"
+    },
+    {
+        "modid": "minecraft",
+        "name": "Sodium Extras",
+        "version": "1.0.7"
+    },
+    {
+        "modid": "sodiumleafculling",
+        "name": "Sodium Leaf Culling",
+        "version": "1.0.1"
+    },
+    {
+        "modid": "touhou_little_maid",
+        "name": "Spice of Life: Maid",
+        "version": "1.0.1"
+    },
+    {
+        "modid": "minecraft",
         "name": "Sophisticated Backpacks",
-        "version": "3.25.26"
+        "version": "3.25.28"
     },
     {
         "modid": "minecraft",
         "name": "Sophisticated Core",
-        "version": "1.4.3"
+        "version": "1.4.5"
     },
     {
         "modid": "minecraft",
         "name": "Sophisticated Storage",
-        "version": "1.5.27"
+        "version": "1.5.28"
+    },
+    {
+        "modid": "creativecore",
+        "name": "Spice of Life Onion",
+        "version": "1.5.5"
+    },
+    {
+        "modid": "minecraft",
+        "name": "SpiceOfLife Latiao",
+        "version": "1.2.8"
+    },
+    {
+        "modid": "minecraft",
+        "name": "StewMe",
+        "version": "1.0.3"
     },
     {
         "modid": "minecraft",
@@ -898,11 +998,6 @@
         "modid": "minecraft",
         "name": "Timeless & Classics Guns: Zero",
         "version": "1.1.7-hotfix-r3"
-    },
-    {
-        "modid": "minecraft",
-        "name": "TaCZ Pack Upgrader",
-        "version": "2.0.0"
     },
     {
         "modid": "neoforge",
@@ -930,9 +1025,9 @@
         "version": "9.4.8"
     },
     {
-        "modid": "minecraft",
+        "modid": "sophisticatedstorage",
         "name": "Tom's Simple Storage Mod",
-        "version": "2.2.4"
+        "version": "2.3.0"
     },
     {
         "modid": "kubejs",
@@ -952,12 +1047,17 @@
     {
         "modid": "farmersdelight",
         "name": "Ube's Delight",
-        "version": "0.4.7"
+        "version": "0.4.9"
     },
     {
         "modid": "architectury",
         "name": "Uranus",
         "version": "2.4"
+    },
+    {
+        "modid": "moonlight",
+        "name": "Vista",
+        "version": "1.21-3.0.4"
     },
     {
         "modid": "cloth_config",
@@ -967,17 +1067,12 @@
     {
         "modid": "balm",
         "name": "Waystones",
-        "version": "21.1.25"
+        "version": "21.1.27"
     },
     {
         "modid": "xaerolib",
         "name": "Xaero's Minimap",
         "version": "25.3.10"
-    },
-    {
-        "modid": "worldtools",
-        "name": "XaeroPlus",
-        "version": "2.30.8"
     },
     {
         "modid": "xaerolib",
@@ -993,6 +1088,11 @@
         "modid": "parcool",
         "name": "Yes Steve Model",
         "version": "2.6.2-neoforge+mc1.21.1"
+    },
+    {
+        "modid": "mekanism",
+        "name": "Sourceflow Infinite",
+        "version": "1.21.1-1.3"
     },
     {
         "modid": "neoforge",
@@ -1053,5 +1153,10 @@
         "modid": "yungsapi",
         "name": "YUNG's Extras",
         "version": "1.21.1-NeoForge-5.1.1"
+    },
+    {
+        "modid": "minecraft",
+        "name": "ZstdMC",
+        "version": "1.0-SNAPSHOT"
     }
 ]

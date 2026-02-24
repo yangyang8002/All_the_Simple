@@ -1,0 +1,7 @@
+[gameplay]
+	#Set true if you want to reload all your guns when respawn
+	respawn_reload = true
+	#Set false if you want to show kill indication ONLY while killing an entity with a gun
+	global_indication = true
+	#Set true if you want to refill your armor plate when respawn
+	respawn_auto_armor = true

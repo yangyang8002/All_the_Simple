@@ -17,7 +17,7 @@
     {
         "modid": "apothic_attributes",
         "name": "Apothic Enchanting",
-        "version": "1.5.1"
+        "version": "1.5.2"
     },
     {
         "modid": "placebo",
@@ -28,6 +28,11 @@
         "modid": "neoforge",
         "name": "Architectury",
         "version": "13.0.8"
+    },
+    {
+        "modid": "minecraft",
+        "name": "Arknights EndField",
+        "version": "0.1.6-1.21.1-beta"
     },
     {
         "modid": "minecraft",
@@ -43,6 +48,11 @@
         "modid": "minecraft",
         "name": "Balm",
         "version": "21.0.56"
+    },
+    {
+        "modid": "minecraft",
+        "name": "BiomeSpy",
+        "version": "1.3.3"
     },
     {
         "modid": "minecraft",
@@ -141,6 +151,11 @@
     },
     {
         "modid": "minecraft",
+        "name": "CreativeCore",
+        "version": "2.13.31"
+    },
+    {
+        "modid": "minecraft",
         "name": "Cucumber Library",
         "version": "8.0.15"
     },
@@ -185,6 +200,11 @@
         "version": "0.1.2+1.21+neoforge"
     },
     {
+        "modid": "enchlevel-langpatch",
+        "name": "Enchantment Level Language Patch",
+        "version": "3.5.2"
+    },
+    {
         "modid": "minecraft",
         "name": "End Poem Extension",
         "version": "3.3.3+1.21"
@@ -193,6 +213,11 @@
         "modid": "minecraft",
         "name": "End Poem Extension",
         "version": "3.3.3+1.21"
+    },
+    {
+        "modid": "minecraft",
+        "name": "EternalAppetite",
+        "version": "1.2.5"
     },
     {
         "modid": "minecraft",
@@ -200,14 +225,29 @@
         "version": "3.8.1"
     },
     {
+        "modid": "sodium",
+        "name": "Flerovium",
+        "version": "1.0.17"
+    },
+    {
         "modid": "the_one_probe",
         "name": "Flux Networks",
         "version": "8.0.0"
     },
     {
+        "modid": "ftbbackups3",
+        "name": "FTB Chunks",
+        "version": "2101.1.14"
+    },
+    {
         "modid": "fullbrightnesstoggle",
         "name": "Full Brightness Toggle",
         "version": "4.4"
+    },
+    {
+        "modid": "apothic_attributes",
+        "name": "Gateways To Eternity",
+        "version": "5.1.0"
     },
     {
         "modid": "geckoanimfix",
@@ -218,6 +258,11 @@
         "modid": "neoforge",
         "name": "GlitchCore",
         "version": "2.1.0.0"
+    },
+    {
+        "modid": "minecraft",
+        "name": "GPUTape",
+        "version": "1.0.2"
     },
     {
         "modid": "minecraft",
@@ -240,9 +285,29 @@
         "version": "1.6.0.17"
     },
     {
+        "modid": "kubejs",
+        "name": "Kaleidoscope Cookery",
+        "version": "1.2.0-neoforge+mc1.21.1"
+    },
+    {
         "modid": "minecraft",
         "name": "Kaleidoscope Doll",
         "version": "1.3.0-neoforge+mc1.21.1"
+    },
+    {
+        "modid": "artifacts",
+        "name": "Kaleidoscope Compat",
+        "version": "2.1.0-1.21.1"
+    },
+    {
+        "modid": "minecraft",
+        "name": "Kaleidoscope End",
+        "version": "1.0.1-BETA2-1.21.1"
+    },
+    {
+        "modid": "kiwi",
+        "name": "Kiwi Library",
+        "version": "${file.jarVersion}"
     },
     {
         "modid": "minecraft",
@@ -267,7 +332,7 @@
     {
         "modid": "minecraft",
         "name": "LowDragLib2",
-        "version": "2.1.9"
+        "version": "2.2.1"
     },
     {
         "modid": "minecraft",
@@ -290,9 +355,14 @@
         "version": "0.4.3+mc1.21.1"
     },
     {
+        "modid": "create_connected",
+        "name": "MaidUseHandCrank",
+        "version": "1.5.3"
+    },
+    {
         "modid": "terrablender",
         "name": "Maple",
-        "version": "1.4.11-1.21.1-NeoForge"
+        "version": "1.4.13-1.21.1-NeoForge"
     },
     {
         "modid": "kubejs",
@@ -311,13 +381,33 @@
     },
     {
         "modid": "minecraft",
+        "name": "Mob Effect Display Fix",
+        "version": "0.3.0+mc.206"
+    },
+    {
+        "modid": "minecraft",
+        "name": "Mob Effect Display Fix",
+        "version": "0.3.0+mc.206"
+    },
+    {
+        "modid": "minecraft",
         "name": "Moonlight Lib",
-        "version": "1.21-2.29.16"
+        "version": "1.21-2.29.17"
+    },
+    {
+        "modid": "curios",
+        "name": "Nine-nether Regions",
+        "version": "0.0.11-1.21.1neoforge"
     },
     {
         "modid": "cloth_config",
         "name": "Now Playing\" #optional:modId",
         "version": "1.5.16+1.21\" #optional:\"1"
+    },
+    {
+        "modid": "minecraft",
+        "name": "OELib",
+        "version": "0.1.2-hotfix"
     },
     {
         "modid": "geckolib",
@@ -331,6 +421,11 @@
     },
     {
         "modid": "minecraft",
+        "name": "oneenoughitem",
+        "version": "1.0.7-hotfix"
+    },
+    {
+        "modid": "minecraft",
         "name": "oωo",
         "version": "0.12.15.5-beta.1+1.21"
     },
@@ -338,6 +433,11 @@
         "modid": "minecraft",
         "name": "Partial Hearts",
         "version": "1.1.0-1.21"
+    },
+    {
+        "modid": "minecraft",
+        "name": "Ping Wheel",
+        "version": "1.12.1"
     },
     {
         "modid": "neoforge",
@@ -381,6 +481,11 @@
     },
     {
         "modid": "minecraft",
+        "name": "RuOK Mod",
+        "version": "1.7.4"
+    },
+    {
+        "modid": "minecraft",
         "name": "Server++",
         "version": "0.0.1"
     },
@@ -398,6 +503,26 @@
         "modid": "create_enchantment_industry",
         "name": "Create Slice & Dice",
         "version": "4.2.2"
+    },
+    {
+        "modid": "touhou_little_maid",
+        "name": "Spice of Life: Maid",
+        "version": "1.0.1"
+    },
+    {
+        "modid": "creativecore",
+        "name": "Spice of Life Onion",
+        "version": "1.5.5"
+    },
+    {
+        "modid": "minecraft",
+        "name": "SpiceOfLife Latiao",
+        "version": "1.2.8"
+    },
+    {
+        "modid": "minecraft",
+        "name": "StewMe",
+        "version": "1.0.3"
     },
     {
         "modid": "neoforge",
@@ -425,6 +550,11 @@
         "version": "2.4"
     },
     {
+        "modid": "moonlight",
+        "name": "Vista",
+        "version": "1.21-3.0.4"
+    },
+    {
         "modid": "puzzleslib",
         "name": "Visual Workbench",
         "version": "21.1.1"
@@ -440,6 +570,11 @@
         "version": "1.8.2"
     },
     {
+        "modid": "mekanism",
+        "name": "Sourceflow Infinite",
+        "version": "1.21.1-1.3"
+    },
+    {
         "modid": "neoforge",
         "name": "YUNG's API",
         "version": "1.21.1-NeoForge-5.1.6"
@@ -448,6 +583,11 @@
         "modid": "yungsapi",
         "name": "YUNG's Extras",
         "version": "1.21.1-NeoForge-5.1.1"
+    },
+    {
+        "modid": "minecraft",
+        "name": "ZstdMC",
+        "version": "1.0-SNAPSHOT"
     },
     {
         "modid": "megacells",
@@ -482,7 +622,7 @@
     {
         "modid": "mcwbridges",
         "name": "Macaw's Bridges",
-        "version": "3.1.1"
+        "version": "3.1.2"
     },
     {
         "modid": "mcwlights",
@@ -497,7 +637,7 @@
     {
         "modid": "mcwdoors",
         "name": "Macaw's Doors",
-        "version": "1.1.2"
+        "version": "1.1.5"
     },
     {
         "modid": "geckolib",
@@ -517,7 +657,7 @@
     {
         "modid": "worldtools",
         "name": "XaeroPlus",
-        "version": "2.30.8"
+        "version": "2.30.9"
     },
     {
         "modid": "xaerolib",
@@ -592,12 +732,12 @@
     {
         "modid": "farmersdelight",
         "name": "Rustic Delight",
-        "version": "1.5.2"
+        "version": "1.5.3"
     },
     {
         "modid": "balm",
         "name": "Waystones",
-        "version": "21.1.25"
+        "version": "21.1.27"
     },
     {
         "modid": "balm",
@@ -785,14 +925,14 @@
         "version": "1.6.8"
     },
     {
-        "modid": "create_dragons_plus",
+        "modid": "touhou_little_maid",
         "name": "Create: Enchantment Industry",
-        "version": "2.2.5b"
+        "version": "2.3.0"
     },
     {
         "modid": "create",
         "name": "Create: Dragons Plus",
-        "version": "1.8.6"
+        "version": "1.8.7"
     },
     {
         "modid": "farmersdelight",
@@ -802,7 +942,7 @@
     {
         "modid": "genshincraft",
         "name": "\\u68A6\\u534E\\u6784\\u60F3OneiricConcept",
-        "version": "1.9.78"
+        "version": "26.8"
     },
     {
         "modid": "minecraft",
@@ -810,9 +950,9 @@
         "version": "0.6.4+1.21.1+neoforge"
     },
     {
-        "modid": "minecraft",
+        "modid": "sophisticatedstorage",
         "name": "Tom's Simple Storage Mod",
-        "version": "2.2.4"
+        "version": "2.3.0"
     },
     {
         "modid": "minecraft",
@@ -852,12 +992,12 @@
     {
         "modid": "gateways",
         "name": "Apotheosis",
-        "version": "8.4.2"
+        "version": "8.5.1"
     },
     {
         "modid": "cucumber",
         "name": "Mystical Agriculture",
-        "version": "8.0.22"
+        "version": "8.0.23"
     },
     {
         "modid": "mekanism",
@@ -872,17 +1012,17 @@
     {
         "modid": "minecraft",
         "name": "Sophisticated Storage",
-        "version": "1.5.27"
+        "version": "1.5.28"
     },
     {
         "modid": "minecraft",
         "name": "Sophisticated Core",
-        "version": "1.4.3"
+        "version": "1.4.5"
     },
     {
         "modid": "minecraft",
         "name": "Sophisticated Backpacks",
-        "version": "3.25.27"
+        "version": "3.25.28"
     },
     {
         "modid": "touhou_little_maid",
@@ -947,17 +1087,17 @@
     {
         "modid": "fissionrecipe",
         "name": "Mekanism",
-        "version": "10.7.17"
+        "version": "10.7.18"
     },
     {
         "modid": "mekanism",
         "name": "Mekanism: Generators",
-        "version": "10.7.17"
+        "version": "10.7.18"
     },
     {
         "modid": "mekanism",
         "name": "Mekanism: Tools",
-        "version": "10.7.17"
+        "version": "10.7.18"
     },
     {
         "modid": "mekanism",
@@ -967,12 +1107,12 @@
     {
         "modid": "mekanism",
         "name": "Mekanism: Additions",
-        "version": "10.7.17"
+        "version": "10.7.18"
     },
     {
         "modid": "mekmm",
         "name": "MekanismExtras",
-        "version": "1.3.2"
+        "version": "1.3.3"
     },
     {
         "modid": "neoforge",
@@ -1042,7 +1182,7 @@
     {
         "modid": "farmersdelight",
         "name": "Ube's Delight",
-        "version": "0.4.7"
+        "version": "0.4.9"
     },
     {
         "modid": "elainalike",
