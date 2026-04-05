@@ -1,10 +1,37 @@
-#Whether to log the dirt block on common setup
-logDirtBlock = true
-#A magic number
-# Default: 42
-# Range: > 0
-magicNumber = 42
-#What you want the introduction message to be for the magic number
-magicNumberIntroduction = "The magic number is... "
-#A list of items to log on common setup.
-items = ["minecraft:iron_ingot"]
+[ender_phasing]
+	#If true, Ender Phasing can teleport the player when damage is taken.
+	doesPhasingTeleportPlayer = true
+	#If true, Ender Phasing can teleport even when the damage source is water/rain/bubbles effects.
+	doesPhasingTeleportPlayerWhenDamageTakenByWater = false
+	#If true, being in water/bubbles while Ender Phasing is active deals damage.
+	doesWaterHurtPlayerWithPhasingEffect = true
+	#Horizontal teleport range (blocks).
+	# Default: 5
+	# Range: 1 ~ 64
+	horizontalPhasingTeleportRange = 5
+	#Vertical teleport range (blocks).
+	# Default: 3
+	# Range: 1 ~ 32
+	verticalPhasingTeleportRange = 3
+	#Cooldown between phasing teleports (ticks). 20 ticks = 1 second.
+	# Default: 10
+	# Range: 0 ~ 200
+	cooldownBetweenPhasingTeleports = 10
+
+[void_pepper]
+	#Max radius for void pepper spreading attempts.
+	# Default: 7
+	# Range: 1 ~ 32
+	spreadRadius = 7
+	#How many random positions are tried per spread tick.
+	# Default: 15
+	# Range: 1 ~ 200
+	spreadAttempts = 15
+	#Chance (0..1) to attempt spreading on a tick while SPREADING is true.
+	# Default: 0.6666666666666666
+	# Range: 0.0 ~ 1.0
+	spreadChance = 0.6666666666666666
+	#Chance (0..1) to become PEPPER on a tick while SPREADING is true.
+	# Default: 0.3333333333333333
+	# Range: 0.0 ~ 1.0
+	pepperGrowChance = 0.3333333333333333

@@ -15,12 +15,12 @@
 			}
 			"ftbquests:quests": {
 				enabled: true
-				x: 1
+				x: 2
 				y: 1
 			}
 			"ftbchunks:chunks": {
 				enabled: true
-				x: 2
+				x: 3
 				y: 1
 			}
 			"ftblibrary:toggle/night": {
@@ -30,7 +30,12 @@
 			}
 			"ftbultimine:config": {
 				enabled: true
-				x: 3
+				x: 4
+				y: 1
+			}
+			"ftbteams:team_lives": {
+				enabled: true
+				x: 1
 				y: 1
 			}
 			"ftblibrary:toggle/gamemode": {
@@ -40,12 +45,12 @@
 			}
 			"ftblibrary:config": {
 				enabled: true
-				x: 5
+				x: 6
 				y: 1
 			}
 			"ftbchunks:claim_chunks": {
 				enabled: true
-				x: 4
+				x: 5
 				y: 1
 			}
 			"ftblibrary:toggle/day": {

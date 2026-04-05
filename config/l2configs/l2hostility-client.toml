@@ -21,3 +21,4 @@ glowingRangeHidden = 32
 # Range: 1 ~ 256
 glowingRangeNear = 16
 showUndyingParticles = true
+killerAuraSoundEffect = true

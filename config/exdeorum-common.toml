@@ -1,7 +1,7 @@
 #Common configuration for Ex Deorum
 [common]
 	#Whether the Void World type is set as the default world preset in world creation screen and server.properties.
-	set_void_world_as_default = true
+	set_void_world_as_default = false
 	#If the Void World type is selected, whether the Nether world generation is overridden to a void world. Changes take effect after reopening the world.
 	void_nether_generation = true
 	#If the Void World type is selected, whether the End world generation is overridden to a void world. Changes take effect after reopening the world.

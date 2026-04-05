@@ -1,30 +1,145 @@
-[infinite_core]
-	#Ban list for Infinite Core binding AND Infinite Fluid Machine output.
-	#Supports both direct fluid ids and fluid tags.
-	#Format:
-	#  - "namespace:path"  (fluid id)
-	#  - "#namespace:path" (fluid tag)
-	#Examples: "minecraft:lava", "#c:toxic_fluids"
-	banlist = []
-
+#无限流体机器设置 / Infinite Fluid Machine Settings
 [infinite_fluid_machine]
-	#Base FE consumed per tick when machine has a valid core
-	#机器在待机状态下的每tick耗电
+	#插入核心后每 tick 基础 FE 消耗（默认 2）
+	#Base FE/tick when core is inserted.
 	# Default: 2
 	# Range: 0 ~ 2147483646
-	fePerTick = 2
-	#Fluid pushed per tick per BOTH-mode face (mB)
-	#每tick每面主动推送的液体量(mB)，设为最大值等于无限制
-	# Default: 2147483646
+	feBase = 2
+	#每 1 mB/s 面速率额外消耗的 FE/tick（默认 1）
+	#Extra FE/tick per 1 mB/s face rate.
+	# Default: 1
 	# Range: 0 ~ 2147483646
-	PushPerTick = 2147483646
-	#Max drain per tick per face (mB) in PULL/BOTH mode. Set to max for unlimited.
-	#每tick每面最大被抽取量(mB)，设为最大值等于无限制
-	# Default: 2147483646
+	fePerMbRate = 1
+
+#通用设置 / General Settings
+[common]
+	#核心绑定黑名单，支持流体 ID（如 minecraft:water）和 tag（如 #forge:milk）
+	#Ban list for core binding. Supports fluid IDs and #tags.
+	banlist = []
+	#生存模式下是否允许取消核心绑定（默认 true）
+	#Whether survival-mode players can unbind cores.
+	allow_unbind_in_survival = true
+
+#虚空流体设置 / Void Fluid Settings
+[void_fluid]
+	#虚空流体流动更新间隔（tick），越大流动越慢（默认 20，原版水为 5，岩浆为 40）
+	#Void fluid flow tick rate. Higher = slower. Water=5, Lava=40.
+	# Default: 20
+	# Range: 5 ~ 200
+	fluidTickRate = 20
+	#虚空流体活跃阶段（恩惠期）持续时间（tick，默认 200 = 10 秒）。在此期间虚空流体扩散并吞噬方块，之后自然消失。
+	#Grace period (ticks) before void fluid disappears. During this time it spreads and destroys.
+	# Default: 200
+	# Range: 0 ~ 6000
+	gracePeriod = 200
+	#虚空流体活跃阶段是否吞噬相邻方块（默认 true）
+	#Whether void fluid destroys adjacent blocks during grace period.
+	destroyBlocks = true
+	#虚空流体是否销毁接触到的掉落物品（默认 true）
+	#Whether void fluid destroys item entities on contact.
+	killItems = true
+	#虚空流体是否杀死接触到的实体（默认 true）
+	#Whether void fluid kills entities on contact.
+	killEntities = true
+
+#机器通用设置 / Machine Common Settings
+[machine_common]
+	#三种机器内部虚空流体储罐最大容量（mB，默认 1000 = 1 桶）
+	#Void tank capacity in mB. 1000 mB = 1 bucket.
+	# Default: 1000000
+	# Range: 10000 ~ 2147483646
+	voidTankCapacity = 1000000
+
+#销毁机器设置 / Destruction Machine Settings
+[destruction_machine]
+	#插入核心后每 tick 基础 FE 消耗（默认 2）
+	#Base FE/tick when core is inserted.
+	# Default: 2
+	# Range: 0 ~ 2147483646
+	feBase = 2
+	#每 1 mB/s 面速率额外消耗的 FE/tick（默认 1）
+	#Extra FE/tick per 1 mB/s face rate.
+	# Default: 1
+	# Range: 0 ~ 2147483646
+	fePerMbRate = 1
+
+#虚空发电机设置 / Void Generator Settings
+[void_generator]
+	#虚空流体转换为能量的比例（1 mB 虚空流体 = X FE，默认 10）
+	#Void fluid to FE conversion ratio. 1 mB void = X FE.
+	# Default: 10
+	# Range: 1 ~ 1000
+	voidToFeRatio = 10
+
+#超频压力设置 / Overclock Pressure Settings
+[overclock]
+	#超频核心运行时每 tick 积累的压力百分比（默认 0.006，约 166 秒满压）
+	#Pressure gained per tick (%). Default ~166 seconds to full.
+	# Default: 0.006
+	# Range: 1.0E-4 ~ 1.0
+	pressurePerTick = 0.006
+	#停机时每 tick 压力衰减百分比（默认 0.05，约 100 秒完全衰减）
+	#Pressure decay per tick (%) when idle.
+	# Default: 0.05
+	# Range: 1.0E-4 ~ 1.0
+	pressureDecayPerTick = 0.05
+
+#爆炸设置 / Explosion Settings
+[explosion]
+	#超频爆炸威力（默认 80，TNT 为 4，末影水晶为 6）
+	#Explosion strength when pressure reaches 100%. TNT=4, end crystal=6.
+	# Default: 80.0
+	# Range: 0.1 ~ 100.0
+	strength = 80.0
+	#爆炸时生成的虚空流体方块数量（默认 32）
+	#Number of void fluid blocks spawned on explosion.
+	# Default: 32
+	# Range: 0 ~ 256
+	voidBlockCount = 32
+
+#核心等级设置 / Core Settings
+[core]
+	#Lv.1：消耗 X mB 任意流体 → 1 mB 虚空流体（默认 1000）
+	#L1: mB fluid consumed per 1 mB void produced.
+	# Default: 1000
 	# Range: 1 ~ 2147483646
-	PullPerTick = 2147483646
-	#Additional FE per tick for each enabled face
-	#每启用一个面额外增加的 FE/tick 消耗
-	# Default: 8
-	# Range: 0 ~ 2147483646
-	fePerEnableFacePerTick = 8
+	destruction_core_l1 = 1000
+	#Lv.2 转换比（默认 100）
+	# Default: 100
+	# Range: 1 ~ 2147483646
+	destruction_core_l2 = 100
+	#Lv.3 转换比（默认 10）
+	# Default: 10
+	# Range: 1 ~ 2147483646
+	destruction_core_l3 = 10
+	#Lv.4 转换比（默认 2）
+	# Default: 2
+	# Range: 1 ~ 2147483646
+	destruction_core_l4 = 2
+	#超频销毁核心转换比（默认 1，即 1:1）
+	#OC ratio. Default 1 = 1:1 conversion.
+	# Default: 1
+	# Range: 1 ~ 2147483646
+	destruction_core_l4OC = 1
+	#Lv.1：消耗 X mB 虚空流体 → 1 mB 任意流体（默认 1000）
+	#L1: mB void consumed per 1 mB fluid produced.
+	# Default: 1000
+	# Range: 1 ~ 2147483646
+	infinite_core_l1 = 1000
+	#Lv.2 转换比（默认 100）
+	# Default: 100
+	# Range: 1 ~ 2147483646
+	infinite_core_l2 = 100
+	#Lv.3 转换比（默认 10）
+	# Default: 10
+	# Range: 1 ~ 2147483646
+	infinite_core_l3 = 10
+	#Lv.4 转换比（默认 2）
+	# Default: 2
+	# Range: 1 ~ 2147483646
+	infinite_core_l4 = 2
+	#超频无限核心转换比（默认 1，即 1:1）
+	#OC ratio. Default 1 = 1:1 conversion.
+	# Default: 1
+	# Range: 1 ~ 2147483646
+	infinite_core_l4OC = 1

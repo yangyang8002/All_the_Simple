@@ -19,6 +19,17 @@ foods = [
     ["kaleidoscope_cookery:borscht", 4, 6],
     ["kaleidoscope_cookery:beef_meatball_soup", 4, 6],
     ["kaleidoscope_cookery:chicken_and_mushroom_stew", 4, 6]
+,    ["kaleidoscope_cookery:donkey_soup", 6, 8],
+    ["kaleidoscope_nether:blaze_soup", 5, 7],
+    ["kaleidoscope_nether:wither_bone_soup", 4, 6],
+    ["kaleidoscope_nether:star_stew", 3, 5],
+    ["kaleidoscope_nether:soul_soup", 3, 5],
+    ["kaleidoscope_nether:poisonous_soup", 3, 5],
+    ["kaleidoscope_nether:magma_cream_soup", 3, 5],
+    ["kaleidoscope_nether:glowing_soup", 3, 5],
+    ["kaleidoscope_end:dragon_breath_chorus_soup", 6, 8],
+    ["kaleidoscope_chinesefood:seaweed_egg_drop_soup", 6, 8],
+    ["kaleidoscope_chinesefood:tomato_egg_drop_soup", 6, 8],
 ]
 
 [Blacklist]
