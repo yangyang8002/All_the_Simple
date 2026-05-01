@@ -4,3 +4,4 @@ incomplete_tofu_precision_mechanism, #d7e7f1
 tf_compact_circuit, #fffff0
 tofu_precision_mechanism, #ffffff
 tofumetal_plate, #ffffff
+yuba_connector, #ffffac

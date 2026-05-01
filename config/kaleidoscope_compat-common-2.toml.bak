@@ -1,0 +1,6 @@
+[lunchBag]
+	#Whether the lunch bag blacklist is enabled
+	blacklist_enabled = true
+	#List of item IDs that cannot be put into the Transmutation Lunch Bag
+	#Format: modid:item_id (e.g., artifacts:everlasting_beef, minecraft:apple)
+	blacklist = ["artifacts:eternal_steak", "kaleidoscope_nether:everlasting_flame_steak"]

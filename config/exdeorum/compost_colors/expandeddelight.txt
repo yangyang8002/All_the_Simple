@@ -2,6 +2,7 @@
 apple_juice, #ffffff
 asparagus, #768a29
 asparagus_and_bacon_cheesy, #9e783d
+asparagus_frittata, #f8ca51
 asparagus_mushroom_pasta, #b59352
 asparagus_seeds, #1c2808
 asparagus_soup, #6f6e20
@@ -12,6 +13,7 @@ cheese_sandwich, #fac95b
 cheese_slice, #ffff9d
 cheese_wheel, #ffffaf
 chili_pepper, #e63623
+chili_pepper_salmon, #ee8462
 chili_pepper_seeds, #fff5b2
 chocolate_cookie, #5a301b
 cinnamon, #dd7536
@@ -30,6 +32,7 @@ cranberry_cobbler, #faa861
 cranberry_cobbler_slice, #ff965a
 cranberry_goat_cheese_toast, #fed0a1
 cranberry_jelly, #e4acac
+cranberry_jelly_sandwich, #da9341
 cranberry_juice, #d79aa1
 cranberry_plant, #af5823
 crushing_mallet, #807869
@@ -38,6 +41,7 @@ glow_berry_jelly, #ffffff
 glow_berry_jelly_sandwich, #e0a246
 glow_berry_juice, #dac0a7
 glow_berry_sweet_roll, #ffb979
+goat_cheese_beetroot_salad, #849448
 goat_cheese_slice, #ffffff
 goat_cheese_wheel, #ffffff
 goat_milk_bottle, #ffffff

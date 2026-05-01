@@ -1,4 +1,5 @@
 // Compost colors for sophisticatedbackpacks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+advanced_alchemy_upgrade, #e78046
 advanced_compacting_upgrade, #e17c43
 advanced_deposit_upgrade, #e88044
 advanced_feeding_upgrade, #de7c43
@@ -11,6 +12,7 @@ advanced_refill_upgrade, #e77f44
 advanced_restock_upgrade, #e88044
 advanced_tool_swapper_upgrade, #da7a43
 advanced_void_upgrade, #e88044
+alchemy_upgrade, #d46f4a
 anvil_upgrade, #c26543
 auto_blasting_upgrade, #e67f44
 auto_smelting_upgrade, #d2753e

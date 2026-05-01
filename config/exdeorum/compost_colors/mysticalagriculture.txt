@@ -257,6 +257,8 @@ osmium_seeds, #b1c5dc
 passive_soulium_dagger, #2f6e30
 peridot_essence, #ddfa5c
 peridot_seeds, #ffffdc
+phantom_essence, #e0c8c2
+phantom_seeds, #46588c
 pig_essence, #ff9191
 pig_iron_essence, #da8489
 pig_iron_seeds, #d47f83
@@ -320,6 +322,8 @@ saltpeter_essence, #c6aeb5
 saltpeter_seeds, #b89ea5
 sapphire_essence, #4e90ff
 sapphire_seeds, #2c6be3
+sculk_essence, #e333e
+sculk_seeds, #f3239
 sheep_essence, #e33a32
 sheep_seeds, #ffffff
 signalum_essence, #ff3c0b

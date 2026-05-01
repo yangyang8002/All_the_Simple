@@ -138,27 +138,35 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:spider": true
-			"minecraft:bat": true
-			"minecraft:drowned": true
-			"minecraft:axolotl": true
-			"minecraft:squid": true
+			"minecraft:chicken": true
+			"ars_nouveau:starbuncle": true
 			"minecraft:sheep": true
-			"minecraft:cow": true
-			"minecraft:zombie_villager": true
-			"artifacts:mimic": true
-			"minecraft:skeleton": true
-			"minecraft:enderman": true
-			"minecraft:rabbit": true
-			"minecraft:zombie": true
-			"minecraft:fox": true
-			"minecraft:glow_squid": true
-			"touhou_little_maid:fairy": true
-			"minecraft:cave_spider": true
 			"minecraft:wolf": true
+			"minecraft:pig": true
 			"mekanismadditions:baby_creeper": true
+			"minecraft:cow": true
+			"mowziesmobs:grottol": true
 			"primogemcraft:s_wfengraojiangshi": true
+			"minecraft:spider": true
+			"mekanismadditions:baby_skeleton": true
+			"minecraft:salmon": false
+			"touhou_little_maid:fairy": true
+			"minecraft:glow_squid": true
+			"minecraft:enderman": true
+			"minecraft:squid": true
+			"minecraft:cave_spider": true
 			"minecraft:creeper": true
+			"mekanismadditions:baby_enderman": true
+			"minecraft:drowned": true
+			"minecraft:fox": true
+			"artifacts:mimic": true
+			"minecraft:zombie": true
+			"mowziesmobs:ferrous_wroughtnaut": true
+			"minecraft:bat": true
+			"minecraft:zombie_villager": true
+			"minecraft:axolotl": true
+			"minecraft:skeleton": true
+			"minecraft:rabbit": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

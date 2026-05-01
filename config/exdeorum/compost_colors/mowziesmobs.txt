@@ -4,6 +4,11 @@ bluff_rod, #875844
 captured_grottol, #b5decf
 dart, #ffffff
 earthrend_gauntlet, #6b6950
+elokosa_paw_crescent, #37344e
+elokosa_paw_full, #3e3a55
+elokosa_paw_gibbous, #3a3751
+elokosa_paw_half, #36324b
+elokosa_paw_new, #293d58
 foliaath_seed, #875089
 geomancer_beads, #ae2323
 geomancer_belt, #c58240
@@ -19,11 +24,11 @@ music_disc_petiole, #e4ffff
 naga_fang, #c2af72
 naga_fang_dagger, #9da066
 sand_rake, #6f521f
-sculptor_staff, #8a614a
+sculptor_staff, #8c614a
 sol_visage, #d3b890
 spear, #ffffff
 umvuthana_mask_bliss, #4d4751
-umvuthana_mask_faith, #d9c67d
+umvuthana_mask_faith, #ffe493
 umvuthana_mask_fear, #e0a162
 umvuthana_mask_fury, #ff8e68
 umvuthana_mask_misery, #f2c0ac

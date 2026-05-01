@@ -8,6 +8,7 @@ diffusion_wand, #576b9b
 enchanted_totemic_apple, #ffe172
 enchanted_totemic_carrot, #9ee35a
 eternal_totem_of_dream, #687fe8
+eternal_upgrade_smithing_template, #362f46
 eternium_axe, #665cb2
 eternium_boots, #5c54b4
 eternium_chestplate, #a49eff
@@ -20,13 +21,16 @@ eternium_pickaxe, #5a5bbe
 eternium_shovel, #5e559e
 eternium_sword, #62629b
 explosion_shard, #544b4e
+flame_upgrade_smithing_template, #cdcdbc
 fragile_warp_stone, #2c1f46
+frost_upgrade_smithing_template, #d3fcff
 guardian_eye, #f7e8d4
 guardian_rune, #aad7d3
 hard_ice, #e6ffff
 heirophant_green, #64eb7a
-hellfire_wand, #bee1ab
+hellfire_wand, #86e3ee
 life_essence, #ffffa4
+material_swap_smithing_template, #ead9d3
 piglin_rune, #907065
 poseidite_axe, #589d9b
 poseidite_boots, #ffffff
@@ -41,6 +45,8 @@ poseidite_shovel, #62a4a4
 poseidite_sword, #5a9b9b
 reinforced_warp_stone, #372d5a
 resonant_feather, #9bffff
+scepter_of_boreas, #c5edf8
+scepter_of_helios, #bee1ab
 sculkium_axe, #36474e
 sculkium_boots, #3d5252
 sculkium_chestplate, #416565

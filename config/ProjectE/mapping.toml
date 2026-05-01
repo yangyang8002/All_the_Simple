@@ -38,6 +38,11 @@ logFoundExploits = true
 		#Determines whether this EMC Mapper is enabled.
 		enabled = true
 
+		#Recipe mapper for Ice and Fire DragonForge recipes
+		[mappers.Crafting-Mapper.IceAndFireDragonForgeMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
 		#Adds conversions for all the different types of suspicious stews.
 		[mappers.Crafting-Mapper.Suspicious-Stew-Mapper]
 			#Determines whether this Recipe Type Mapper is enabled.
@@ -68,30 +73,20 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
-		#Maps Mekanism pressurized reaction recipes. (Disabled by default)
-		[mappers.Crafting-Mapper.Mekanism-PRC]
-			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = false
-
 		#Maps Mekanism sawmill recipes. (Disabled by default, due to causing various EMC values to be removed pertaining to charcoal/wood)
 		[mappers.Crafting-Mapper.Mekanism-Sawing]
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = false
 
-		#Maps Mekanism evaporating recipes.
-		[mappers.Crafting-Mapper.Mekanism-Evaporating]
-			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
-
-		#Maps Mekanism activating and centrifuging recipes.
-		[mappers.Crafting-Mapper.Mekanism-C2C]
-			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
-
 		#Maps Mekanism rotary condensentrator recipes.
 		[mappers.Crafting-Mapper.Mekanism-Rotary]
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
+
+		#Maps Mekanism pressurized reaction recipes. (Disabled by default)
+		[mappers.Crafting-Mapper.Mekanism-PRC]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = false
 
 		#Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)
 		[mappers.Crafting-Mapper.Mekanism-Item-To-Item]
@@ -100,6 +95,16 @@ logFoundExploits = true
 
 		#Maps Mekanism item stack to chemical recipes. (Chemical conversion, Oxidizing, Pigment Extracting)
 		[mappers.Crafting-Mapper.Mekanism-I2C]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#Maps Mekanism Machine recipes that go from item, chemical to item. (Compressing, Purifying, Injecting, Metallurgic Infusing, Painting, Nucleosynthesizing)
+		[mappers.Crafting-Mapper.Mekanism-IC2I]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#Maps Mekanism evaporating recipes.
+		[mappers.Crafting-Mapper.Mekanism-Evaporating]
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
@@ -113,18 +118,13 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
-		#Maps Mekanism crystallizing recipes.
-		[mappers.Crafting-Mapper.Mekanism-Crystallizer]
+		#Maps Mekanism combiner recipes.
+		[mappers.Crafting-Mapper.Mekanism-Combiner]
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
-		#Maps Mekanism Machine recipes that go from item, chemical to item. (Compressing, Purifying, Injecting, Metallurgic Infusing, Painting, Nucleosynthesizing)
-		[mappers.Crafting-Mapper.Mekanism-IC2I]
-			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
-
-		#Maps Mekanism chemical infuser and pigment mixer recipes.
-		[mappers.Crafting-Mapper.Mekanism-CC2C]
+		#Maps Mekanism activating and centrifuging recipes.
+		[mappers.Crafting-Mapper.Mekanism-C2C]
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
@@ -133,18 +133,18 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
-		#Maps Mekanism combiner recipes.
-		[mappers.Crafting-Mapper.Mekanism-Combiner]
+		#Maps Mekanism crystallizing recipes.
+		[mappers.Crafting-Mapper.Mekanism-Crystallizer]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#Maps Mekanism chemical infuser and pigment mixer recipes.
+		[mappers.Crafting-Mapper.Mekanism-CC2C]
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
 		#Fallback for default handling of recipes that extend ICraftingRecipe, AbstractCookingRecipe, SingleItemRecipe, or SmithingRecipe. This will catch modded extensions of the vanilla recipe classes, and if the VanillaRecipeTypes mapper is disabled, this mapper will still catch the vanilla recipes.
 		[mappers.Crafting-Mapper.Fallback]
-			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
-
-		#Recipe mapper for Ice and Fire DragonForge recipes
-		[mappers.Crafting-Mapper.IceAndFireDragonForgeMapper]
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 

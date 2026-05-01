@@ -29,6 +29,8 @@ ironwood_knife, #ffffff
 ironwood_sapling, #3a4632
 knightmetal_knife, #c0d6b4
 lily_chicken_block, #f4b282
+liveroot_pork_fried_rice, #a28752
+liveroot_venison_noodle_soup, #866222
 meef_wellington_block, #bb7834
 meef_wrap, #d0af61
 milky_113, #ffffff
@@ -53,4 +55,5 @@ torchberry_cookie, #ffffd4
 torchberry_juice, #ffffff
 torchberry_pie, #ffe69a
 torchberry_pie_slice, #ffe491
+torchberry_venison_sandwich, #b28c39
 twilight_spring, #ffffff

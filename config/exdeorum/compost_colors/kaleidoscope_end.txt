@@ -27,7 +27,6 @@ end_salad, #a189a8
 ender_dragon_smithing_template, #47395f
 ender_mint, #b87aff
 ender_mint_candy, #b479ff
-endermite_egg, #aa8dbf
 fried_dragon_egg, #f4daeb
 mint_chorus_mousse, #b986f4
 mint_noodle_soup, #c093a7

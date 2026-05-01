@@ -1,16 +1,24 @@
 // Compost colors for apotheosis. You may add your own colors, change existing ones, or remove colors that aren't needed.
-boss_summoner, #f0f0f0
+boss_summoner, #726586
 common_material, #bfb9b8
+diamond_upgrade_smithing_template, #4b5f61
 epic_material, #e0a1e0
 gem, #ffd09e
-gem_dust, #beacff
+gem_dust, #b5aeff
 gem_fused_slate, #cccccc
+gold_upgrade_smithing_template, #645b47
+iron_upgrade_smithing_template, #5e5b5e
+music_disc_flash, #ffebc6
+music_disc_glimmer, #e6deee
+music_disc_shimmer, #ded3dd
 mythic_material, #ffd791
 potion_charm, #ffea37
 rare_material, #e7d6ff
 sigil_of_enhancement, #e1d3c9
+sigil_of_malice, #d7c5c6
 sigil_of_rebirth, #d6d0d7
 sigil_of_socketing, #d0d0d7
+sigil_of_supremacy, #dcd4c9
 sigil_of_unnaming, #d0d0d0
 sigil_of_withdrawal, #ccdecc
 uncommon_material, #a8bca7

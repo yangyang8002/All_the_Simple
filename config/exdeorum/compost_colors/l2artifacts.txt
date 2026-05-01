@@ -568,6 +568,7 @@ sun_block_head_2, #ff78
 sun_block_head_3, #f1ff
 sun_block_head_4, #bc72ff
 sun_block_head_5, #d2a141
+swap, #6f4b2c
 thermal_belt_1, #ffffff
 thermal_belt_2, #ff78
 thermal_belt_3, #f1ff

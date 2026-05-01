@@ -1,3 +1,12 @@
 // Compost colors for yuanliuwujin. You may add your own colors, change existing ones, or remove colors that aren't needed.
-infinite_core, #556164
+destruction_core_l1, #37234e
+destruction_core_l2, #6e5f78
+destruction_core_l3, #7a6f7d
+destruction_core_l4, #906ea0
+destruction_core_l4_oc, #bf6fa1
+infinite_core_l1, #687a80
+infinite_core_l2, #627378
+infinite_core_l3, #647578
+infinite_core_l4, #556164
+infinite_core_l4_oc, #8d585a
 wrench, #845755

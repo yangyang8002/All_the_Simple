@@ -8,3 +8,5 @@ module_attackamplification_unit, #c0cdd3
 module_autofire_unit, #cfd0c5
 module_drawspeed_unit, #cdd9c9
 module_gravitydampener_unit, #cdd4c6
+module_looting_unit, #cad9c8
+module_sweeping_unit, #cdd2c5

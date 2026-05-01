@@ -60,12 +60,14 @@ electron_tube, #ebe1e1
 empty_casing, #ffffff
 empty_shell, #fffffa
 ersatz_leather, #cc7641
+fake_icon_achtung, #232323
 fake_icon_birthday, #191919
 fake_icon_bttf, #151515
 fake_icon_drillbreak, #141414
 fake_icon_fried, #650b0b
 fake_icon_lucky, #161616
 fake_icon_ravenholm, #434343
+fake_icon_snake, #141414
 fertilizer, #f5d4c5
 glider, #ffffed
 graphite_electrode, #ffffff
@@ -121,6 +123,7 @@ plate_copper, #ffdcc9
 plate_duroplast, #dc8330
 plate_electrum, #ffe49e
 plate_gold, #fcf08a
+plate_hop_graphite, #808080
 plate_iron, #f0f0f0
 plate_lead, #afb4c3
 plate_nickel, #f5faed
@@ -132,6 +135,7 @@ raw_lead, #5a6175
 raw_nickel, #cdd4c2
 raw_silver, #d4e0e7
 raw_uranium, #7a8a6e
+robot_wolf, #797372
 rockcutter, #7d9894
 sawblade, #8d8a8a
 screwdriver, #fffaf1

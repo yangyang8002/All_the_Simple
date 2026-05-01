@@ -1,4 +1,0 @@
-// Compost colors for headtap. You may add your own colors, change existing ones, or remove colors that aren't needed.
-bamboo_javelin, #7cc048
-blessed_gold_ingot, #fff173
-golem_craftbow, #8d5126

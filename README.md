@@ -3,12 +3,12 @@
 
 # All the Simple
 
-> A lightweight, expert-tuned 1.21.1 modpack designed for Minecraft veterans
+> A light 1.21.1 modpack I put together for people who’ve been around the block—you know your way around mods and just want something that works, without the pointless grinding.
 
-> ⚠️ Important Notes
-> 1. This modpack is **not beginner-friendly** - requires modpack experience
-> 2. If you don't want a Skyblock experience, remember to set the world type to "default" or edit `server.properties` and change `level-type` to `minecraft:normal`
-> 3. Official QQ group: **2151045360**
+> ⚠️ A few things first  
+> 1. If you’re brand new to modded Minecraft, this pack might chew you up. It’s meant for players with some experience.  
+> 2. Don't want a skyblock? Just set the world type to **default** when you create it, or open `server.properties` and change `level-type` to `minecraft:normal`.  （The lastest version has changed the default settings to such）
+> 3. Official QQ group: **2151045360** — come say hi, ask questions, or find someone to play with.
 
 ---
 
@@ -29,128 +29,129 @@
 
 ## Pack Identity
 
-A lightweight, expert-tuned 1.21.1 modpack designed for:
+The idea behind this pack is pretty simple: you download it, you launch it, you play. No config tinkering, no wiki rabbit holes.  
+Everything revolves around three things:
 
-- **One-click play**: download, launch, zero config
-- **Low-barrier automation**: Create is king; industry, magic, and farming run in parallel—no GregTech-style progression walls
-- **Solo-complete, better co-op**: built-in voice chat, QQ↔server relay bot, FTB Quests & Teams
+- **Ready to go**: Download, unzip, hit launch. The pack handles the rest.
+- **Freedom, not filler**: Create is the backbone. Industry, magic, farming—do them in whatever order you like. No “month-long wait” recipes just to stretch playtime.
+- **Solo or together**: Finish it on your own or drag friends into it. We’ve tucked in voice chat, a QQ group bot, and FTB Teams so playing together feels seamless.
 
 ---
 
 ## Core Highlights
 
-### 1. Create All-In-One
+### 1. The whole Create family
 
-Create + 30+ official & add-on modules—full tech tree from ore processing to "Dragon+" auto-dragon farms.
+Create plus over 30 add-ons, covering everything from mining and enchanting to energy generation and dragon-slaying assembly lines. You get one long, satisfying tech chain.
 
 **Key Add-on Modules:**
-- Create: Dragons Plus - Dragon automation
-- Create: Enchantment Industry - Enchantment automation
-- Create: New Age - Energy system
-- Create: Ore Excavation - Automated mining
-- Create: Copycats+ - Building replication
-- And many more...
+- Create: Dragons Plus — Automate dragons
+- Create: Enchantment Industry — Automate enchanting
+- Create: New Age — Power generation
+- Create: Ore Excavation — Automated mining
+- Create: Copycats+ — Building duplication
+- …and a bunch more for you to uncover.
 
-### 2. Minimalist Magic
+### 2. Magic, minus the headache
 
-Ars Nouveau + Apotheosis + Mahou Tsukai—no node grind, no mana choke, spells craft in one click.
+Ars Nouveau, Apotheosis, and Mahou Tsukai work together so you can just craft spells directly. No mana-node grinding, no arbitrary gates. We also tweaked enchantment caps so you can keep pushing as long as you have the materials. It’s magic that respects your time.
 
-### 3. Happy Farming
+### 3. Actually fun farming
 
-Farmer's Delight, Mystical Agriculture, Ex Nihilo: Sequentia—plant, cook, and buff with literal one-button loops.
+Farmer’s Delight, Mystical Agriculture, and Ex Nihilo: Sequentia combine into a lazy kitchen-to-buff pipeline. Set up a few machines and watch food pile up—your inventory will never look like a lunchbox again.
 
-### 4. Sightseeing & Adventure
+### 4. Exploration and boss fights
 
-- **YUNG's suite** turns vanilla ruins into "epic" set pieces
-- **Four boss lines**:
+- **YUNG’s overhaul** polishes every vanilla structure into something worth trekking to.
+- **Four boss roads to walk**:
   - Ice & Fire: Community Edition
   - Cataclysm (L_Ender's Cataclysm)
   - Twilight Forest
   - Eternal Starlight
-- All loot recyclable via Create or ProjectE
-- Biome bonanza + every Macaw block—screenshot heaven
+- Loot from bosses isn’t trash—you can feed it back into Create setups or ProjectE.
+- Biomes O’ Plenty, Oh The Biomes We’ve Gone, and the whole Macaw block lineup mean you’ll be stopping to take screenshots every few steps.
 
-### 5. Performance & UX
+### 5. Smooth performance
 
-Sodium stack + FerriteCore + async particles + MemorySweep—smooth with shaders on just 4 GB RAM.
+Sodium’s optimization stack, FerriteCore, async particles, MemorySweep—we’ve thrown in everything so you can run shaders on 4 GB without wanting to pull your hair out.
 
-### 6. Fully Localized
+### 6. No language friction
 
-Auto-updating Chinese translations, Pinyin search, IME conflict fixes—zero friction.
+Chinese translations update automatically, Pinyin search works out of the box, and IME conflicts are fixed. Search for anything in Chinese—no need to swap input methods.
 
-### 7. Multi-Mod Integration
+### 7. Mods that talk to each other
 
-- L2 Series (L2Complements, L2Hostility, L2Weaponry) - Challenging content
-- Industrial Foregoing - Industrial automation
-- Applied Energistics 2 - Storage & logistics
-- Mekanism - Modern industrial tech
-- ProjectE - Equivalent exchange system
+- L2 Series (L2Complements, L2Hostility, L2Weaponry) — Extra challenges
+- Industrial Foregoing — More industrial automation
+- Applied Energistics 2 — Modern storage & logistics
+- Mekanism — High-output tech
+- ProjectE — Equivalent exchange, your retirement plan
 
 ---
 
 ## Four Quick Playstyles
 
-### 1. Mechanical Engineer
+### 🔧 Mechanical Engineer
 
 ```
-Copper → Zinc → Brass → Trains → Airships → Dragon-strength generators
+Copper → Zinc → Brass → Trains → Airships → Dragon-level power
 ```
+**Endgame**: A fully automated dragon-slaying line, courtesy of Create’s Dragon+ modules.
 
-**Endgame**: Create "Dragon+" auto-Ender-Dragon kill
-
-### 2. Arcane Scholar
-
-```
-Ars Nouveau → spell automation → Apotheosis infinite enchants → Mahou Tsukai gear
-```
-
-**Endgame**: 999-damage "Annihilation Beam"
-
-### 3. Agri-Tycoon
+### 🧙 Arcane Scholar
 
 ```
-Tier-6 Mystical essence → full Farmer's Delight kitchen → ProjectE endgame
+Ars Nouveau → spell automation → Apotheosis unlimited enchants → Mahou Tsukai gear
 ```
+**Endgame**: One cast of “Annihilation Beam” that hits the damage ceiling.
 
-**Endgame**: perpetual retirement+++
+### 🌾 Agri-Tycoon
 
-### 4. SRC Specialist
+```
+Mystical Agriculture tier 6 essence → full Farmer’s Delight kitchen → ProjectE endgame
+```
+**Endgame**: Total resource freedom and early retirement.
 
-Schematics + Create + Custom Machinery.
+### 📐 Redstone / Technical Player
 
-**Endgame**: you didn't seriously think SRC players ever reach a final goal, did you? ( ͡° ͜ʖ ͡°)
+Schematics + Create + Custom Machinery
+
+**Endgame**: You’re a technical player. The endgame is tomorrow. Always tomorrow.
 
 ---
 
 ## Questing & Guidance
 
-- Lightweight FTB Quests—no forced paths in multiplayer
-- Waystones + Xaero's suite—zero-stress exploration
-- Test dummies + damage display—one-click DPS checks
-- GuideME - In-game wiki guide
+- Lightweight FTB Quests—just a compass, not a cage. Play however you want.
+- Waystones + Xaero’s minimap & world map: fast travel and zero need to leave breadcrumbs.
+- Test dummies + damage display: check your DPS in one click, perfect for comparing gear.
+- GuideME: An in-game reference for everything in the pack. Click it, learn it.
 
 ---
 
 ## Multiplayer Out-of-the-Box
 
-- Built-in voice chat + QQ↔server relay bot
-- Tuned LAN props—dorm room or cloud server, 90-second setup
-- FTB Teams: shared quest progress & Create machine permissions
+- ✅ Simple Voice Chat baked right in. Log in, start talking.
+- ✅ QQ ⇄ Server bot: see group messages inside the game, reply without alt-tabbing.
+- ✅ LAN tweaks for quick dorm-room servers—up and running in about 90 seconds.
+- ✅ FTB Teams: share quest progress and Create machine permissions so nobody locks the other out.
 
 ---
 
 ## Shaders & Aesthetics
 
 ### Shader System
-- Iris + Sodium bundled; shaders off by default, one-click switch to Complementary Reimagined in the resource-pack menu
+- Iris and Sodium are already integrated.
+- Shaders are off by default. Flip to Complementary Reimagined with one click when you feel like it.
 
 ### UI Enhancement
-- ModernUI rounded UI
-- Colored health bars (Colorful Hearts)
-- Item borders—clean & unobtrusive
+- ModernUI rounded corners
+- Colorful hearts (Colorful Hearts)
+- Item borders that don’t clog the screen
+- Clean, easy on the eyes, nothing fussy.
 
 ### Character Animation
-- "Yes Steve Model": real-time skeletal animation, seamless 1st/3rd-person toggle (Remove on request if infringing)
+- “Yes Steve Model”: real-time skeletal animation that switches smoothly between first and third person. (Will remove instantly if any rights issue arises.)
 
 ---
 
@@ -158,11 +159,11 @@ Schematics + Create + Custom Machinery.
 
 | Component | Requirement |
 |-----------|-------------|
-| CPU | Intel i5-7th gen / Ryzen 5 1600 |
+| CPU | Intel i5-7th gen / Ryzen 5 3600 |
 | RAM | 4 GB allocated |
 | GPU | GTX 750 Ti / RX 588 |
 
-(Tested: 1080p, 16 chunks, 100-200 FPS without shaders)
+Tested: 1080p, 16 chunk render distance, 100–200 FPS.
 
 ---
 
@@ -173,26 +174,24 @@ Schematics + Create + Custom Machinery.
 | Client | Release/Beta/Alpha + build + c/hd (+ fix + patch) |
 | Server | server-Release/Beta/Alpha + build + c/hd (+ fix + patch) |
 
-\* **hd** = hardcore, includes L_Evil and its add-ons  
-**c** = contains everything except L_Evil and its add-ons
+> **hd** — hardcore, includes L2 Hostility and its add-ons  
+> **c** — the normal stuff, without L2 Hostility
 
 ---
 
 ## Tweaks & Balance Notes
 
-- Mint spread rate adjusted
-- Apotheosis level caps changed
-- ProjectE rebalanced
-- Twilight Forest uncrafting table disabled
-- L_Evil difficulty tweaks
-
-…& more.
+- 🍃 Mint spread rate adjusted
+- ✨ Apotheosis enchantment caps and rules changed
+- ⚖️ ProjectE values rebalanced
+- 🚫 Twilight Forest uncrafting table disabled
+- 💀 L2 difficulty tweaked
 
 ---
 
 ## Gallery
 
-Shaders: BSL 8.2 / 8.4
+Shader used: BSL 8.2 / 8.4
 
 ![Screenshot 1](https://image.yangyang8002.xin/i/2025/08/19/e5sm6n.png)
 ![Screenshot 2](https://image.yangyang8002.xin/i/2025/08/19/e5rygj.png)

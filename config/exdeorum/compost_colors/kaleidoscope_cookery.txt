@@ -1,7 +1,9 @@
 // Compost colors for kaleidoscope_cookery. You may add your own colors, change existing ones, or remove colors that aren't needed.
 baozi, #fffad7
+barley_tea, #ac6f4b
 beef_meatball_soup, #a09464
 beef_noodle, #8d7652
+biluochun, #cdb48c
 blaze_lamb_chop, #e3932d
 borscht, #a45825
 braised_beef, #9a5726
@@ -40,6 +42,7 @@ donkey_soup, #977843
 dough_drop_soup, #eadcbe
 dumpling, #ddc096
 egg_fried_rice, #c5a84b
+empty_cup, #9b5544
 enamel_basin, #c29e69
 end_style_sashimi, #c08272
 farmer_boots, #473632
@@ -49,6 +52,7 @@ fearsome_thick_soup, #3d4e34
 fish_flavored_shredded_pork, #a55726
 fish_flavored_shredded_pork_rice_bowl, #9e6437
 flour, #c0b29b
+flower_tea, #cfcca7
 fondant_pie, #d99836
 fondant_spider_eye, #8d4d47
 four_joy_meatball_soup, #c5c39a
@@ -74,6 +78,7 @@ netherite_kitchen_knife, #7a616f
 numbing_spicy_chicken, #e6cfa5
 oil, #fffff2
 oil_splashed_fish, #d3caae
+oolong, #ccc0b8
 pan_seared_knight_steak, #986f54
 pork_bone_soup, #cfbb8a
 pufferfish_soup, #a2a430
@@ -88,6 +93,7 @@ red_chili, #973429
 red_mushroom_pot_soup, #a84d40
 rice, #fffff8
 rice_panicle, #d2ac29
+sakura_fubuki, #f2c6b2
 samsa, #ffd293
 sashimi, #ff964e
 scarecrow, #d2a14d
@@ -116,6 +122,7 @@ suspicious_stir_fry_rice_bowl, #8c696b
 sweet_and_sour_ender_pearls, #4b7d58
 sweet_and_sour_pork, #e88237
 sweet_and_sour_pork_rice_bowl, #c67c37
+tieguanyin, #a7bfb4
 tomato, #bc4b3a
 tomato_beef_brisket_soup, #9a5026
 tomato_seed, #ffa043

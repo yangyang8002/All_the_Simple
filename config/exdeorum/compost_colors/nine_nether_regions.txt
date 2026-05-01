@@ -21,7 +21,7 @@ copper_nugget, #f87f58
 copper_pickaxe, #9a5a33
 copper_shovel, #b26b44
 copper_sword, #bc6e54
-damage_test, #bb4634
+damage_test, #8e8486
 diamond_bowstring, #e7ffff
 empty_fabric, #ffffff
 enchanted_ghostlium_apple, #29a782
@@ -40,12 +40,12 @@ hellalloy_longbow, #50fffe
 hellalloy_pickaxe, #1e614a
 hellalloy_rod, #40aa84
 hellalloy_shovel, #339372
-hellalloy_sword, #3a8a70
 hellwood_door, #6b0f8e
 hellwood_sapling, #11a7a2
 magic_fabric, #84b1ee
 manjusaka, #391408
 manjusaka_plain_music_disc, #6c120a
+mini_fractal, #61472d
 netherite_rod, #3e3939
 pinesap, #ffffff
 rainbowgem, #cfffff
