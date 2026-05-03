@@ -1,0 +1,16 @@
+#.
+#Enable/Disable features of Create: Dragons Plus - Create: Simulated series Extension
+#Mods depending on certain features may forcibly enable/disable them, in that case, the corresponding config will be ignored
+#[@cui:RequiresReload:both]
+[features]
+
+	#.
+	#.
+	#Fluid Feature Elements
+	[features.fluid]
+		#.
+		#If block interaction of air current through fluid should be enabled
+		"fluid/air_current_block_interaction" = true
+		#.
+		#If Fragile Fluid Tank should be enabled
+		"fluid/fragile_fluid_tank" = true

@@ -1,0 +1,21 @@
+[aerodynamics]
+	#Multiplier for lift force. Lower = weaker lift.
+	# Default: 0.16
+	# Range: 0.0 ~ 10.0
+	liftTuning = 0.16
+	#Multiplier for face-normal drag. (Drag on wings based on their angle of attack, will effect how strong control surfaces are). Lower = weaker Drag
+	# Default: 0.35
+	# Range: 0.0 ~ 10.0
+	parallelDragTuning = 0.35
+	#Multiplier for general velocity drag. (General resistance to motion). Lower = weaker drag
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	directionlessDragTuning = 0.1
+	#Multiplier for the soft cap value for the wing normal drag, exists to prevent infinite energy situations
+	# Default: 50.0
+	# Range: 0.0 ~ 100.0
+	normalDragSoftCap = 50.0
+	#Multiplier for the wing lift cap, exists to prevent lift from becoming too extreme at high velocity
+	# Default: 40.0
+	# Range: 0.0 ~ 100.0
+	liftSoftCap = 40.0

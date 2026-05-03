@@ -138,35 +138,43 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:chicken": true
-			"ars_nouveau:starbuncle": true
-			"minecraft:sheep": true
-			"minecraft:wolf": true
-			"minecraft:pig": true
-			"mekanismadditions:baby_creeper": true
-			"minecraft:cow": true
-			"mowziesmobs:grottol": true
-			"primogemcraft:s_wfengraojiangshi": true
-			"minecraft:spider": true
-			"mekanismadditions:baby_skeleton": true
 			"minecraft:salmon": false
-			"touhou_little_maid:fairy": true
+			"minecraft:skeleton": true
 			"minecraft:glow_squid": true
-			"minecraft:enderman": true
-			"minecraft:squid": true
-			"minecraft:cave_spider": true
-			"minecraft:creeper": true
-			"mekanismadditions:baby_enderman": true
 			"minecraft:drowned": true
-			"minecraft:fox": true
-			"artifacts:mimic": true
-			"minecraft:zombie": true
+			"minecraft:cow": true
+			"ars_nouveau:drygmy": true
 			"mowziesmobs:ferrous_wroughtnaut": true
 			"minecraft:bat": true
+			"minecraft:chicken": true
+			"youkaisfeasts:crab": true
+			"oneiricconcept:baryon": true
+			"minecraft:creeper": true
+			"minecraft:spider": true
+			"mowziesmobs:grottol": true
+			"artifacts:mimic": true
+			"minecraft:cave_spider": true
+			"minecraft:squid": true
+			"youkaisfeasts:lamprey": true
+			"minecraft:cod": false
 			"minecraft:zombie_villager": true
+			"minecraft:sheep": true
 			"minecraft:axolotl": true
-			"minecraft:skeleton": true
+			"ars_nouveau:starbuncle": true
+			"minecraft:dolphin": true
+			"minecraft:fox": true
 			"minecraft:rabbit": true
+			"touhou_little_maid:fairy": true
+			"ars_nouveau:whirlisprig": true
+			"minecraft:wolf": true
+			"mekanismadditions:baby_enderman": true
+			"mekanismadditions:baby_creeper": true
+			"minecraft:pig": true
+			"iceandfire:pixie": true
+			"minecraft:enderman": true
+			"primogemcraft:s_wfengraojiangshi": true
+			"mekanismadditions:baby_skeleton": true
+			"minecraft:zombie": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

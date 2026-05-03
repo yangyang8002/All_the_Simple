@@ -1,0 +1,226 @@
+[common]
+	# Default: 0.9925000071525574
+	# Range: 0.0 ~ 1.0
+	transformer_efficiency = 0.9925000071525574
+	# Default: 0.9950000047683716
+	# Range: 0.0 ~ 1.0
+	circuitbreaker_efficiency = 0.9950000047683716
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	relay_efficiency = 1.0
+	# Default: 0.9950000047683716
+	# Range: 0.0 ~ 1.0
+	currentregulator_efficiency = 0.9950000047683716
+	# Default: 34.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	coalgenerator_amperage = 34.0
+	# Default: 4.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	thermoelectricgenerator_amperage = 4.5
+	# Default: 6.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hydroelectricgenerator_amperage = 6.0
+	# Default: 10.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	windmill_max_amperage = 10.0
+	# Default: 7.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	solarpanel_amperage = 7.0
+	# Default: 50.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	electricpump_usage = 50.0
+	# Default: 25.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	adv_solarpanel_amperage = 25.0
+	# Default: 175.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	electricfurnace_usage = 175.0
+	# Default: 100
+	# Range: > 1
+	electricfurnace_ticks = 100
+	# Default: 175.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	electricarcfurnace_usage = 175.0
+	# Default: 50
+	# Range: > 1
+	electricarcfurnace_ticks = 50
+	# Default: 125.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	wiremill_usage = 125.0
+	# Default: 1000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	rotaryunifier_usage = 1000.0
+	# Default: 1
+	# Range: > 1
+	rotaryunifier_conversion = 1
+	# Default: 200
+	# Range: > 1
+	wiremill_ticks = 200
+	# Default: 350.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	combustionchamber_usage = 350.0
+	# Default: 1000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	charger_usage = 1000.0
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	gascollector_usage = 100.0
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	compressor_usage = 100.0
+	# Default: 20
+	# Range: > 1
+	compressor_conversion = 20
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	decompressor_usage = 100.0
+	# Default: 20
+	# Range: > 1
+	decompressor_conversion = 20
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	adv_compressor_usage = 100.0
+	# Default: 80
+	# Range: > 1
+	adv_compressor_conversion = 80
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	adv_decompressor_usage = 100.0
+	# Default: 80
+	# Range: > 1
+	adv_decompressor_conversion = 80
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	thermomanipulator_usage = 100.0
+	# Default: 10
+	# Range: > 1
+	thermomanipulator_heat_transfer = 10
+	# Default: 20
+	# Range: > 1
+	thermomanipulator_conversion = 20
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	adv_thermomanipulator_usage = 100.0
+	# Default: 80
+	# Range: > 1
+	adv_thermomanipulator_heat_transfer = 80
+	# Default: 80
+	# Range: > 1
+	adv_thermomanipulator_conversion = 80
+	# Default: 1048576
+	# Range: > 1
+	gastransformer_input_pressure_cap = 1048576
+	# Default: 1000000
+	# Range: > 1
+	gastransformer_input_temp_cap = 1000000
+	# Default: 5000
+	# Range: > 1
+	gastransformer_base_input_capacity = 5000
+	# Default: 1048576
+	# Range: > 1
+	gastransformer_output_pressure_cap = 1048576
+	# Default: 1000000
+	# Range: > 1
+	gastransformer_output_temp_cap = 1000000
+	# Default: 5000
+	# Range: > 1
+	gastransformer_base_output_capacity = 5000
+	# Default: 5000
+	# Range: > 1
+	gastransformer_addon_tank_capacity = 5000
+	# Default: 5
+	# Range: > 1
+	gastransformer_addon_tank_limit = 5
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	motorcomplex_usage = 100.0
+	# Default: 10.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	pipepump_usage = 10.0
+	# Default: 100000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	electrolosischamber_target = 100000.0
+	#When set to true, this will make transformers tick, but give them the ability to hum as they do in real life. If you need to gain performance, you can disable this to stop transformers from ticking and thus producing sound.
+	should_transformer_hum = true
+	#The Watts a transformer needs to see to be considered under "full load" and thus hum as loud as it can. Set to 0 to have it hum under any load greater than 0 Watts
+	# Default: 5000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	transformer_sound_load_target = 5000.0
+	#Whether or not wires should set things on fire around them if their voltage exceeds their insulation value.
+	conductors_burn_surroundings = true
+	#The hardness value that a block must have to not be instantly vaporized by a wire over 30,720V, which is the maximum voltage achievable by default electrodynamics. 6 is the explosion resistance of an Iron Block
+	# Default: 6.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	block_vaporisation_hardness = 6.0
+	#Set to false to disable the HUD rendering for combat armor.
+	render_combat_armor_status = true
+
+[quarry]
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	quarry_usage = 100.0
+	# Default: 10
+	# Range: > 1
+	quarry_waterusage = 10
+	#max radius = 128, min radius = 2
+	# Default: 64
+	# Range: > 1
+	marker_radius = 64
+	#max possible is 1 tick / block
+	# Default: 1
+	# Range: > 1
+	min_ticks_per_quarryblock = 1
+	#min possible speed is 100 ticks / block
+	# Default: 100
+	# Range: > 1
+	max_ticks_per_quarryblock = 100
+	#how many air blocks the quarry can skip over in one clearing tick; max is 128, min is zero
+	# Default: 64
+	# Range: > 1
+	clearing_air_skip = 64
+	#controls whether or not the quarry will mine blocks that have been placed into the mining area
+	maintain_mining_area = true
+	#Controls whether the quarry can bypass claims or not
+	bypass_claims = false
+
+[ores]
+	disable_all_ores = false
+	disable_stone_ores = false
+	spawn_aluminum_ore = true
+	spawn_chromium_ore = true
+	spawn_fluorite_ore = true
+	spawn_lead_ore = true
+	spawn_lithium_ore = true
+	spawn_molybdenum_ore = true
+	spawn_monazite_ore = true
+	spawn_niter_ore = true
+	spawn_salt_ore = true
+	spawn_silver_ore = true
+	spawn_sulfur_ore = true
+	spawn_sylvite_ore = true
+	spawn_tin_ore = true
+	spawn_titanium_ore = true
+	spawn_thorium_ore = true
+	spawn_uranium_ore = true
+	spawn_vanadium_ore = true
+	disable_deepslate_ores = false
+	spawn_deep_aluminum_ore = true
+	spawn_deep_chromium_ore = true
+	spawn_deep_fluorite_ore = true
+	spawn_deep_lead_ore = true
+	spawn_deep_lithium_ore = true
+	spawn_deep_molybdenum_ore = true
+	spawn_deep_monazite_ore = true
+	spawn_deep_niter_ore = true
+	spawn_deep_salt_ore = true
+	spawn_deep_silver_ore = true
+	spawn_deep_sulfur_ore = true
+	spawn_deep_sylvite_ore = true
+	spawn_deep_tin_ore = true
+	spawn_deep_titanium_ore = true
+	spawn_deep_thorium_ore = true
+	spawn_deep_uranium_ore = true
+	spawn_deep_vanadium_ore = true
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	ore_generation_multiplier = 1.0

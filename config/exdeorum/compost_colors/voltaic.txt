@@ -1,0 +1,17 @@
+// Compost colors for voltaic. You may add your own colors, change existing ones, or remove colors that aren't needed.
+guidebook, #6f7891
+upgradeadvancedcapacity, #5c4b47
+upgradeadvancedspeed, #614e4b
+upgradebasiccapacity, #5c5748
+upgradebasicspeed, #615a4b
+upgradeexperience, #417641
+upgradefortune, #334a62
+upgradeimprovedsolarcell, #a59e26
+upgradeiteminput, #6b4334
+upgradeitemoutput, #694334
+upgradeitemvoid, #2f572d
+upgraderange, #6c4d73
+upgradesilktouch, #878932
+upgradestator, #6e543c
+upgradeunbreaking, #666b72
+wrench, #181818

@@ -1,0 +1,12 @@
+// Compost colors for dynamicelectricity. You may add your own colors, change existing ones, or remove colors that aren't needed.
+alternator, #a2836e
+commutator, #a17a61
+conductorbrush, #9a6b3e
+dustcarbon, #2d2d2d
+dustpdsm, #e3e3e7
+ringiron, #cacacc
+ringsteel, #838689
+shafthslasteel, #e7ffff
+shaftstainlesssteel, #dedede
+shaftsteel, #b1b1b1
+stator, #8e7f75

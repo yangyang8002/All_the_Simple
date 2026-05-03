@@ -1,0 +1,2 @@
+#Whether or not DC motors will deplete the durability of the conductor brush
+useconductorbrushdurability = true
